@@ -66,7 +66,7 @@ export const toHms = (t) => {
   let m = (t - h * 3600) / 60 >= 1 ? parseInt((t - h * 3600) / 60) : 0; // h:mm:ss.msmsmsのmmを秒数から構築
   let s = t - h * 3600 - m * 60; // h:mm:ss.msmsmsのss.msmsmsを秒数から構築(ssのみのケースもある)
   const timestamp_stirng =
-    h + ":" + padZero(m) + ":" + String(padZero(s)).slice(0, 6);
+    padZero(h) + ":" + padZero(m) + ":" + String(padZero(s)).slice(0, 6);
   const [hms, millisecond] = timestamp_stirng.split(".");
   if (!millisecond) { // tが整数の場合、millisecondがundefinedになる
     return hms + ".000";

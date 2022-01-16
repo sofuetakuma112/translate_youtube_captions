@@ -161,7 +161,7 @@ const sentenceFromTos = wordTimestampBySentenceList.map(
 //   sentenceFromTos.slice(sentenceFromTos.length - 5, sentenceFromTos.length)
 // );
 
-let text = "";
+let text = "WEBVTT\n\n";
 sentenceFromTos.forEach(
   ({ sentence, from, to }) =>
     (text += `${toHms(from)} --> ${toHms(to)}\n${sentence}\n\n`)
