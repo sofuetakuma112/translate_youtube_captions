@@ -1,4 +1,5 @@
 import fs from "fs";
+import axios from "axios";
 import {
   escapeDot,
   unescapeDot,
@@ -7,6 +8,7 @@ import {
   removeLineChar,
   timeToNumber,
   toHms,
+  sliceByNumber,
 } from "./util.js";
 
 // youtubeからDLしたsbvファイルと
@@ -50,7 +52,7 @@ const convertToStructuredVtt = (vtt) => {
   }
 
   fs.writeFileSync(
-    "subtitles_array.json",
+    "chat/subtitles_array.json",
     JSON.stringify(subtitles_array, null, "  ")
   );
 
@@ -80,7 +82,7 @@ const convertToStructuredVtt = (vtt) => {
     .filter(({ subtitle }) => subtitle !== "[Music]");
 
   fs.writeFileSync(
-    "subtitlesArrayAdjustedTimestamp.json",
+    "chat/subtitlesArrayAdjustedTimestamp.json",
     JSON.stringify(subtitlesArrayAdjustedTimestamp, null, "  ")
   );
   subtitlesArrayAdjustedTimestamp.forEach(({ subtitle, from, to }) => {
@@ -150,20 +152,41 @@ const sentenceFromTos = wordTimestampBySentenceList.map(
     const to = sentenceFromTo[sentenceFromTo.length - 1].timestamp;
     const sentence = sentenceFromTo.map(({ word }) => word).join(" ");
     return {
-      from,
-      to,
+      from: toHms(from),
+      to: toHms(to),
       sentence: unescapeDot(sentence),
     };
   }
 );
 
-// console.log(
-//   sentenceFromTos.slice(sentenceFromTos.length - 5, sentenceFromTos.length)
-// );
-
-let text = "WEBVTT\n\n";
-sentenceFromTos.forEach(
-  ({ sentence, from, to }) =>
-    (text += `${toHms(from)} --> ${toHms(to)}\n${sentence}\n\n`)
+const LENGTH_PER_SLICE = 30;
+// LENGTH_PER_SLICEの{ from, to, sentence }ごとに区切る
+const slicedSenteceFromTosList = sliceByNumber(
+  sentenceFromTos,
+  LENGTH_PER_SLICE
 );
-fs.writeFileSync("chat/text_with_punc_timestamp.vtt", text);
+
+let structuredVtt_ja = [];
+let count = 0;
+console.log(`total length: ${slicedSenteceFromTosList.length}`)
+for await (const slicedSenteceFromTos of slicedSenteceFromTosList) {
+  console.log(`current index: ${count}`)
+  const sliced_structuredVtt_ja = await axios
+    .post(`http://localhost:3000/api/translate`, {
+      data: slicedSenteceFromTos,
+    })
+    .then((res) => res.data.translatedSentences);
+  structuredVtt_ja = [...structuredVtt_ja, ...sliced_structuredVtt_ja];
+  fs.writeFileSync(
+    "chat/structuredVtt_ja.json",
+    JSON.stringify(structuredVtt_ja, null, "  ")
+  );
+  count += 1
+}
+
+// let text = "WEBVTT\n\n";
+// sentenceFromTos.forEach(
+//   ({ sentence, from, to }) =>
+//     (text += `${from} --> ${to}\n${sentence}\n\n`)
+// );
+// fs.writeFileSync("chat/text_with_punc_timestamp.vtt", text);

@@ -1,6 +1,6 @@
 import fs from "fs";
 import axios from "axios";
-import { escapeDot, unescapeDot } from "./util";
+import { escapeDot, unescapeDot } from "./util.js";
 
 const buffer = fs.readFileSync("chat/transcript.txt");
 const text_original = buffer.toString();
