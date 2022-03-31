@@ -1,3 +1,5 @@
 node_modules/
 server_js/node_modules
 chat/
+
+translate-youtube-caption*.json
