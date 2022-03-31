@@ -2,8 +2,9 @@ import puppeteer from "puppeteer";
 import fs from "fs";
 import fetch from "node-fetch";
 import moment from "moment";
-import 'dotenv/config'
-import { sleep, formatWebVttTimestamp } from "./util.js";
+import "dotenv/config";
+import { sleep } from "./utils/util.js";
+import { formatWebVttTimestamp } from "./utils/time.js";
 
 export const getCaptionByVideoId = async (url) => {
   const options = {
@@ -49,7 +50,7 @@ export const getCaptionByVideoId = async (url) => {
       );
       const textContentProperty = await textDivElem.getProperty("textContent");
       const langText = await textContentProperty.jsonValue();
-      console.log(`langText: ${langText}`);
+      // console.log(`langText: ${langText}`);
       return {
         elem: langAnchorElem,
         lang: langText,

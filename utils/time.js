@@ -1,39 +1,3 @@
-export const removeTag = (text) => {
-  return text.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, "");
-};
-
-export const escapeDot = (word) => {
-  if (word.indexOf(".") !== -1) {
-    const escaped = word.replace(".", "[dot]");
-    if (escaped.indexOf(".") !== -1) {
-      return escapeDot(escaped);
-    } else return escaped;
-  } else return word;
-};
-
-export const unescapeDot = (word) => {
-  if (word.indexOf("[dot]") !== -1) {
-    const unescaped = word.replace("[dot]", ".");
-    if (unescaped.indexOf("[dot]") !== -1) {
-      return unescapeDot(unescaped);
-    } else return unescaped;
-  } else return word;
-};
-
-export const capitalizeFirstLetter = (text) => {
-  return text.charAt(0).toUpperCase() + text.slice(1);
-};
-
-// " line 15%"を取り除く
-export const removeLineChar = (time) => {
-  try {
-    return time.replace(" line:15%", "");
-  } catch (error) {
-    console.log(time);
-    throw Error(error);
-  }
-};
-
 // 0:00:00.140の形式に対応
 export const timeToNumber = (time) => {
   const hour = time.split(":")[0];
@@ -58,7 +22,6 @@ export const timeToNumber = (time) => {
 export const formatWebVttTimestamp = (timestamp_webvtt) => {
   let fullTimestamp_webvtt = timestamp_webvtt
   const count = ( fullTimestamp_webvtt.match( /:/g ) || [] ).length;
-  console.log([...Array(3 - count)]);
   [...Array(3 - count)].forEach((_, i) => fullTimestamp_webvtt = `00:${fullTimestamp_webvtt}`);
   if (fullTimestamp_webvtt.indexOf('.') === -1) {
     fullTimestamp_webvtt = `${fullTimestamp_webvtt}.000`
@@ -66,6 +29,7 @@ export const formatWebVttTimestamp = (timestamp_webvtt) => {
   return fullTimestamp_webvtt;
 }
 
+// MM:SS => SSに変換する
 // 1982:40の形式のみ対応する
 export const stringTimeToNumber = (stringTime) => {
   let [minutes, seconds] = stringTime.split(":");
@@ -101,15 +65,4 @@ export const toHms = (t) => {
     return hms + '.' + millisecond.padEnd(3, "0");
   }
   return timestamp_stirng;
-};
-
-export const sliceByNumber = (array, number) => {
-  const length = Math.ceil(array.length / number)
-  return new Array(length).fill().map((_, i) =>
-    array.slice(i * number, (i + 1) * number)
-  )
-}
-
-export const sleep = (ms) => {
-  return new Promise((resolve) => setTimeout(resolve, ms));
 };

@@ -1,22 +1,5 @@
-/* 1. expressモジュールをロードし、インスタンス化してappに代入。*/
-import express from "express";
-import cors from "cors";
-var app = express();
 import puppeteer from "puppeteer";
-
-app.use(cors());
-app.use(express.json()); // body-parser settings
-
-/* 2. listen()メソッドを実行して3000番ポートで待ち受け。*/
-var server = app.listen(3000, function () {
-  console.log("Node.js is listening to PORT:" + server.address().port);
-});
-
-/* 3. 以後、アプリケーション固有の処理 */
-
-const sleep = (ms) => {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-};
+import { sleep } from "./utils/util.js";
 
 const removeIndexFromText = (text, threshold) => {
   const removedText = text.slice(text.indexOf(".") + 1, text.length).trim();
@@ -27,11 +10,7 @@ const removeIndexFromText = (text, threshold) => {
   } else return removedText;
 };
 
-app.post("/api/translate", async (req, res, next) => {
-  if (!req.body.data) {
-    res.status(200);
-    return;
-  }
+export const translate = async (structuredVtt) => {
   const options = {
     headless: true,
   };
@@ -42,7 +21,6 @@ app.post("/api/translate", async (req, res, next) => {
   await sleep(5000);
 
   // Sentence[]からsentenceのみを取り出し配列に格納する
-  const structuredVtt = req.body.data;
   const sentences_with_index = structuredVtt.map(
     (sentenceAndFromTo, index) => `${index}. ${sentenceAndFromTo.sentence}`
   );
@@ -150,7 +128,5 @@ app.post("/api/translate", async (req, res, next) => {
 
   await browser.close();
 
-  res.status(200).send({
-    translatedSentences: structuredVtt_ja,
-  });
-});
+  return structuredVtt_ja;
+};

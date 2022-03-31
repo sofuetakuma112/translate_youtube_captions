@@ -1,15 +1,14 @@
 import fs from "fs";
 import axios from "axios";
+import { sliceByNumber } from "../utils/util.js";
 import {
   escapeDot,
   unescapeDot,
   removeTag,
   capitalizeFirstLetter,
   removeLineChar,
-  timeToNumber,
-  toHms,
-  sliceByNumber,
-} from "./util.js";
+} from "../utils/text.js";
+import { timeToNumber, toHms } from "../utils/time.js";
 
 // youtubeからDLしたsbvファイルと
 // dotをエスケープして句読点予測したテキストファイルを使う
@@ -17,6 +16,7 @@ import {
 const buffer = fs.readFileSync("chat/captions.sbv");
 const sbv = buffer.toString();
 
+// 単語ごとにタイムスタンプ情報を割り当てる
 const convertToStructuredVtt = (vtt) => {
   const subtitleSplitByNewLine = vtt
     .split("\n")
@@ -110,15 +110,15 @@ const text_with_punc_escaped = buffer2.toString();
 // 単語ごとにtimestampを割り当てる
 const word_with_punc_timestamp = text_with_punc_escaped
   .split(" ")
-  .map((word, index) => {
-    const { word: dictWord, timestamp } = dict[0];
+  .map((word) => {
+    const { word: dictWord, timestamp } = dict[0]; // 辞書の単語は句読点をエスケープ済み
     if (
       word.indexOf(dictWord) !== -1 ||
       word.indexOf(capitalizeFirstLetter(dictWord)) !== -1
     ) {
       dict.shift();
       return {
-        word,
+        word, // エスケープ+句読点予測済みの単語
         timestamp,
       };
     } else {
@@ -147,7 +147,7 @@ word_with_punc_timestamp.forEach(({ word, timestamp }) => {
 
 // グループごとに{ from, to, sentence }の形状に変換する
 const sentenceFromTos = wordTimestampBySentenceList.map(
-  (sentenceFromTo, index) => {
+  (sentenceFromTo) => {
     const from = sentenceFromTo[0].timestamp;
     const to = sentenceFromTo[sentenceFromTo.length - 1].timestamp;
     const sentence = sentenceFromTo.map(({ word }) => word).join(" ");
@@ -168,21 +168,23 @@ const slicedSenteceFromTosList = sliceByNumber(
 
 let structuredVtt_ja = [];
 let count = 0;
-console.log(`total length: ${slicedSenteceFromTosList.length}`)
-for await (const slicedSenteceFromTos of slicedSenteceFromTosList) {
-  console.log(`current index: ${count}`)
-  const sliced_structuredVtt_ja = await axios
-    .post(`http://localhost:3000/api/translate`, {
-      data: slicedSenteceFromTos,
-    })
-    .then((res) => res.data.translatedSentences);
-  structuredVtt_ja = [...structuredVtt_ja, ...sliced_structuredVtt_ja];
-  fs.writeFileSync(
-    "chat/structuredVtt_ja.json",
-    JSON.stringify(structuredVtt_ja, null, "  ")
-  );
-  count += 1
-}
+console.log(`total length: ${slicedSenteceFromTosList.length}`);
+(async () => {
+  for (const slicedSenteceFromTos of slicedSenteceFromTosList) {
+    console.log(`current index: ${count}`);
+    const sliced_structuredVtt_ja = await axios
+      .post(`http://localhost:3000/api/translate`, {
+        data: slicedSenteceFromTos,
+      })
+      .then((res) => res.data.translatedSentences);
+    structuredVtt_ja = [...structuredVtt_ja, ...sliced_structuredVtt_ja];
+    fs.writeFileSync(
+      "chat/structuredVtt_ja.json",
+      JSON.stringify(structuredVtt_ja, null, "  ")
+    );
+    count += 1;
+  }
+})();
 
 // let text = "WEBVTT\n\n";
 // sentenceFromTos.forEach(
