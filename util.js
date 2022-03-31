@@ -54,6 +54,33 @@ export const timeToNumber = (time) => {
   };
 };
 
+// 不完全なWEBVTTタイムスタンプを完全なものに整形する
+export const formatWebVttTimestamp = (timestamp_webvtt) => {
+  let fullTimestamp_webvtt = timestamp_webvtt
+  const count = ( fullTimestamp_webvtt.match( /:/g ) || [] ).length;
+  console.log([...Array(3 - count)]);
+  [...Array(3 - count)].forEach((_, i) => fullTimestamp_webvtt = `00:${fullTimestamp_webvtt}`);
+  if (fullTimestamp_webvtt.indexOf('.') === -1) {
+    fullTimestamp_webvtt = `${fullTimestamp_webvtt}.000`
+  }
+  return fullTimestamp_webvtt;
+}
+
+// 1982:40の形式のみ対応する
+export const stringTimeToNumber = (stringTime) => {
+  let [minutes, seconds] = stringTime.split(":");
+  let hours = Math.floor(minutes / 60);
+  minutes = minutes - hours * 60; // minutesからhoursに移した分減らす
+  let day = Math.floor(hours / 24);
+  hours = hours - day * 24; // hoursからdayに移した分減らす
+  return (
+    Number(day) * 24 * 60 * 60 +
+    Number(hours) * 60 * 60 +
+    Number(minutes) * 60 +
+    Number(seconds)
+  );
+};
+
 export const toHms = (t) => {
   const padZero = (v) => {
     if (v < 10) {
@@ -82,3 +109,7 @@ export const sliceByNumber = (array, number) => {
     array.slice(i * number, (i + 1) * number)
   )
 }
+
+export const sleep = (ms) => {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+};

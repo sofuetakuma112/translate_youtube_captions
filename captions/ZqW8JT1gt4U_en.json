@@ -1,0 +1,1298 @@
+[
+  {
+    "timestamp": "00:00",
+    "caption": "hello friends today i'm gonna recommend"
+  },
+  {
+    "timestamp": "00:02",
+    "caption": "some absolute vs code extensions that"
+  },
+  {
+    "timestamp": "00:04",
+    "caption": "will improve your productivity and at"
+  },
+  {
+    "timestamp": "00:07",
+    "caption": "the end of the video i will show you the"
+  },
+  {
+    "timestamp": "00:09",
+    "caption": "must have extensions for beginners"
+  },
+  {
+    "timestamp": "00:11",
+    "caption": "because i got many comments from you"
+  },
+  {
+    "timestamp": "00:13",
+    "caption": "guys so you will see which extensions"
+  },
+  {
+    "timestamp": "00:15",
+    "caption": "i'm using okay if you are ready let's"
+  },
+  {
+    "timestamp": "00:18",
+    "caption": "get started"
+  },
+  {
+    "timestamp": "00:20",
+    "caption": "the first extension is quagga js it's an"
+  },
+  {
+    "timestamp": "00:23",
+    "caption": "awesome extension that allows you to do"
+  },
+  {
+    "timestamp": "00:26",
+    "caption": "really fast prototyping and testing in"
+  },
+  {
+    "timestamp": "00:28",
+    "caption": "your js code and it's not a single"
+  },
+  {
+    "timestamp": "00:30",
+    "caption": "purpose extension it has tons of useful"
+  },
+  {
+    "timestamp": "00:33",
+    "caption": "features let me show you some of them"
+  },
+  {
+    "timestamp": "00:36",
+    "caption": "after the installation you can go ahead"
+  },
+  {
+    "timestamp": "00:38",
+    "caption": "and use command or ctrl shift p or f1"
+  },
+  {
+    "timestamp": "00:42",
+    "caption": "button and i will write here qoraka and"
+  },
+  {
+    "timestamp": "00:45",
+    "caption": "as you can see there are many options"
+  },
+  {
+    "timestamp": "00:47",
+    "caption": "here you can create a new javascript"
+  },
+  {
+    "timestamp": "00:49",
+    "caption": "file or typescript file if you are using"
+  },
+  {
+    "timestamp": "00:52",
+    "caption": "typescript or if you already have a"
+  },
+  {
+    "timestamp": "00:54",
+    "caption": "project you can run qualconit directly"
+  },
+  {
+    "timestamp": "00:57",
+    "caption": "using the start on current file option"
+  },
+  {
+    "timestamp": "01:00",
+    "caption": "let's open a new javascript file and as"
+  },
+  {
+    "timestamp": "01:03",
+    "caption": "soon as you do that you will notice this"
+  },
+  {
+    "timestamp": "01:05",
+    "caption": "quakka terminal here it's going to show"
+  },
+  {
+    "timestamp": "01:07",
+    "caption": "you your code results and possible"
+  },
+  {
+    "timestamp": "01:09",
+    "caption": "errors so let's write here a number and"
+  },
+  {
+    "timestamp": "01:12",
+    "caption": "i'm gonna make a mistake on purpose and"
+  },
+  {
+    "timestamp": "01:15",
+    "caption": "as you can see it warns me immediately"
+  },
+  {
+    "timestamp": "01:17",
+    "caption": "here and in the console and it says to"
+  },
+  {
+    "timestamp": "01:20",
+    "caption": "error so let's create an object"
+  },
+  {
+    "timestamp": "01:23",
+    "caption": "i will say user and name john and for"
+  },
+  {
+    "timestamp": "01:26",
+    "caption": "the surname i will write an equal sign"
+  },
+  {
+    "timestamp": "01:29",
+    "caption": "instead of a column so we can see the"
+  },
+  {
+    "timestamp": "01:31",
+    "caption": "error again let's fix it and the second"
+  },
+  {
+    "timestamp": "01:35",
+    "caption": "awesome thing is to check your variable"
+  },
+  {
+    "timestamp": "01:37",
+    "caption": "or function results you don't have to"
+  },
+  {
+    "timestamp": "01:39",
+    "caption": "save the file and go to the browser you"
+  },
+  {
+    "timestamp": "01:42",
+    "caption": "can directly write to your user and as"
+  },
+  {
+    "timestamp": "01:44",
+    "caption": "you can see the object is here or you"
+  },
+  {
+    "timestamp": "01:47",
+    "caption": "can write it in the console log and have"
+  },
+  {
+    "timestamp": "01:50",
+    "caption": "some we can do the same thing for a"
+  },
+  {
+    "timestamp": "01:52",
+    "caption": "function let's say const h after n year"
+  },
+  {
+    "timestamp": "01:58",
+    "caption": "and it's gonna return the age after and"
+  },
+  {
+    "timestamp": "02:01",
+    "caption": "year let's check our function console"
+  },
+  {
+    "timestamp": "02:03",
+    "caption": "log"
+  },
+  {
+    "timestamp": "02:05",
+    "caption": "24"
+  },
+  {
+    "timestamp": "02:07",
+    "caption": "and the result is here let's use the"
+  },
+  {
+    "timestamp": "02:10",
+    "caption": "user"
+  },
+  {
+    "timestamp": "02:12",
+    "caption": "user dot h and a as you can see it's"
+  },
+  {
+    "timestamp": "02:16",
+    "caption": "that easy to test your variable and"
+  },
+  {
+    "timestamp": "02:18",
+    "caption": "functions of course they are really"
+  },
+  {
+    "timestamp": "02:21",
+    "caption": "simple examples but when you test a"
+  },
+  {
+    "timestamp": "02:23",
+    "caption": "complex function or a long object or"
+  },
+  {
+    "timestamp": "02:26",
+    "caption": "array trust me it's a lifesaver let's"
+  },
+  {
+    "timestamp": "02:29",
+    "caption": "write here an array that includes a"
+  },
+  {
+    "timestamp": "02:31",
+    "caption": "couple of movies like that"
+  },
+  {
+    "timestamp": "02:34",
+    "caption": "and let's console lock as you can see"
+  },
+  {
+    "timestamp": "02:36",
+    "caption": "the result is too long but if i hover"
+  },
+  {
+    "timestamp": "02:39",
+    "caption": "over this result you are gonna see the"
+  },
+  {
+    "timestamp": "02:41",
+    "caption": "normal version and also you can see it"
+  },
+  {
+    "timestamp": "02:44",
+    "caption": "here in the terminal or if you check"
+  },
+  {
+    "timestamp": "02:47",
+    "caption": "this tool here you will see all your"
+  },
+  {
+    "timestamp": "02:49",
+    "caption": "properties and their types string array"
+  },
+  {
+    "timestamp": "02:53",
+    "caption": "number something like that let me show"
+  },
+  {
+    "timestamp": "02:55",
+    "caption": "you one more thing as you can see there"
+  },
+  {
+    "timestamp": "02:57",
+    "caption": "are some green scares here and if you"
+  },
+  {
+    "timestamp": "03:00",
+    "caption": "write anything wrong it's gonna show red"
+  },
+  {
+    "timestamp": "03:03",
+    "caption": "basically it indicates the execution"
+  },
+  {
+    "timestamp": "03:05",
+    "caption": "status when you write variable here"
+  },
+  {
+    "timestamp": "03:08",
+    "caption": "actually it executes it but here it's"
+  },
+  {
+    "timestamp": "03:11",
+    "caption": "not executed because there's an error"
+  },
+  {
+    "timestamp": "03:14",
+    "caption": "there is also a gray indicator and that"
+  },
+  {
+    "timestamp": "03:17",
+    "caption": "means there is nothing wrong with this"
+  },
+  {
+    "timestamp": "03:20",
+    "caption": "statement but it's not executed yet"
+  },
+  {
+    "timestamp": "03:23",
+    "caption": "let's write here a function that takes"
+  },
+  {
+    "timestamp": "03:25",
+    "caption": "two numbers and sums them up as you can"
+  },
+  {
+    "timestamp": "03:28",
+    "caption": "see it's great that because we didn't"
+  },
+  {
+    "timestamp": "03:31",
+    "caption": "actually call this function if i say add"
+  },
+  {
+    "timestamp": "03:34",
+    "caption": "1 2 or x y from here"
+  },
+  {
+    "timestamp": "03:38",
+    "caption": "now this line is executed and it's"
+  },
+  {
+    "timestamp": "03:40",
+    "caption": "really useful because sometimes we"
+  },
+  {
+    "timestamp": "03:43",
+    "caption": "forget calling functions or we get"
+  },
+  {
+    "timestamp": "03:45",
+    "caption": "different results instead of what we"
+  },
+  {
+    "timestamp": "03:47",
+    "caption": "expect"
+  },
+  {
+    "timestamp": "03:48",
+    "caption": "but thanks to these indicators it's"
+  },
+  {
+    "timestamp": "03:51",
+    "caption": "really easy to figure out where the"
+  },
+  {
+    "timestamp": "03:52",
+    "caption": "problem is especially if you are using"
+  },
+  {
+    "timestamp": "03:55",
+    "caption": "an api let's say we have an api server"
+  },
+  {
+    "timestamp": "03:58",
+    "caption": "it runs on localhost 5000 and when we"
+  },
+  {
+    "timestamp": "04:02",
+    "caption": "make a request for this user's endpoint"
+  },
+  {
+    "timestamp": "04:04",
+    "caption": "it's gonna call users router and inside"
+  },
+  {
+    "timestamp": "04:07",
+    "caption": "this router we have some users and after"
+  },
+  {
+    "timestamp": "04:10",
+    "caption": "get request it returns those users it's"
+  },
+  {
+    "timestamp": "04:13",
+    "caption": "a simple api and in the client side to"
+  },
+  {
+    "timestamp": "04:16",
+    "caption": "get those users i'm gonna use this"
+  },
+  {
+    "timestamp": "04:18",
+    "caption": "function as you can see i'm making a"
+  },
+  {
+    "timestamp": "04:21",
+    "caption": "request for the user's endpoint it's"
+  },
+  {
+    "timestamp": "04:23",
+    "caption": "gonna print those users if there's an"
+  },
+  {
+    "timestamp": "04:25",
+    "caption": "error it's gonna show up here let's call"
+  },
+  {
+    "timestamp": "04:28",
+    "caption": "the function"
+  },
+  {
+    "timestamp": "04:29",
+    "caption": "so we can see the request details status"
+  },
+  {
+    "timestamp": "04:33",
+    "caption": "headers so on and here we have the users"
+  },
+  {
+    "timestamp": "04:36",
+    "caption": "and as you realize this block is green"
+  },
+  {
+    "timestamp": "04:39",
+    "caption": "and this block is gray because the error"
+  },
+  {
+    "timestamp": "04:42",
+    "caption": "is not executed let's say we had a"
+  },
+  {
+    "timestamp": "04:44",
+    "caption": "mistake and wrote here double s for"
+  },
+  {
+    "timestamp": "04:47",
+    "caption": "example this time this line is not"
+  },
+  {
+    "timestamp": "04:50",
+    "caption": "executed because there is no data and"
+  },
+  {
+    "timestamp": "04:52",
+    "caption": "the error line is green and we can see"
+  },
+  {
+    "timestamp": "04:55",
+    "caption": "the error details and it's 404 so you"
+  },
+  {
+    "timestamp": "04:59",
+    "caption": "don't have to go to the browser open"
+  },
+  {
+    "timestamp": "05:01",
+    "caption": "your console and check where the problem"
+  },
+  {
+    "timestamp": "05:03",
+    "caption": "is it makes you much more faster and"
+  },
+  {
+    "timestamp": "05:06",
+    "caption": "productive and all these features in the"
+  },
+  {
+    "timestamp": "05:08",
+    "caption": "free community edition there is also pro"
+  },
+  {
+    "timestamp": "05:11",
+    "caption": "version for more features if you are"
+  },
+  {
+    "timestamp": "05:13",
+    "caption": "using to pro version you don't have to"
+  },
+  {
+    "timestamp": "05:15",
+    "caption": "write console log you can directly"
+  },
+  {
+    "timestamp": "05:18",
+    "caption": "select what you want to see like that or"
+  },
+  {
+    "timestamp": "05:20",
+    "caption": "you can use live comments to check any"
+  },
+  {
+    "timestamp": "05:23",
+    "caption": "function any method or you can use quick"
+  },
+  {
+    "timestamp": "05:26",
+    "caption": "package installation so you don't have"
+  },
+  {
+    "timestamp": "05:29",
+    "caption": "to write npm install and package name"
+  },
+  {
+    "timestamp": "05:31",
+    "caption": "you can directly install from here and"
+  },
+  {
+    "timestamp": "05:34",
+    "caption": "other have some features you should"
+  },
+  {
+    "timestamp": "05:37",
+    "caption": "definitely check that out"
+  },
+  {
+    "timestamp": "05:39",
+    "caption": "the second extension is actually it's"
+  },
+  {
+    "timestamp": "05:41",
+    "caption": "not going to be a single extension i'm"
+  },
+  {
+    "timestamp": "05:43",
+    "caption": "going to show you my favorite we have"
+  },
+  {
+    "timestamp": "05:45",
+    "caption": "got teams and first one is material team"
+  },
+  {
+    "timestamp": "05:50",
+    "caption": "after the installation you can click"
+  },
+  {
+    "timestamp": "05:53",
+    "caption": "here and choose a team and as you can"
+  },
+  {
+    "timestamp": "05:55",
+    "caption": "see there are many themes here actually"
+  },
+  {
+    "timestamp": "05:58",
+    "caption": "let's open a javascript file here and we"
+  },
+  {
+    "timestamp": "06:00",
+    "caption": "can see better to do that again have fun"
+  },
+  {
+    "timestamp": "06:04",
+    "caption": "and i will say team and choose color"
+  },
+  {
+    "timestamp": "06:07",
+    "caption": "team after you can choose any of them to"
+  },
+  {
+    "timestamp": "06:10",
+    "caption": "be honest i don't like dark themes of"
+  },
+  {
+    "timestamp": "06:12",
+    "caption": "material team but its light teams are"
+  },
+  {
+    "timestamp": "06:15",
+    "caption": "awesome i usually use light team when i"
+  },
+  {
+    "timestamp": "06:18",
+    "caption": "write code in the morning but after 3 pm"
+  },
+  {
+    "timestamp": "06:21",
+    "caption": "4 pm i change it to the dark but as i"
+  },
+  {
+    "timestamp": "06:24",
+    "caption": "said it's dark teams are ok but not"
+  },
+  {
+    "timestamp": "06:27",
+    "caption": "perfect to me so i'm using either"
+  },
+  {
+    "timestamp": "06:30",
+    "caption": "dracula official and soft team here it"
+  },
+  {
+    "timestamp": "06:34",
+    "caption": "looks awesome"
+  },
+  {
+    "timestamp": "06:36",
+    "caption": "or"
+  },
+  {
+    "timestamp": "06:37",
+    "caption": "night old and no italic team"
+  },
+  {
+    "timestamp": "06:40",
+    "caption": "it's really nice too"
+  },
+  {
+    "timestamp": "06:43",
+    "caption": "and also let me show you another team"
+  },
+  {
+    "timestamp": "06:46",
+    "caption": "extension which is peacock"
+  },
+  {
+    "timestamp": "06:48",
+    "caption": "it changes the color of the menu bar and"
+  },
+  {
+    "timestamp": "06:51",
+    "caption": "activity bar and again f1 or command"
+  },
+  {
+    "timestamp": "06:54",
+    "caption": "shift p just right here p coke and"
+  },
+  {
+    "timestamp": "06:58",
+    "caption": "change to a favorite color then you can"
+  },
+  {
+    "timestamp": "07:00",
+    "caption": "choose any color here it's really"
+  },
+  {
+    "timestamp": "07:03",
+    "caption": "awesome when you work with different vs"
+  },
+  {
+    "timestamp": "07:05",
+    "caption": "code instances for example one of them"
+  },
+  {
+    "timestamp": "07:07",
+    "caption": "is the backend project and the second"
+  },
+  {
+    "timestamp": "07:09",
+    "caption": "one is the front-end project so you can"
+  },
+  {
+    "timestamp": "07:12",
+    "caption": "assign different colors for them now"
+  },
+  {
+    "timestamp": "07:15",
+    "caption": "it's easy to distinguish between these"
+  },
+  {
+    "timestamp": "07:18",
+    "caption": "two projects"
+  },
+  {
+    "timestamp": "07:20",
+    "caption": "and the other extension is code snap it"
+  },
+  {
+    "timestamp": "07:23",
+    "caption": "allows you to take a screenshot of your"
+  },
+  {
+    "timestamp": "07:26",
+    "caption": "code blocks"
+  },
+  {
+    "timestamp": "07:27",
+    "caption": "command shift p code snap"
+  },
+  {
+    "timestamp": "07:31",
+    "caption": "and choose your lines here"
+  },
+  {
+    "timestamp": "07:33",
+    "caption": "and click here and it's going to save"
+  },
+  {
+    "timestamp": "07:36",
+    "caption": "your screenshots"
+  },
+  {
+    "timestamp": "07:39",
+    "caption": "perfect sometimes i see people in the"
+  },
+  {
+    "timestamp": "07:42",
+    "caption": "lamadev facebook or discord groups and"
+  },
+  {
+    "timestamp": "07:45",
+    "caption": "they directly copy and paste their codes"
+  },
+  {
+    "timestamp": "07:48",
+    "caption": "or they take a screen picture using"
+  },
+  {
+    "timestamp": "07:50",
+    "caption": "their mobile phones"
+  },
+  {
+    "timestamp": "07:52",
+    "caption": "guys please don't do that it's really"
+  },
+  {
+    "timestamp": "07:54",
+    "caption": "hard to help you with those codes or"
+  },
+  {
+    "timestamp": "07:56",
+    "caption": "images just use this as some extension"
+  },
+  {
+    "timestamp": "07:59",
+    "caption": "and ask your question with your"
+  },
+  {
+    "timestamp": "08:01",
+    "caption": "screenshots"
+  },
+  {
+    "timestamp": "08:03",
+    "caption": "the next extension is res client it's an"
+  },
+  {
+    "timestamp": "08:07",
+    "caption": "appsome extension that you can use for"
+  },
+  {
+    "timestamp": "08:09",
+    "caption": "api requests if you are using an api and"
+  },
+  {
+    "timestamp": "08:13",
+    "caption": "if you want to test it you can basically"
+  },
+  {
+    "timestamp": "08:15",
+    "caption": "create a new file and let's say test"
+  },
+  {
+    "timestamp": "08:18",
+    "caption": "or whatever you want but the extension"
+  },
+  {
+    "timestamp": "08:21",
+    "caption": "of this file should be http after that"
+  },
+  {
+    "timestamp": "08:25",
+    "caption": "you can write here the request method"
+  },
+  {
+    "timestamp": "08:27",
+    "caption": "and api endpoint when you click on send"
+  },
+  {
+    "timestamp": "08:31",
+    "caption": "request"
+  },
+  {
+    "timestamp": "08:32",
+    "caption": "you will see your results here"
+  },
+  {
+    "timestamp": "08:34",
+    "caption": "let's get user by id"
+  },
+  {
+    "timestamp": "08:36",
+    "caption": "like that"
+  },
+  {
+    "timestamp": "08:40",
+    "caption": "and for the post request you can write"
+  },
+  {
+    "timestamp": "08:42",
+    "caption": "here your configuration like content"
+  },
+  {
+    "timestamp": "08:45",
+    "caption": "type json it's just like choosing json"
+  },
+  {
+    "timestamp": "08:49",
+    "caption": "and draw option on postman and here you"
+  },
+  {
+    "timestamp": "08:52",
+    "caption": "can write your body i will write my"
+  },
+  {
+    "timestamp": "08:55",
+    "caption": "credentials and send requests also you"
+  },
+  {
+    "timestamp": "08:58",
+    "caption": "can write here any other configurations"
+  },
+  {
+    "timestamp": "09:01",
+    "caption": "like authentication token something like"
+  },
+  {
+    "timestamp": "09:03",
+    "caption": "that if you want to use a shortcut you"
+  },
+  {
+    "timestamp": "09:06",
+    "caption": "can write api url like that and you can"
+  },
+  {
+    "timestamp": "09:09",
+    "caption": "use it everywhere"
+  },
+  {
+    "timestamp": "09:11",
+    "caption": "it's that easy by the way i was going to"
+  },
+  {
+    "timestamp": "09:14",
+    "caption": "recommend one more api extension which"
+  },
+  {
+    "timestamp": "09:17",
+    "caption": "is thunderclient but somehow it's not"
+  },
+  {
+    "timestamp": "09:20",
+    "caption": "working i don't know why but it's a more"
+  },
+  {
+    "timestamp": "09:23",
+    "caption": "professional api client extension as you"
+  },
+  {
+    "timestamp": "09:26",
+    "caption": "can see it looks like postman you can"
+  },
+  {
+    "timestamp": "09:28",
+    "caption": "create collections choose your"
+  },
+  {
+    "timestamp": "09:30",
+    "caption": "configurations here and i highly"
+  },
+  {
+    "timestamp": "09:33",
+    "caption": "recommend it you should definitely check"
+  },
+  {
+    "timestamp": "09:35",
+    "caption": "it that because if you are not using"
+  },
+  {
+    "timestamp": "09:38",
+    "caption": "that complex apis postman might be a"
+  },
+  {
+    "timestamp": "09:41",
+    "caption": "little bit heavy and i don't know i"
+  },
+  {
+    "timestamp": "09:44",
+    "caption": "prefer using these lightweight"
+  },
+  {
+    "timestamp": "09:46",
+    "caption": "extensions"
+  },
+  {
+    "timestamp": "09:47",
+    "caption": "and another extension is to do highlight"
+  },
+  {
+    "timestamp": "09:51",
+    "caption": "sometimes we take quick notes between"
+  },
+  {
+    "timestamp": "09:53",
+    "caption": "our codes to remember what we have done"
+  },
+  {
+    "timestamp": "09:55",
+    "caption": "before or if you are working with your"
+  },
+  {
+    "timestamp": "09:58",
+    "caption": "colleague or your friend"
+  },
+  {
+    "timestamp": "10:00",
+    "caption": "you have to write some comments to"
+  },
+  {
+    "timestamp": "10:02",
+    "caption": "explain how your code works but after a"
+  },
+  {
+    "timestamp": "10:05",
+    "caption": "while it's really hard to remember where"
+  },
+  {
+    "timestamp": "10:08",
+    "caption": "are your to-do's and fix me notes so"
+  },
+  {
+    "timestamp": "10:11",
+    "caption": "this awesome extension just highlights"
+  },
+  {
+    "timestamp": "10:13",
+    "caption": "your important notes just like that"
+  },
+  {
+    "timestamp": "10:16",
+    "caption": "and now it's much easier to distinguish"
+  },
+  {
+    "timestamp": "10:22",
+    "caption": "and the next extension is marquee it's a"
+  },
+  {
+    "timestamp": "10:25",
+    "caption": "really cool extension if you get both"
+  },
+  {
+    "timestamp": "10:28",
+    "caption": "seeing the classic vs code home page you"
+  },
+  {
+    "timestamp": "10:30",
+    "caption": "can use this extension it shows up where"
+  },
+  {
+    "timestamp": "10:33",
+    "caption": "you open the vs code and there are some"
+  },
+  {
+    "timestamp": "10:36",
+    "caption": "useful widgets here you can see your"
+  },
+  {
+    "timestamp": "10:38",
+    "caption": "projects and start writing code by"
+  },
+  {
+    "timestamp": "10:41",
+    "caption": "clicking them there is a weather widget"
+  },
+  {
+    "timestamp": "10:45",
+    "caption": "the latest news about programming trend"
+  },
+  {
+    "timestamp": "10:48",
+    "caption": "github open source projects and here's a"
+  },
+  {
+    "timestamp": "10:51",
+    "caption": "to-do list"
+  },
+  {
+    "timestamp": "10:53",
+    "caption": "and i think it's the most useful feature"
+  },
+  {
+    "timestamp": "10:55",
+    "caption": "of this extension before starting coding"
+  },
+  {
+    "timestamp": "10:57",
+    "caption": "you can check what you need to do today"
+  },
+  {
+    "timestamp": "11:00",
+    "caption": "or after coding you can write new"
+  },
+  {
+    "timestamp": "11:02",
+    "caption": "to-do's for tomorrow"
+  },
+  {
+    "timestamp": "11:05",
+    "caption": "you can take notes here so it's not"
+  },
+  {
+    "timestamp": "11:07",
+    "caption": "perfect but as i said it's a good"
+  },
+  {
+    "timestamp": "11:10",
+    "caption": "alternative for the home page"
+  },
+  {
+    "timestamp": "11:14",
+    "caption": "another one is import cost it's a really"
+  },
+  {
+    "timestamp": "11:17",
+    "caption": "popular one"
+  },
+  {
+    "timestamp": "11:18",
+    "caption": "when you install any library you can see"
+  },
+  {
+    "timestamp": "11:21",
+    "caption": "here how many kilobytes is that it looks"
+  },
+  {
+    "timestamp": "11:24",
+    "caption": "really cool and sometimes it can be"
+  },
+  {
+    "timestamp": "11:26",
+    "caption": "really useful for example when you check"
+  },
+  {
+    "timestamp": "11:29",
+    "caption": "something on stack overflow sometimes"
+  },
+  {
+    "timestamp": "11:31",
+    "caption": "community users recommend a library to"
+  },
+  {
+    "timestamp": "11:34",
+    "caption": "solve your problem but when you import"
+  },
+  {
+    "timestamp": "11:37",
+    "caption": "it you see here a hundred kilobytes or"
+  },
+  {
+    "timestamp": "11:40",
+    "caption": "something like that so basically you can"
+  },
+  {
+    "timestamp": "11:42",
+    "caption": "delete it and search for basic solutions"
+  },
+  {
+    "timestamp": "11:46",
+    "caption": "the next extension is called time"
+  },
+  {
+    "timestamp": "11:49",
+    "caption": "basically you can see how much time you"
+  },
+  {
+    "timestamp": "11:51",
+    "caption": "are spending on coding if you open the"
+  },
+  {
+    "timestamp": "11:54",
+    "caption": "dashboard you can see here code time cut"
+  },
+  {
+    "timestamp": "11:57",
+    "caption": "time is the duration of the usage and"
+  },
+  {
+    "timestamp": "12:00",
+    "caption": "active coding time is the duration of"
+  },
+  {
+    "timestamp": "12:02",
+    "caption": "the writing codes and you can see your"
+  },
+  {
+    "timestamp": "12:04",
+    "caption": "daily and weekly details it's a good"
+  },
+  {
+    "timestamp": "12:07",
+    "caption": "extension because sometimes we really"
+  },
+  {
+    "timestamp": "12:09",
+    "caption": "work hard without sleeping exercising"
+  },
+  {
+    "timestamp": "12:13",
+    "caption": "spending enough time with our friends or"
+  },
+  {
+    "timestamp": "12:16",
+    "caption": "family so it's not healthy at all if you"
+  },
+  {
+    "timestamp": "12:19",
+    "caption": "don't want to be burned out you should"
+  },
+  {
+    "timestamp": "12:21",
+    "caption": "definitely fix your time management"
+  },
+  {
+    "timestamp": "12:24",
+    "caption": "there are many extensions but i don't"
+  },
+  {
+    "timestamp": "12:26",
+    "caption": "want to make this video too long"
+  },
+  {
+    "timestamp": "12:29",
+    "caption": "so i will show you the must have"
+  },
+  {
+    "timestamp": "12:31",
+    "caption": "extensions and finish this video i show"
+  },
+  {
+    "timestamp": "12:34",
+    "caption": "them at the end of the video because i"
+  },
+  {
+    "timestamp": "12:37",
+    "caption": "know most of you already have them but"
+  },
+  {
+    "timestamp": "12:39",
+    "caption": "for the beginners i think it will be"
+  },
+  {
+    "timestamp": "12:41",
+    "caption": "useful so here are the extensions you"
+  },
+  {
+    "timestamp": "12:44",
+    "caption": "have to use as a web developer the first"
+  },
+  {
+    "timestamp": "12:47",
+    "caption": "one is live server when you create a"
+  },
+  {
+    "timestamp": "12:50",
+    "caption": "website to see your results on the"
+  },
+  {
+    "timestamp": "12:52",
+    "caption": "browser you can use this extension"
+  },
+  {
+    "timestamp": "12:55",
+    "caption": "so you don't have to worry about any"
+  },
+  {
+    "timestamp": "12:57",
+    "caption": "changes on your code when you change"
+  },
+  {
+    "timestamp": "13:00",
+    "caption": "anything here it's gonna show up on the"
+  },
+  {
+    "timestamp": "13:02",
+    "caption": "browser immediately"
+  },
+  {
+    "timestamp": "13:04",
+    "caption": "second one is auto rename tag when using"
+  },
+  {
+    "timestamp": "13:08",
+    "caption": "html it's really annoying not to being"
+  },
+  {
+    "timestamp": "13:10",
+    "caption": "able to rename both tags"
+  },
+  {
+    "timestamp": "13:13",
+    "caption": "but after this extension when you change"
+  },
+  {
+    "timestamp": "13:16",
+    "caption": "any tag it's gonna affect the other one"
+  },
+  {
+    "timestamp": "13:19",
+    "caption": "the third one is prettier"
+  },
+  {
+    "timestamp": "13:22",
+    "caption": "prettier is an awesome cod formatter it"
+  },
+  {
+    "timestamp": "13:25",
+    "caption": "enforces a consistent style by parsing"
+  },
+  {
+    "timestamp": "13:28",
+    "caption": "your code after writing cuts"
+  },
+  {
+    "timestamp": "13:31",
+    "caption": "when you press alt or option shift and f"
+  },
+  {
+    "timestamp": "13:35",
+    "caption": "it's gonna correct your lines"
+  },
+  {
+    "timestamp": "13:38",
+    "caption": "and the last one is as7 snippets if you"
+  },
+  {
+    "timestamp": "13:41",
+    "caption": "are using javascript react you should"
+  },
+  {
+    "timestamp": "13:44",
+    "caption": "definitely use this extension it has"
+  },
+  {
+    "timestamp": "13:47",
+    "caption": "tons of shortcuts"
+  },
+  {
+    "timestamp": "13:49",
+    "caption": "you can create functions easily"
+  },
+  {
+    "timestamp": "13:52",
+    "caption": "console log and other shortcuts"
+  },
+  {
+    "timestamp": "13:55",
+    "caption": "you can check them here"
+  },
+  {
+    "timestamp": "13:57",
+    "caption": "so that's all i hope you liked it"
+  },
+  {
+    "timestamp": "14:00",
+    "caption": "if you want to see part 2 you can leave"
+  },
+  {
+    "timestamp": "14:03",
+    "caption": "a comment and as always if you learned"
+  },
+  {
+    "timestamp": "14:06",
+    "caption": "something new today please like the"
+  },
+  {
+    "timestamp": "14:07",
+    "caption": "video and subscribe to the channel and"
+  },
+  {
+    "timestamp": "14:10",
+    "caption": "don't forget to follow lamadev's social"
+  },
+  {
+    "timestamp": "14:12",
+    "caption": "media accounts"
+  },
+  {
+    "timestamp": "14:14",
+    "caption": "i hope i will see you in the next"
+  },
+  {
+    "timestamp": "14:16",
+    "caption": "tutorial goodbye"
+  },
+  {
+    "timestamp": "14:18",
+    "caption": "[Music]"
+  },
+  {
+    "timestamp": "14:29",
+    "caption": "[Music]"
+  },
+  {
+    "timestamp": "00:00:14:31.000",
+    "caption": ""
+  }
+]

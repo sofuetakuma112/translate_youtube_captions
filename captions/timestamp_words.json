@@ -1,0 +1,8778 @@
+[
+  {
+    "word": "hello",
+    "timestamp": 0
+  },
+  {
+    "word": "friends",
+    "timestamp": 0.3333333333333333
+  },
+  {
+    "word": "today",
+    "timestamp": 0.6666666666666666
+  },
+  {
+    "word": "i'm",
+    "timestamp": 1
+  },
+  {
+    "word": "gonna",
+    "timestamp": 1.3333333333333333
+  },
+  {
+    "word": "recommend",
+    "timestamp": 1.6666666666666665
+  },
+  {
+    "word": "some",
+    "timestamp": 2
+  },
+  {
+    "word": "absolute",
+    "timestamp": 2.3333333333333335
+  },
+  {
+    "word": "vs",
+    "timestamp": 2.6666666666666665
+  },
+  {
+    "word": "code",
+    "timestamp": 3
+  },
+  {
+    "word": "extensions",
+    "timestamp": 3.333333333333333
+  },
+  {
+    "word": "that",
+    "timestamp": 3.6666666666666665
+  },
+  {
+    "word": "will",
+    "timestamp": 4
+  },
+  {
+    "word": "improve",
+    "timestamp": 4.5
+  },
+  {
+    "word": "your",
+    "timestamp": 5
+  },
+  {
+    "word": "productivity",
+    "timestamp": 5.5
+  },
+  {
+    "word": "and",
+    "timestamp": 6
+  },
+  {
+    "word": "at",
+    "timestamp": 6.5
+  },
+  {
+    "word": "the",
+    "timestamp": 7
+  },
+  {
+    "word": "end",
+    "timestamp": 7.2
+  },
+  {
+    "word": "of",
+    "timestamp": 7.4
+  },
+  {
+    "word": "the",
+    "timestamp": 7.6
+  },
+  {
+    "word": "video",
+    "timestamp": 7.8
+  },
+  {
+    "word": "i",
+    "timestamp": 8
+  },
+  {
+    "word": "will",
+    "timestamp": 8.2
+  },
+  {
+    "word": "show",
+    "timestamp": 8.4
+  },
+  {
+    "word": "you",
+    "timestamp": 8.6
+  },
+  {
+    "word": "the",
+    "timestamp": 8.8
+  },
+  {
+    "word": "must",
+    "timestamp": 9
+  },
+  {
+    "word": "have",
+    "timestamp": 9.4
+  },
+  {
+    "word": "extensions",
+    "timestamp": 9.8
+  },
+  {
+    "word": "for",
+    "timestamp": 10.2
+  },
+  {
+    "word": "beginners",
+    "timestamp": 10.6
+  },
+  {
+    "word": "because",
+    "timestamp": 11
+  },
+  {
+    "word": "i",
+    "timestamp": 11.285714285714286
+  },
+  {
+    "word": "got",
+    "timestamp": 11.571428571428571
+  },
+  {
+    "word": "many",
+    "timestamp": 11.857142857142858
+  },
+  {
+    "word": "comments",
+    "timestamp": 12.142857142857142
+  },
+  {
+    "word": "from",
+    "timestamp": 12.428571428571429
+  },
+  {
+    "word": "you",
+    "timestamp": 12.714285714285714
+  },
+  {
+    "word": "guys",
+    "timestamp": 13
+  },
+  {
+    "word": "so",
+    "timestamp": 13.285714285714286
+  },
+  {
+    "word": "you",
+    "timestamp": 13.571428571428571
+  },
+  {
+    "word": "will",
+    "timestamp": 13.857142857142858
+  },
+  {
+    "word": "see",
+    "timestamp": 14.142857142857142
+  },
+  {
+    "word": "which",
+    "timestamp": 14.428571428571429
+  },
+  {
+    "word": "extensions",
+    "timestamp": 14.714285714285714
+  },
+  {
+    "word": "i'm",
+    "timestamp": 15
+  },
+  {
+    "word": "using",
+    "timestamp": 15.375
+  },
+  {
+    "word": "okay",
+    "timestamp": 15.75
+  },
+  {
+    "word": "if",
+    "timestamp": 16.125
+  },
+  {
+    "word": "you",
+    "timestamp": 16.5
+  },
+  {
+    "word": "are",
+    "timestamp": 16.875
+  },
+  {
+    "word": "ready",
+    "timestamp": 17.25
+  },
+  {
+    "word": "let's",
+    "timestamp": 17.625
+  },
+  {
+    "word": "get",
+    "timestamp": 18
+  },
+  {
+    "word": "started",
+    "timestamp": 19
+  },
+  {
+    "word": "the",
+    "timestamp": 20
+  },
+  {
+    "word": "first",
+    "timestamp": 20.375
+  },
+  {
+    "word": "extension",
+    "timestamp": 20.75
+  },
+  {
+    "word": "is",
+    "timestamp": 21.125
+  },
+  {
+    "word": "quagga",
+    "timestamp": 21.5
+  },
+  {
+    "word": "js",
+    "timestamp": 21.875
+  },
+  {
+    "word": "it's",
+    "timestamp": 22.25
+  },
+  {
+    "word": "an",
+    "timestamp": 22.625
+  },
+  {
+    "word": "awesome",
+    "timestamp": 23
+  },
+  {
+    "word": "extension",
+    "timestamp": 23.428571428571427
+  },
+  {
+    "word": "that",
+    "timestamp": 23.857142857142858
+  },
+  {
+    "word": "allows",
+    "timestamp": 24.285714285714285
+  },
+  {
+    "word": "you",
+    "timestamp": 24.714285714285715
+  },
+  {
+    "word": "to",
+    "timestamp": 25.142857142857142
+  },
+  {
+    "word": "do",
+    "timestamp": 25.57142857142857
+  },
+  {
+    "word": "really",
+    "timestamp": 26
+  },
+  {
+    "word": "fast",
+    "timestamp": 26.333333333333332
+  },
+  {
+    "word": "prototyping",
+    "timestamp": 26.666666666666668
+  },
+  {
+    "word": "and",
+    "timestamp": 27
+  },
+  {
+    "word": "testing",
+    "timestamp": 27.333333333333332
+  },
+  {
+    "word": "in",
+    "timestamp": 27.666666666666668
+  },
+  {
+    "word": "your",
+    "timestamp": 28
+  },
+  {
+    "word": "js",
+    "timestamp": 28.25
+  },
+  {
+    "word": "code",
+    "timestamp": 28.5
+  },
+  {
+    "word": "and",
+    "timestamp": 28.75
+  },
+  {
+    "word": "it's",
+    "timestamp": 29
+  },
+  {
+    "word": "not",
+    "timestamp": 29.25
+  },
+  {
+    "word": "a",
+    "timestamp": 29.5
+  },
+  {
+    "word": "single",
+    "timestamp": 29.75
+  },
+  {
+    "word": "purpose",
+    "timestamp": 30
+  },
+  {
+    "word": "extension",
+    "timestamp": 30.428571428571427
+  },
+  {
+    "word": "it",
+    "timestamp": 30.857142857142858
+  },
+  {
+    "word": "has",
+    "timestamp": 31.285714285714285
+  },
+  {
+    "word": "tons",
+    "timestamp": 31.714285714285715
+  },
+  {
+    "word": "of",
+    "timestamp": 32.142857142857146
+  },
+  {
+    "word": "useful",
+    "timestamp": 32.57142857142857
+  },
+  {
+    "word": "features",
+    "timestamp": 33
+  },
+  {
+    "word": "let",
+    "timestamp": 33.375
+  },
+  {
+    "word": "me",
+    "timestamp": 33.75
+  },
+  {
+    "word": "show",
+    "timestamp": 34.125
+  },
+  {
+    "word": "you",
+    "timestamp": 34.5
+  },
+  {
+    "word": "some",
+    "timestamp": 34.875
+  },
+  {
+    "word": "of",
+    "timestamp": 35.25
+  },
+  {
+    "word": "them",
+    "timestamp": 35.625
+  },
+  {
+    "word": "after",
+    "timestamp": 36
+  },
+  {
+    "word": "the",
+    "timestamp": 36.285714285714285
+  },
+  {
+    "word": "installation",
+    "timestamp": 36.57142857142857
+  },
+  {
+    "word": "you",
+    "timestamp": 36.857142857142854
+  },
+  {
+    "word": "can",
+    "timestamp": 37.142857142857146
+  },
+  {
+    "word": "go",
+    "timestamp": 37.42857142857143
+  },
+  {
+    "word": "ahead",
+    "timestamp": 37.714285714285715
+  },
+  {
+    "word": "and",
+    "timestamp": 38
+  },
+  {
+    "word": "use",
+    "timestamp": 38.44444444444444
+  },
+  {
+    "word": "command",
+    "timestamp": 38.888888888888886
+  },
+  {
+    "word": "or",
+    "timestamp": 39.333333333333336
+  },
+  {
+    "word": "ctrl",
+    "timestamp": 39.77777777777778
+  },
+  {
+    "word": "shift",
+    "timestamp": 40.22222222222222
+  },
+  {
+    "word": "p",
+    "timestamp": 40.666666666666664
+  },
+  {
+    "word": "or",
+    "timestamp": 41.111111111111114
+  },
+  {
+    "word": "f1",
+    "timestamp": 41.55555555555556
+  },
+  {
+    "word": "button",
+    "timestamp": 42
+  },
+  {
+    "word": "and",
+    "timestamp": 42.375
+  },
+  {
+    "word": "i",
+    "timestamp": 42.75
+  },
+  {
+    "word": "will",
+    "timestamp": 43.125
+  },
+  {
+    "word": "write",
+    "timestamp": 43.5
+  },
+  {
+    "word": "here",
+    "timestamp": 43.875
+  },
+  {
+    "word": "qoraka",
+    "timestamp": 44.25
+  },
+  {
+    "word": "and",
+    "timestamp": 44.625
+  },
+  {
+    "word": "as",
+    "timestamp": 45
+  },
+  {
+    "word": "you",
+    "timestamp": 45.25
+  },
+  {
+    "word": "can",
+    "timestamp": 45.5
+  },
+  {
+    "word": "see",
+    "timestamp": 45.75
+  },
+  {
+    "word": "there",
+    "timestamp": 46
+  },
+  {
+    "word": "are",
+    "timestamp": 46.25
+  },
+  {
+    "word": "many",
+    "timestamp": 46.5
+  },
+  {
+    "word": "options",
+    "timestamp": 46.75
+  },
+  {
+    "word": "here",
+    "timestamp": 47
+  },
+  {
+    "word": "you",
+    "timestamp": 47.285714285714285
+  },
+  {
+    "word": "can",
+    "timestamp": 47.57142857142857
+  },
+  {
+    "word": "create",
+    "timestamp": 47.857142857142854
+  },
+  {
+    "word": "a",
+    "timestamp": 48.142857142857146
+  },
+  {
+    "word": "new",
+    "timestamp": 48.42857142857143
+  },
+  {
+    "word": "javascript",
+    "timestamp": 48.714285714285715
+  },
+  {
+    "word": "file",
+    "timestamp": 49
+  },
+  {
+    "word": "or",
+    "timestamp": 49.375
+  },
+  {
+    "word": "typescript",
+    "timestamp": 49.75
+  },
+  {
+    "word": "file",
+    "timestamp": 50.125
+  },
+  {
+    "word": "if",
+    "timestamp": 50.5
+  },
+  {
+    "word": "you",
+    "timestamp": 50.875
+  },
+  {
+    "word": "are",
+    "timestamp": 51.25
+  },
+  {
+    "word": "using",
+    "timestamp": 51.625
+  },
+  {
+    "word": "typescript",
+    "timestamp": 52
+  },
+  {
+    "word": "or",
+    "timestamp": 52.285714285714285
+  },
+  {
+    "word": "if",
+    "timestamp": 52.57142857142857
+  },
+  {
+    "word": "you",
+    "timestamp": 52.857142857142854
+  },
+  {
+    "word": "already",
+    "timestamp": 53.142857142857146
+  },
+  {
+    "word": "have",
+    "timestamp": 53.42857142857143
+  },
+  {
+    "word": "a",
+    "timestamp": 53.714285714285715
+  },
+  {
+    "word": "project",
+    "timestamp": 54
+  },
+  {
+    "word": "you",
+    "timestamp": 54.5
+  },
+  {
+    "word": "can",
+    "timestamp": 55
+  },
+  {
+    "word": "run",
+    "timestamp": 55.5
+  },
+  {
+    "word": "qualconit",
+    "timestamp": 56
+  },
+  {
+    "word": "directly",
+    "timestamp": 56.5
+  },
+  {
+    "word": "using",
+    "timestamp": 57
+  },
+  {
+    "word": "the",
+    "timestamp": 57.42857142857143
+  },
+  {
+    "word": "start",
+    "timestamp": 57.857142857142854
+  },
+  {
+    "word": "on",
+    "timestamp": 58.285714285714285
+  },
+  {
+    "word": "current",
+    "timestamp": 58.714285714285715
+  },
+  {
+    "word": "file",
+    "timestamp": 59.142857142857146
+  },
+  {
+    "word": "option",
+    "timestamp": 59.57142857142857
+  },
+  {
+    "word": "let's",
+    "timestamp": 60
+  },
+  {
+    "word": "open",
+    "timestamp": 60.375
+  },
+  {
+    "word": "a",
+    "timestamp": 60.75
+  },
+  {
+    "word": "new",
+    "timestamp": 61.125
+  },
+  {
+    "word": "javascript",
+    "timestamp": 61.5
+  },
+  {
+    "word": "file",
+    "timestamp": 61.875
+  },
+  {
+    "word": "and",
+    "timestamp": 62.25
+  },
+  {
+    "word": "as",
+    "timestamp": 62.625
+  },
+  {
+    "word": "soon",
+    "timestamp": 63
+  },
+  {
+    "word": "as",
+    "timestamp": 63.22222222222222
+  },
+  {
+    "word": "you",
+    "timestamp": 63.44444444444444
+  },
+  {
+    "word": "do",
+    "timestamp": 63.666666666666664
+  },
+  {
+    "word": "that",
+    "timestamp": 63.888888888888886
+  },
+  {
+    "word": "you",
+    "timestamp": 64.11111111111111
+  },
+  {
+    "word": "will",
+    "timestamp": 64.33333333333333
+  },
+  {
+    "word": "notice",
+    "timestamp": 64.55555555555556
+  },
+  {
+    "word": "this",
+    "timestamp": 64.77777777777777
+  },
+  {
+    "word": "quakka",
+    "timestamp": 65
+  },
+  {
+    "word": "terminal",
+    "timestamp": 65.28571428571429
+  },
+  {
+    "word": "here",
+    "timestamp": 65.57142857142857
+  },
+  {
+    "word": "it's",
+    "timestamp": 65.85714285714286
+  },
+  {
+    "word": "going",
+    "timestamp": 66.14285714285714
+  },
+  {
+    "word": "to",
+    "timestamp": 66.42857142857143
+  },
+  {
+    "word": "show",
+    "timestamp": 66.71428571428571
+  },
+  {
+    "word": "you",
+    "timestamp": 67
+  },
+  {
+    "word": "your",
+    "timestamp": 67.33333333333333
+  },
+  {
+    "word": "code",
+    "timestamp": 67.66666666666667
+  },
+  {
+    "word": "results",
+    "timestamp": 68
+  },
+  {
+    "word": "and",
+    "timestamp": 68.33333333333333
+  },
+  {
+    "word": "possible",
+    "timestamp": 68.66666666666667
+  },
+  {
+    "word": "errors",
+    "timestamp": 69
+  },
+  {
+    "word": "so",
+    "timestamp": 69.375
+  },
+  {
+    "word": "let's",
+    "timestamp": 69.75
+  },
+  {
+    "word": "write",
+    "timestamp": 70.125
+  },
+  {
+    "word": "here",
+    "timestamp": 70.5
+  },
+  {
+    "word": "a",
+    "timestamp": 70.875
+  },
+  {
+    "word": "number",
+    "timestamp": 71.25
+  },
+  {
+    "word": "and",
+    "timestamp": 71.625
+  },
+  {
+    "word": "i'm",
+    "timestamp": 72
+  },
+  {
+    "word": "gonna",
+    "timestamp": 72.375
+  },
+  {
+    "word": "make",
+    "timestamp": 72.75
+  },
+  {
+    "word": "a",
+    "timestamp": 73.125
+  },
+  {
+    "word": "mistake",
+    "timestamp": 73.5
+  },
+  {
+    "word": "on",
+    "timestamp": 73.875
+  },
+  {
+    "word": "purpose",
+    "timestamp": 74.25
+  },
+  {
+    "word": "and",
+    "timestamp": 74.625
+  },
+  {
+    "word": "as",
+    "timestamp": 75
+  },
+  {
+    "word": "you",
+    "timestamp": 75.25
+  },
+  {
+    "word": "can",
+    "timestamp": 75.5
+  },
+  {
+    "word": "see",
+    "timestamp": 75.75
+  },
+  {
+    "word": "it",
+    "timestamp": 76
+  },
+  {
+    "word": "warns",
+    "timestamp": 76.25
+  },
+  {
+    "word": "me",
+    "timestamp": 76.5
+  },
+  {
+    "word": "immediately",
+    "timestamp": 76.75
+  },
+  {
+    "word": "here",
+    "timestamp": 77
+  },
+  {
+    "word": "and",
+    "timestamp": 77.33333333333333
+  },
+  {
+    "word": "in",
+    "timestamp": 77.66666666666667
+  },
+  {
+    "word": "the",
+    "timestamp": 78
+  },
+  {
+    "word": "console",
+    "timestamp": 78.33333333333333
+  },
+  {
+    "word": "and",
+    "timestamp": 78.66666666666667
+  },
+  {
+    "word": "it",
+    "timestamp": 79
+  },
+  {
+    "word": "says",
+    "timestamp": 79.33333333333333
+  },
+  {
+    "word": "to",
+    "timestamp": 79.66666666666667
+  },
+  {
+    "word": "error",
+    "timestamp": 80
+  },
+  {
+    "word": "so",
+    "timestamp": 80.5
+  },
+  {
+    "word": "let's",
+    "timestamp": 81
+  },
+  {
+    "word": "create",
+    "timestamp": 81.5
+  },
+  {
+    "word": "an",
+    "timestamp": 82
+  },
+  {
+    "word": "object",
+    "timestamp": 82.5
+  },
+  {
+    "word": "i",
+    "timestamp": 83
+  },
+  {
+    "word": "will",
+    "timestamp": 83.33333333333333
+  },
+  {
+    "word": "say",
+    "timestamp": 83.66666666666667
+  },
+  {
+    "word": "user",
+    "timestamp": 84
+  },
+  {
+    "word": "and",
+    "timestamp": 84.33333333333333
+  },
+  {
+    "word": "name",
+    "timestamp": 84.66666666666667
+  },
+  {
+    "word": "john",
+    "timestamp": 85
+  },
+  {
+    "word": "and",
+    "timestamp": 85.33333333333333
+  },
+  {
+    "word": "for",
+    "timestamp": 85.66666666666667
+  },
+  {
+    "word": "the",
+    "timestamp": 86
+  },
+  {
+    "word": "surname",
+    "timestamp": 86.375
+  },
+  {
+    "word": "i",
+    "timestamp": 86.75
+  },
+  {
+    "word": "will",
+    "timestamp": 87.125
+  },
+  {
+    "word": "write",
+    "timestamp": 87.5
+  },
+  {
+    "word": "an",
+    "timestamp": 87.875
+  },
+  {
+    "word": "equal",
+    "timestamp": 88.25
+  },
+  {
+    "word": "sign",
+    "timestamp": 88.625
+  },
+  {
+    "word": "instead",
+    "timestamp": 89
+  },
+  {
+    "word": "of",
+    "timestamp": 89.22222222222223
+  },
+  {
+    "word": "a",
+    "timestamp": 89.44444444444444
+  },
+  {
+    "word": "column",
+    "timestamp": 89.66666666666667
+  },
+  {
+    "word": "so",
+    "timestamp": 89.88888888888889
+  },
+  {
+    "word": "we",
+    "timestamp": 90.11111111111111
+  },
+  {
+    "word": "can",
+    "timestamp": 90.33333333333333
+  },
+  {
+    "word": "see",
+    "timestamp": 90.55555555555556
+  },
+  {
+    "word": "the",
+    "timestamp": 90.77777777777777
+  },
+  {
+    "word": "error",
+    "timestamp": 91
+  },
+  {
+    "word": "again",
+    "timestamp": 91.5
+  },
+  {
+    "word": "let's",
+    "timestamp": 92
+  },
+  {
+    "word": "fix",
+    "timestamp": 92.5
+  },
+  {
+    "word": "it",
+    "timestamp": 93
+  },
+  {
+    "word": "and",
+    "timestamp": 93.5
+  },
+  {
+    "word": "the",
+    "timestamp": 94
+  },
+  {
+    "word": "second",
+    "timestamp": 94.5
+  },
+  {
+    "word": "awesome",
+    "timestamp": 95
+  },
+  {
+    "word": "thing",
+    "timestamp": 95.28571428571429
+  },
+  {
+    "word": "is",
+    "timestamp": 95.57142857142857
+  },
+  {
+    "word": "to",
+    "timestamp": 95.85714285714286
+  },
+  {
+    "word": "check",
+    "timestamp": 96.14285714285714
+  },
+  {
+    "word": "your",
+    "timestamp": 96.42857142857143
+  },
+  {
+    "word": "variable",
+    "timestamp": 96.71428571428571
+  },
+  {
+    "word": "or",
+    "timestamp": 97
+  },
+  {
+    "word": "function",
+    "timestamp": 97.28571428571429
+  },
+  {
+    "word": "results",
+    "timestamp": 97.57142857142857
+  },
+  {
+    "word": "you",
+    "timestamp": 97.85714285714286
+  },
+  {
+    "word": "don't",
+    "timestamp": 98.14285714285714
+  },
+  {
+    "word": "have",
+    "timestamp": 98.42857142857143
+  },
+  {
+    "word": "to",
+    "timestamp": 98.71428571428571
+  },
+  {
+    "word": "save",
+    "timestamp": 99
+  },
+  {
+    "word": "the",
+    "timestamp": 99.33333333333333
+  },
+  {
+    "word": "file",
+    "timestamp": 99.66666666666667
+  },
+  {
+    "word": "and",
+    "timestamp": 100
+  },
+  {
+    "word": "go",
+    "timestamp": 100.33333333333333
+  },
+  {
+    "word": "to",
+    "timestamp": 100.66666666666667
+  },
+  {
+    "word": "the",
+    "timestamp": 101
+  },
+  {
+    "word": "browser",
+    "timestamp": 101.33333333333333
+  },
+  {
+    "word": "you",
+    "timestamp": 101.66666666666667
+  },
+  {
+    "word": "can",
+    "timestamp": 102
+  },
+  {
+    "word": "directly",
+    "timestamp": 102.25
+  },
+  {
+    "word": "write",
+    "timestamp": 102.5
+  },
+  {
+    "word": "to",
+    "timestamp": 102.75
+  },
+  {
+    "word": "your",
+    "timestamp": 103
+  },
+  {
+    "word": "user",
+    "timestamp": 103.25
+  },
+  {
+    "word": "and",
+    "timestamp": 103.5
+  },
+  {
+    "word": "as",
+    "timestamp": 103.75
+  },
+  {
+    "word": "you",
+    "timestamp": 104
+  },
+  {
+    "word": "can",
+    "timestamp": 104.33333333333333
+  },
+  {
+    "word": "see",
+    "timestamp": 104.66666666666667
+  },
+  {
+    "word": "the",
+    "timestamp": 105
+  },
+  {
+    "word": "object",
+    "timestamp": 105.33333333333333
+  },
+  {
+    "word": "is",
+    "timestamp": 105.66666666666667
+  },
+  {
+    "word": "here",
+    "timestamp": 106
+  },
+  {
+    "word": "or",
+    "timestamp": 106.33333333333333
+  },
+  {
+    "word": "you",
+    "timestamp": 106.66666666666667
+  },
+  {
+    "word": "can",
+    "timestamp": 107
+  },
+  {
+    "word": "write",
+    "timestamp": 107.33333333333333
+  },
+  {
+    "word": "it",
+    "timestamp": 107.66666666666667
+  },
+  {
+    "word": "in",
+    "timestamp": 108
+  },
+  {
+    "word": "the",
+    "timestamp": 108.33333333333333
+  },
+  {
+    "word": "console",
+    "timestamp": 108.66666666666667
+  },
+  {
+    "word": "log",
+    "timestamp": 109
+  },
+  {
+    "word": "and",
+    "timestamp": 109.33333333333333
+  },
+  {
+    "word": "have",
+    "timestamp": 109.66666666666667
+  },
+  {
+    "word": "some",
+    "timestamp": 110
+  },
+  {
+    "word": "we",
+    "timestamp": 110.22222222222223
+  },
+  {
+    "word": "can",
+    "timestamp": 110.44444444444444
+  },
+  {
+    "word": "do",
+    "timestamp": 110.66666666666667
+  },
+  {
+    "word": "the",
+    "timestamp": 110.88888888888889
+  },
+  {
+    "word": "same",
+    "timestamp": 111.11111111111111
+  },
+  {
+    "word": "thing",
+    "timestamp": 111.33333333333333
+  },
+  {
+    "word": "for",
+    "timestamp": 111.55555555555556
+  },
+  {
+    "word": "a",
+    "timestamp": 111.77777777777777
+  },
+  {
+    "word": "function",
+    "timestamp": 112
+  },
+  {
+    "word": "let's",
+    "timestamp": 112.75
+  },
+  {
+    "word": "say",
+    "timestamp": 113.5
+  },
+  {
+    "word": "const",
+    "timestamp": 114.25
+  },
+  {
+    "word": "h",
+    "timestamp": 115
+  },
+  {
+    "word": "after",
+    "timestamp": 115.75
+  },
+  {
+    "word": "n",
+    "timestamp": 116.5
+  },
+  {
+    "word": "year",
+    "timestamp": 117.25
+  },
+  {
+    "word": "and",
+    "timestamp": 118
+  },
+  {
+    "word": "it's",
+    "timestamp": 118.375
+  },
+  {
+    "word": "gonna",
+    "timestamp": 118.75
+  },
+  {
+    "word": "return",
+    "timestamp": 119.125
+  },
+  {
+    "word": "the",
+    "timestamp": 119.5
+  },
+  {
+    "word": "age",
+    "timestamp": 119.875
+  },
+  {
+    "word": "after",
+    "timestamp": 120.25
+  },
+  {
+    "word": "and",
+    "timestamp": 120.625
+  },
+  {
+    "word": "year",
+    "timestamp": 121
+  },
+  {
+    "word": "let's",
+    "timestamp": 121.33333333333333
+  },
+  {
+    "word": "check",
+    "timestamp": 121.66666666666667
+  },
+  {
+    "word": "our",
+    "timestamp": 122
+  },
+  {
+    "word": "function",
+    "timestamp": 122.33333333333333
+  },
+  {
+    "word": "console",
+    "timestamp": 122.66666666666667
+  },
+  {
+    "word": "log",
+    "timestamp": 123
+  },
+  {
+    "word": "24",
+    "timestamp": 125
+  },
+  {
+    "word": "and",
+    "timestamp": 127
+  },
+  {
+    "word": "the",
+    "timestamp": 127.375
+  },
+  {
+    "word": "result",
+    "timestamp": 127.75
+  },
+  {
+    "word": "is",
+    "timestamp": 128.125
+  },
+  {
+    "word": "here",
+    "timestamp": 128.5
+  },
+  {
+    "word": "let's",
+    "timestamp": 128.875
+  },
+  {
+    "word": "use",
+    "timestamp": 129.25
+  },
+  {
+    "word": "the",
+    "timestamp": 129.625
+  },
+  {
+    "word": "user",
+    "timestamp": 130
+  },
+  {
+    "word": "user",
+    "timestamp": 132
+  },
+  {
+    "word": "dot",
+    "timestamp": 132.4
+  },
+  {
+    "word": "h",
+    "timestamp": 132.8
+  },
+  {
+    "word": "and",
+    "timestamp": 133.2
+  },
+  {
+    "word": "a",
+    "timestamp": 133.6
+  },
+  {
+    "word": "as",
+    "timestamp": 134
+  },
+  {
+    "word": "you",
+    "timestamp": 134.4
+  },
+  {
+    "word": "can",
+    "timestamp": 134.8
+  },
+  {
+    "word": "see",
+    "timestamp": 135.2
+  },
+  {
+    "word": "it's",
+    "timestamp": 135.6
+  },
+  {
+    "word": "that",
+    "timestamp": 136
+  },
+  {
+    "word": "easy",
+    "timestamp": 136.28571428571428
+  },
+  {
+    "word": "to",
+    "timestamp": 136.57142857142858
+  },
+  {
+    "word": "test",
+    "timestamp": 136.85714285714286
+  },
+  {
+    "word": "your",
+    "timestamp": 137.14285714285714
+  },
+  {
+    "word": "variable",
+    "timestamp": 137.42857142857142
+  },
+  {
+    "word": "and",
+    "timestamp": 137.71428571428572
+  },
+  {
+    "word": "functions",
+    "timestamp": 138
+  },
+  {
+    "word": "of",
+    "timestamp": 138.5
+  },
+  {
+    "word": "course",
+    "timestamp": 139
+  },
+  {
+    "word": "they",
+    "timestamp": 139.5
+  },
+  {
+    "word": "are",
+    "timestamp": 140
+  },
+  {
+    "word": "really",
+    "timestamp": 140.5
+  },
+  {
+    "word": "simple",
+    "timestamp": 141
+  },
+  {
+    "word": "examples",
+    "timestamp": 141.28571428571428
+  },
+  {
+    "word": "but",
+    "timestamp": 141.57142857142858
+  },
+  {
+    "word": "when",
+    "timestamp": 141.85714285714286
+  },
+  {
+    "word": "you",
+    "timestamp": 142.14285714285714
+  },
+  {
+    "word": "test",
+    "timestamp": 142.42857142857142
+  },
+  {
+    "word": "a",
+    "timestamp": 142.71428571428572
+  },
+  {
+    "word": "complex",
+    "timestamp": 143
+  },
+  {
+    "word": "function",
+    "timestamp": 143.42857142857142
+  },
+  {
+    "word": "or",
+    "timestamp": 143.85714285714286
+  },
+  {
+    "word": "a",
+    "timestamp": 144.28571428571428
+  },
+  {
+    "word": "long",
+    "timestamp": 144.71428571428572
+  },
+  {
+    "word": "object",
+    "timestamp": 145.14285714285714
+  },
+  {
+    "word": "or",
+    "timestamp": 145.57142857142858
+  },
+  {
+    "word": "array",
+    "timestamp": 146
+  },
+  {
+    "word": "trust",
+    "timestamp": 146.42857142857142
+  },
+  {
+    "word": "me",
+    "timestamp": 146.85714285714286
+  },
+  {
+    "word": "it's",
+    "timestamp": 147.28571428571428
+  },
+  {
+    "word": "a",
+    "timestamp": 147.71428571428572
+  },
+  {
+    "word": "lifesaver",
+    "timestamp": 148.14285714285714
+  },
+  {
+    "word": "let's",
+    "timestamp": 148.57142857142858
+  },
+  {
+    "word": "write",
+    "timestamp": 149
+  },
+  {
+    "word": "here",
+    "timestamp": 149.28571428571428
+  },
+  {
+    "word": "an",
+    "timestamp": 149.57142857142858
+  },
+  {
+    "word": "array",
+    "timestamp": 149.85714285714286
+  },
+  {
+    "word": "that",
+    "timestamp": 150.14285714285714
+  },
+  {
+    "word": "includes",
+    "timestamp": 150.42857142857142
+  },
+  {
+    "word": "a",
+    "timestamp": 150.71428571428572
+  },
+  {
+    "word": "couple",
+    "timestamp": 151
+  },
+  {
+    "word": "of",
+    "timestamp": 151.6
+  },
+  {
+    "word": "movies",
+    "timestamp": 152.2
+  },
+  {
+    "word": "like",
+    "timestamp": 152.8
+  },
+  {
+    "word": "that",
+    "timestamp": 153.4
+  },
+  {
+    "word": "and",
+    "timestamp": 154
+  },
+  {
+    "word": "let's",
+    "timestamp": 154.25
+  },
+  {
+    "word": "console",
+    "timestamp": 154.5
+  },
+  {
+    "word": "lock",
+    "timestamp": 154.75
+  },
+  {
+    "word": "as",
+    "timestamp": 155
+  },
+  {
+    "word": "you",
+    "timestamp": 155.25
+  },
+  {
+    "word": "can",
+    "timestamp": 155.5
+  },
+  {
+    "word": "see",
+    "timestamp": 155.75
+  },
+  {
+    "word": "the",
+    "timestamp": 156
+  },
+  {
+    "word": "result",
+    "timestamp": 156.33333333333334
+  },
+  {
+    "word": "is",
+    "timestamp": 156.66666666666666
+  },
+  {
+    "word": "too",
+    "timestamp": 157
+  },
+  {
+    "word": "long",
+    "timestamp": 157.33333333333334
+  },
+  {
+    "word": "but",
+    "timestamp": 157.66666666666666
+  },
+  {
+    "word": "if",
+    "timestamp": 158
+  },
+  {
+    "word": "i",
+    "timestamp": 158.33333333333334
+  },
+  {
+    "word": "hover",
+    "timestamp": 158.66666666666666
+  },
+  {
+    "word": "over",
+    "timestamp": 159
+  },
+  {
+    "word": "this",
+    "timestamp": 159.25
+  },
+  {
+    "word": "result",
+    "timestamp": 159.5
+  },
+  {
+    "word": "you",
+    "timestamp": 159.75
+  },
+  {
+    "word": "are",
+    "timestamp": 160
+  },
+  {
+    "word": "gonna",
+    "timestamp": 160.25
+  },
+  {
+    "word": "see",
+    "timestamp": 160.5
+  },
+  {
+    "word": "the",
+    "timestamp": 160.75
+  },
+  {
+    "word": "normal",
+    "timestamp": 161
+  },
+  {
+    "word": "version",
+    "timestamp": 161.375
+  },
+  {
+    "word": "and",
+    "timestamp": 161.75
+  },
+  {
+    "word": "also",
+    "timestamp": 162.125
+  },
+  {
+    "word": "you",
+    "timestamp": 162.5
+  },
+  {
+    "word": "can",
+    "timestamp": 162.875
+  },
+  {
+    "word": "see",
+    "timestamp": 163.25
+  },
+  {
+    "word": "it",
+    "timestamp": 163.625
+  },
+  {
+    "word": "here",
+    "timestamp": 164
+  },
+  {
+    "word": "in",
+    "timestamp": 164.375
+  },
+  {
+    "word": "the",
+    "timestamp": 164.75
+  },
+  {
+    "word": "terminal",
+    "timestamp": 165.125
+  },
+  {
+    "word": "or",
+    "timestamp": 165.5
+  },
+  {
+    "word": "if",
+    "timestamp": 165.875
+  },
+  {
+    "word": "you",
+    "timestamp": 166.25
+  },
+  {
+    "word": "check",
+    "timestamp": 166.625
+  },
+  {
+    "word": "this",
+    "timestamp": 167
+  },
+  {
+    "word": "tool",
+    "timestamp": 167.25
+  },
+  {
+    "word": "here",
+    "timestamp": 167.5
+  },
+  {
+    "word": "you",
+    "timestamp": 167.75
+  },
+  {
+    "word": "will",
+    "timestamp": 168
+  },
+  {
+    "word": "see",
+    "timestamp": 168.25
+  },
+  {
+    "word": "all",
+    "timestamp": 168.5
+  },
+  {
+    "word": "your",
+    "timestamp": 168.75
+  },
+  {
+    "word": "properties",
+    "timestamp": 169
+  },
+  {
+    "word": "and",
+    "timestamp": 169.66666666666666
+  },
+  {
+    "word": "their",
+    "timestamp": 170.33333333333334
+  },
+  {
+    "word": "types",
+    "timestamp": 171
+  },
+  {
+    "word": "string",
+    "timestamp": 171.66666666666666
+  },
+  {
+    "word": "array",
+    "timestamp": 172.33333333333334
+  },
+  {
+    "word": "number",
+    "timestamp": 173
+  },
+  {
+    "word": "something",
+    "timestamp": 173.28571428571428
+  },
+  {
+    "word": "like",
+    "timestamp": 173.57142857142858
+  },
+  {
+    "word": "that",
+    "timestamp": 173.85714285714286
+  },
+  {
+    "word": "let",
+    "timestamp": 174.14285714285714
+  },
+  {
+    "word": "me",
+    "timestamp": 174.42857142857142
+  },
+  {
+    "word": "show",
+    "timestamp": 174.71428571428572
+  },
+  {
+    "word": "you",
+    "timestamp": 175
+  },
+  {
+    "word": "one",
+    "timestamp": 175.22222222222223
+  },
+  {
+    "word": "more",
+    "timestamp": 175.44444444444446
+  },
+  {
+    "word": "thing",
+    "timestamp": 175.66666666666666
+  },
+  {
+    "word": "as",
+    "timestamp": 175.88888888888889
+  },
+  {
+    "word": "you",
+    "timestamp": 176.11111111111111
+  },
+  {
+    "word": "can",
+    "timestamp": 176.33333333333334
+  },
+  {
+    "word": "see",
+    "timestamp": 176.55555555555554
+  },
+  {
+    "word": "there",
+    "timestamp": 176.77777777777777
+  },
+  {
+    "word": "are",
+    "timestamp": 177
+  },
+  {
+    "word": "some",
+    "timestamp": 177.375
+  },
+  {
+    "word": "green",
+    "timestamp": 177.75
+  },
+  {
+    "word": "scares",
+    "timestamp": 178.125
+  },
+  {
+    "word": "here",
+    "timestamp": 178.5
+  },
+  {
+    "word": "and",
+    "timestamp": 178.875
+  },
+  {
+    "word": "if",
+    "timestamp": 179.25
+  },
+  {
+    "word": "you",
+    "timestamp": 179.625
+  },
+  {
+    "word": "write",
+    "timestamp": 180
+  },
+  {
+    "word": "anything",
+    "timestamp": 180.42857142857142
+  },
+  {
+    "word": "wrong",
+    "timestamp": 180.85714285714286
+  },
+  {
+    "word": "it's",
+    "timestamp": 181.28571428571428
+  },
+  {
+    "word": "gonna",
+    "timestamp": 181.71428571428572
+  },
+  {
+    "word": "show",
+    "timestamp": 182.14285714285714
+  },
+  {
+    "word": "red",
+    "timestamp": 182.57142857142858
+  },
+  {
+    "word": "basically",
+    "timestamp": 183
+  },
+  {
+    "word": "it",
+    "timestamp": 183.4
+  },
+  {
+    "word": "indicates",
+    "timestamp": 183.8
+  },
+  {
+    "word": "the",
+    "timestamp": 184.2
+  },
+  {
+    "word": "execution",
+    "timestamp": 184.6
+  },
+  {
+    "word": "status",
+    "timestamp": 185
+  },
+  {
+    "word": "when",
+    "timestamp": 185.5
+  },
+  {
+    "word": "you",
+    "timestamp": 186
+  },
+  {
+    "word": "write",
+    "timestamp": 186.5
+  },
+  {
+    "word": "variable",
+    "timestamp": 187
+  },
+  {
+    "word": "here",
+    "timestamp": 187.5
+  },
+  {
+    "word": "actually",
+    "timestamp": 188
+  },
+  {
+    "word": "it",
+    "timestamp": 188.42857142857142
+  },
+  {
+    "word": "executes",
+    "timestamp": 188.85714285714286
+  },
+  {
+    "word": "it",
+    "timestamp": 189.28571428571428
+  },
+  {
+    "word": "but",
+    "timestamp": 189.71428571428572
+  },
+  {
+    "word": "here",
+    "timestamp": 190.14285714285714
+  },
+  {
+    "word": "it's",
+    "timestamp": 190.57142857142858
+  },
+  {
+    "word": "not",
+    "timestamp": 191
+  },
+  {
+    "word": "executed",
+    "timestamp": 191.5
+  },
+  {
+    "word": "because",
+    "timestamp": 192
+  },
+  {
+    "word": "there's",
+    "timestamp": 192.5
+  },
+  {
+    "word": "an",
+    "timestamp": 193
+  },
+  {
+    "word": "error",
+    "timestamp": 193.5
+  },
+  {
+    "word": "there",
+    "timestamp": 194
+  },
+  {
+    "word": "is",
+    "timestamp": 194.375
+  },
+  {
+    "word": "also",
+    "timestamp": 194.75
+  },
+  {
+    "word": "a",
+    "timestamp": 195.125
+  },
+  {
+    "word": "gray",
+    "timestamp": 195.5
+  },
+  {
+    "word": "indicator",
+    "timestamp": 195.875
+  },
+  {
+    "word": "and",
+    "timestamp": 196.25
+  },
+  {
+    "word": "that",
+    "timestamp": 196.625
+  },
+  {
+    "word": "means",
+    "timestamp": 197
+  },
+  {
+    "word": "there",
+    "timestamp": 197.42857142857142
+  },
+  {
+    "word": "is",
+    "timestamp": 197.85714285714286
+  },
+  {
+    "word": "nothing",
+    "timestamp": 198.28571428571428
+  },
+  {
+    "word": "wrong",
+    "timestamp": 198.71428571428572
+  },
+  {
+    "word": "with",
+    "timestamp": 199.14285714285714
+  },
+  {
+    "word": "this",
+    "timestamp": 199.57142857142858
+  },
+  {
+    "word": "statement",
+    "timestamp": 200
+  },
+  {
+    "word": "but",
+    "timestamp": 200.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 201
+  },
+  {
+    "word": "not",
+    "timestamp": 201.5
+  },
+  {
+    "word": "executed",
+    "timestamp": 202
+  },
+  {
+    "word": "yet",
+    "timestamp": 202.5
+  },
+  {
+    "word": "let's",
+    "timestamp": 203
+  },
+  {
+    "word": "write",
+    "timestamp": 203.28571428571428
+  },
+  {
+    "word": "here",
+    "timestamp": 203.57142857142858
+  },
+  {
+    "word": "a",
+    "timestamp": 203.85714285714286
+  },
+  {
+    "word": "function",
+    "timestamp": 204.14285714285714
+  },
+  {
+    "word": "that",
+    "timestamp": 204.42857142857142
+  },
+  {
+    "word": "takes",
+    "timestamp": 204.71428571428572
+  },
+  {
+    "word": "two",
+    "timestamp": 205
+  },
+  {
+    "word": "numbers",
+    "timestamp": 205.33333333333334
+  },
+  {
+    "word": "and",
+    "timestamp": 205.66666666666666
+  },
+  {
+    "word": "sums",
+    "timestamp": 206
+  },
+  {
+    "word": "them",
+    "timestamp": 206.33333333333334
+  },
+  {
+    "word": "up",
+    "timestamp": 206.66666666666666
+  },
+  {
+    "word": "as",
+    "timestamp": 207
+  },
+  {
+    "word": "you",
+    "timestamp": 207.33333333333334
+  },
+  {
+    "word": "can",
+    "timestamp": 207.66666666666666
+  },
+  {
+    "word": "see",
+    "timestamp": 208
+  },
+  {
+    "word": "it's",
+    "timestamp": 208.42857142857142
+  },
+  {
+    "word": "great",
+    "timestamp": 208.85714285714286
+  },
+  {
+    "word": "that",
+    "timestamp": 209.28571428571428
+  },
+  {
+    "word": "because",
+    "timestamp": 209.71428571428572
+  },
+  {
+    "word": "we",
+    "timestamp": 210.14285714285714
+  },
+  {
+    "word": "didn't",
+    "timestamp": 210.57142857142858
+  },
+  {
+    "word": "actually",
+    "timestamp": 211
+  },
+  {
+    "word": "call",
+    "timestamp": 211.375
+  },
+  {
+    "word": "this",
+    "timestamp": 211.75
+  },
+  {
+    "word": "function",
+    "timestamp": 212.125
+  },
+  {
+    "word": "if",
+    "timestamp": 212.5
+  },
+  {
+    "word": "i",
+    "timestamp": 212.875
+  },
+  {
+    "word": "say",
+    "timestamp": 213.25
+  },
+  {
+    "word": "add",
+    "timestamp": 213.625
+  },
+  {
+    "word": "1",
+    "timestamp": 214
+  },
+  {
+    "word": "2",
+    "timestamp": 214.57142857142858
+  },
+  {
+    "word": "or",
+    "timestamp": 215.14285714285714
+  },
+  {
+    "word": "x",
+    "timestamp": 215.71428571428572
+  },
+  {
+    "word": "y",
+    "timestamp": 216.28571428571428
+  },
+  {
+    "word": "from",
+    "timestamp": 216.85714285714286
+  },
+  {
+    "word": "here",
+    "timestamp": 217.42857142857142
+  },
+  {
+    "word": "now",
+    "timestamp": 218
+  },
+  {
+    "word": "this",
+    "timestamp": 218.28571428571428
+  },
+  {
+    "word": "line",
+    "timestamp": 218.57142857142858
+  },
+  {
+    "word": "is",
+    "timestamp": 218.85714285714286
+  },
+  {
+    "word": "executed",
+    "timestamp": 219.14285714285714
+  },
+  {
+    "word": "and",
+    "timestamp": 219.42857142857142
+  },
+  {
+    "word": "it's",
+    "timestamp": 219.71428571428572
+  },
+  {
+    "word": "really",
+    "timestamp": 220
+  },
+  {
+    "word": "useful",
+    "timestamp": 220.6
+  },
+  {
+    "word": "because",
+    "timestamp": 221.2
+  },
+  {
+    "word": "sometimes",
+    "timestamp": 221.8
+  },
+  {
+    "word": "we",
+    "timestamp": 222.4
+  },
+  {
+    "word": "forget",
+    "timestamp": 223
+  },
+  {
+    "word": "calling",
+    "timestamp": 223.33333333333334
+  },
+  {
+    "word": "functions",
+    "timestamp": 223.66666666666666
+  },
+  {
+    "word": "or",
+    "timestamp": 224
+  },
+  {
+    "word": "we",
+    "timestamp": 224.33333333333334
+  },
+  {
+    "word": "get",
+    "timestamp": 224.66666666666666
+  },
+  {
+    "word": "different",
+    "timestamp": 225
+  },
+  {
+    "word": "results",
+    "timestamp": 225.33333333333334
+  },
+  {
+    "word": "instead",
+    "timestamp": 225.66666666666666
+  },
+  {
+    "word": "of",
+    "timestamp": 226
+  },
+  {
+    "word": "what",
+    "timestamp": 226.33333333333334
+  },
+  {
+    "word": "we",
+    "timestamp": 226.66666666666666
+  },
+  {
+    "word": "expect",
+    "timestamp": 227
+  },
+  {
+    "word": "but",
+    "timestamp": 228
+  },
+  {
+    "word": "thanks",
+    "timestamp": 228.5
+  },
+  {
+    "word": "to",
+    "timestamp": 229
+  },
+  {
+    "word": "these",
+    "timestamp": 229.5
+  },
+  {
+    "word": "indicators",
+    "timestamp": 230
+  },
+  {
+    "word": "it's",
+    "timestamp": 230.5
+  },
+  {
+    "word": "really",
+    "timestamp": 231
+  },
+  {
+    "word": "easy",
+    "timestamp": 231.14285714285714
+  },
+  {
+    "word": "to",
+    "timestamp": 231.28571428571428
+  },
+  {
+    "word": "figure",
+    "timestamp": 231.42857142857142
+  },
+  {
+    "word": "out",
+    "timestamp": 231.57142857142858
+  },
+  {
+    "word": "where",
+    "timestamp": 231.71428571428572
+  },
+  {
+    "word": "the",
+    "timestamp": 231.85714285714286
+  },
+  {
+    "word": "problem",
+    "timestamp": 232
+  },
+  {
+    "word": "is",
+    "timestamp": 232.42857142857142
+  },
+  {
+    "word": "especially",
+    "timestamp": 232.85714285714286
+  },
+  {
+    "word": "if",
+    "timestamp": 233.28571428571428
+  },
+  {
+    "word": "you",
+    "timestamp": 233.71428571428572
+  },
+  {
+    "word": "are",
+    "timestamp": 234.14285714285714
+  },
+  {
+    "word": "using",
+    "timestamp": 234.57142857142858
+  },
+  {
+    "word": "an",
+    "timestamp": 235
+  },
+  {
+    "word": "api",
+    "timestamp": 235.33333333333334
+  },
+  {
+    "word": "let's",
+    "timestamp": 235.66666666666666
+  },
+  {
+    "word": "say",
+    "timestamp": 236
+  },
+  {
+    "word": "we",
+    "timestamp": 236.33333333333334
+  },
+  {
+    "word": "have",
+    "timestamp": 236.66666666666666
+  },
+  {
+    "word": "an",
+    "timestamp": 237
+  },
+  {
+    "word": "api",
+    "timestamp": 237.33333333333334
+  },
+  {
+    "word": "server",
+    "timestamp": 237.66666666666666
+  },
+  {
+    "word": "it",
+    "timestamp": 238
+  },
+  {
+    "word": "runs",
+    "timestamp": 238.5
+  },
+  {
+    "word": "on",
+    "timestamp": 239
+  },
+  {
+    "word": "localhost",
+    "timestamp": 239.5
+  },
+  {
+    "word": "5000",
+    "timestamp": 240
+  },
+  {
+    "word": "and",
+    "timestamp": 240.5
+  },
+  {
+    "word": "when",
+    "timestamp": 241
+  },
+  {
+    "word": "we",
+    "timestamp": 241.5
+  },
+  {
+    "word": "make",
+    "timestamp": 242
+  },
+  {
+    "word": "a",
+    "timestamp": 242.28571428571428
+  },
+  {
+    "word": "request",
+    "timestamp": 242.57142857142858
+  },
+  {
+    "word": "for",
+    "timestamp": 242.85714285714286
+  },
+  {
+    "word": "this",
+    "timestamp": 243.14285714285714
+  },
+  {
+    "word": "user's",
+    "timestamp": 243.42857142857142
+  },
+  {
+    "word": "endpoint",
+    "timestamp": 243.71428571428572
+  },
+  {
+    "word": "it's",
+    "timestamp": 244
+  },
+  {
+    "word": "gonna",
+    "timestamp": 244.42857142857142
+  },
+  {
+    "word": "call",
+    "timestamp": 244.85714285714286
+  },
+  {
+    "word": "users",
+    "timestamp": 245.28571428571428
+  },
+  {
+    "word": "router",
+    "timestamp": 245.71428571428572
+  },
+  {
+    "word": "and",
+    "timestamp": 246.14285714285714
+  },
+  {
+    "word": "inside",
+    "timestamp": 246.57142857142858
+  },
+  {
+    "word": "this",
+    "timestamp": 247
+  },
+  {
+    "word": "router",
+    "timestamp": 247.375
+  },
+  {
+    "word": "we",
+    "timestamp": 247.75
+  },
+  {
+    "word": "have",
+    "timestamp": 248.125
+  },
+  {
+    "word": "some",
+    "timestamp": 248.5
+  },
+  {
+    "word": "users",
+    "timestamp": 248.875
+  },
+  {
+    "word": "and",
+    "timestamp": 249.25
+  },
+  {
+    "word": "after",
+    "timestamp": 249.625
+  },
+  {
+    "word": "get",
+    "timestamp": 250
+  },
+  {
+    "word": "request",
+    "timestamp": 250.42857142857142
+  },
+  {
+    "word": "it",
+    "timestamp": 250.85714285714286
+  },
+  {
+    "word": "returns",
+    "timestamp": 251.28571428571428
+  },
+  {
+    "word": "those",
+    "timestamp": 251.71428571428572
+  },
+  {
+    "word": "users",
+    "timestamp": 252.14285714285714
+  },
+  {
+    "word": "it's",
+    "timestamp": 252.57142857142858
+  },
+  {
+    "word": "a",
+    "timestamp": 253
+  },
+  {
+    "word": "simple",
+    "timestamp": 253.33333333333334
+  },
+  {
+    "word": "api",
+    "timestamp": 253.66666666666666
+  },
+  {
+    "word": "and",
+    "timestamp": 254
+  },
+  {
+    "word": "in",
+    "timestamp": 254.33333333333334
+  },
+  {
+    "word": "the",
+    "timestamp": 254.66666666666666
+  },
+  {
+    "word": "client",
+    "timestamp": 255
+  },
+  {
+    "word": "side",
+    "timestamp": 255.33333333333334
+  },
+  {
+    "word": "to",
+    "timestamp": 255.66666666666666
+  },
+  {
+    "word": "get",
+    "timestamp": 256
+  },
+  {
+    "word": "those",
+    "timestamp": 256.2857142857143
+  },
+  {
+    "word": "users",
+    "timestamp": 256.57142857142856
+  },
+  {
+    "word": "i'm",
+    "timestamp": 256.85714285714283
+  },
+  {
+    "word": "gonna",
+    "timestamp": 257.14285714285717
+  },
+  {
+    "word": "use",
+    "timestamp": 257.42857142857144
+  },
+  {
+    "word": "this",
+    "timestamp": 257.7142857142857
+  },
+  {
+    "word": "function",
+    "timestamp": 258
+  },
+  {
+    "word": "as",
+    "timestamp": 258.375
+  },
+  {
+    "word": "you",
+    "timestamp": 258.75
+  },
+  {
+    "word": "can",
+    "timestamp": 259.125
+  },
+  {
+    "word": "see",
+    "timestamp": 259.5
+  },
+  {
+    "word": "i'm",
+    "timestamp": 259.875
+  },
+  {
+    "word": "making",
+    "timestamp": 260.25
+  },
+  {
+    "word": "a",
+    "timestamp": 260.625
+  },
+  {
+    "word": "request",
+    "timestamp": 261
+  },
+  {
+    "word": "for",
+    "timestamp": 261.3333333333333
+  },
+  {
+    "word": "the",
+    "timestamp": 261.6666666666667
+  },
+  {
+    "word": "user's",
+    "timestamp": 262
+  },
+  {
+    "word": "endpoint",
+    "timestamp": 262.3333333333333
+  },
+  {
+    "word": "it's",
+    "timestamp": 262.6666666666667
+  },
+  {
+    "word": "gonna",
+    "timestamp": 263
+  },
+  {
+    "word": "print",
+    "timestamp": 263.2857142857143
+  },
+  {
+    "word": "those",
+    "timestamp": 263.57142857142856
+  },
+  {
+    "word": "users",
+    "timestamp": 263.85714285714283
+  },
+  {
+    "word": "if",
+    "timestamp": 264.14285714285717
+  },
+  {
+    "word": "there's",
+    "timestamp": 264.42857142857144
+  },
+  {
+    "word": "an",
+    "timestamp": 264.7142857142857
+  },
+  {
+    "word": "error",
+    "timestamp": 265
+  },
+  {
+    "word": "it's",
+    "timestamp": 265.375
+  },
+  {
+    "word": "gonna",
+    "timestamp": 265.75
+  },
+  {
+    "word": "show",
+    "timestamp": 266.125
+  },
+  {
+    "word": "up",
+    "timestamp": 266.5
+  },
+  {
+    "word": "here",
+    "timestamp": 266.875
+  },
+  {
+    "word": "let's",
+    "timestamp": 267.25
+  },
+  {
+    "word": "call",
+    "timestamp": 267.625
+  },
+  {
+    "word": "the",
+    "timestamp": 268
+  },
+  {
+    "word": "function",
+    "timestamp": 268.5
+  },
+  {
+    "word": "so",
+    "timestamp": 269
+  },
+  {
+    "word": "we",
+    "timestamp": 269.5
+  },
+  {
+    "word": "can",
+    "timestamp": 270
+  },
+  {
+    "word": "see",
+    "timestamp": 270.5
+  },
+  {
+    "word": "the",
+    "timestamp": 271
+  },
+  {
+    "word": "request",
+    "timestamp": 271.5
+  },
+  {
+    "word": "details",
+    "timestamp": 272
+  },
+  {
+    "word": "status",
+    "timestamp": 272.5
+  },
+  {
+    "word": "headers",
+    "timestamp": 273
+  },
+  {
+    "word": "so",
+    "timestamp": 273.3333333333333
+  },
+  {
+    "word": "on",
+    "timestamp": 273.6666666666667
+  },
+  {
+    "word": "and",
+    "timestamp": 274
+  },
+  {
+    "word": "here",
+    "timestamp": 274.3333333333333
+  },
+  {
+    "word": "we",
+    "timestamp": 274.6666666666667
+  },
+  {
+    "word": "have",
+    "timestamp": 275
+  },
+  {
+    "word": "the",
+    "timestamp": 275.3333333333333
+  },
+  {
+    "word": "users",
+    "timestamp": 275.6666666666667
+  },
+  {
+    "word": "and",
+    "timestamp": 276
+  },
+  {
+    "word": "as",
+    "timestamp": 276.375
+  },
+  {
+    "word": "you",
+    "timestamp": 276.75
+  },
+  {
+    "word": "realize",
+    "timestamp": 277.125
+  },
+  {
+    "word": "this",
+    "timestamp": 277.5
+  },
+  {
+    "word": "block",
+    "timestamp": 277.875
+  },
+  {
+    "word": "is",
+    "timestamp": 278.25
+  },
+  {
+    "word": "green",
+    "timestamp": 278.625
+  },
+  {
+    "word": "and",
+    "timestamp": 279
+  },
+  {
+    "word": "this",
+    "timestamp": 279.375
+  },
+  {
+    "word": "block",
+    "timestamp": 279.75
+  },
+  {
+    "word": "is",
+    "timestamp": 280.125
+  },
+  {
+    "word": "gray",
+    "timestamp": 280.5
+  },
+  {
+    "word": "because",
+    "timestamp": 280.875
+  },
+  {
+    "word": "the",
+    "timestamp": 281.25
+  },
+  {
+    "word": "error",
+    "timestamp": 281.625
+  },
+  {
+    "word": "is",
+    "timestamp": 282
+  },
+  {
+    "word": "not",
+    "timestamp": 282.25
+  },
+  {
+    "word": "executed",
+    "timestamp": 282.5
+  },
+  {
+    "word": "let's",
+    "timestamp": 282.75
+  },
+  {
+    "word": "say",
+    "timestamp": 283
+  },
+  {
+    "word": "we",
+    "timestamp": 283.25
+  },
+  {
+    "word": "had",
+    "timestamp": 283.5
+  },
+  {
+    "word": "a",
+    "timestamp": 283.75
+  },
+  {
+    "word": "mistake",
+    "timestamp": 284
+  },
+  {
+    "word": "and",
+    "timestamp": 284.42857142857144
+  },
+  {
+    "word": "wrote",
+    "timestamp": 284.85714285714283
+  },
+  {
+    "word": "here",
+    "timestamp": 285.2857142857143
+  },
+  {
+    "word": "double",
+    "timestamp": 285.7142857142857
+  },
+  {
+    "word": "s",
+    "timestamp": 286.14285714285717
+  },
+  {
+    "word": "for",
+    "timestamp": 286.57142857142856
+  },
+  {
+    "word": "example",
+    "timestamp": 287
+  },
+  {
+    "word": "this",
+    "timestamp": 287.42857142857144
+  },
+  {
+    "word": "time",
+    "timestamp": 287.85714285714283
+  },
+  {
+    "word": "this",
+    "timestamp": 288.2857142857143
+  },
+  {
+    "word": "line",
+    "timestamp": 288.7142857142857
+  },
+  {
+    "word": "is",
+    "timestamp": 289.14285714285717
+  },
+  {
+    "word": "not",
+    "timestamp": 289.57142857142856
+  },
+  {
+    "word": "executed",
+    "timestamp": 290
+  },
+  {
+    "word": "because",
+    "timestamp": 290.2857142857143
+  },
+  {
+    "word": "there",
+    "timestamp": 290.57142857142856
+  },
+  {
+    "word": "is",
+    "timestamp": 290.85714285714283
+  },
+  {
+    "word": "no",
+    "timestamp": 291.14285714285717
+  },
+  {
+    "word": "data",
+    "timestamp": 291.42857142857144
+  },
+  {
+    "word": "and",
+    "timestamp": 291.7142857142857
+  },
+  {
+    "word": "the",
+    "timestamp": 292
+  },
+  {
+    "word": "error",
+    "timestamp": 292.3333333333333
+  },
+  {
+    "word": "line",
+    "timestamp": 292.6666666666667
+  },
+  {
+    "word": "is",
+    "timestamp": 293
+  },
+  {
+    "word": "green",
+    "timestamp": 293.3333333333333
+  },
+  {
+    "word": "and",
+    "timestamp": 293.6666666666667
+  },
+  {
+    "word": "we",
+    "timestamp": 294
+  },
+  {
+    "word": "can",
+    "timestamp": 294.3333333333333
+  },
+  {
+    "word": "see",
+    "timestamp": 294.6666666666667
+  },
+  {
+    "word": "the",
+    "timestamp": 295
+  },
+  {
+    "word": "error",
+    "timestamp": 295.5
+  },
+  {
+    "word": "details",
+    "timestamp": 296
+  },
+  {
+    "word": "and",
+    "timestamp": 296.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 297
+  },
+  {
+    "word": "404",
+    "timestamp": 297.5
+  },
+  {
+    "word": "so",
+    "timestamp": 298
+  },
+  {
+    "word": "you",
+    "timestamp": 298.5
+  },
+  {
+    "word": "don't",
+    "timestamp": 299
+  },
+  {
+    "word": "have",
+    "timestamp": 299.25
+  },
+  {
+    "word": "to",
+    "timestamp": 299.5
+  },
+  {
+    "word": "go",
+    "timestamp": 299.75
+  },
+  {
+    "word": "to",
+    "timestamp": 300
+  },
+  {
+    "word": "the",
+    "timestamp": 300.25
+  },
+  {
+    "word": "browser",
+    "timestamp": 300.5
+  },
+  {
+    "word": "open",
+    "timestamp": 300.75
+  },
+  {
+    "word": "your",
+    "timestamp": 301
+  },
+  {
+    "word": "console",
+    "timestamp": 301.2857142857143
+  },
+  {
+    "word": "and",
+    "timestamp": 301.57142857142856
+  },
+  {
+    "word": "check",
+    "timestamp": 301.85714285714283
+  },
+  {
+    "word": "where",
+    "timestamp": 302.14285714285717
+  },
+  {
+    "word": "the",
+    "timestamp": 302.42857142857144
+  },
+  {
+    "word": "problem",
+    "timestamp": 302.7142857142857
+  },
+  {
+    "word": "is",
+    "timestamp": 303
+  },
+  {
+    "word": "it",
+    "timestamp": 303.375
+  },
+  {
+    "word": "makes",
+    "timestamp": 303.75
+  },
+  {
+    "word": "you",
+    "timestamp": 304.125
+  },
+  {
+    "word": "much",
+    "timestamp": 304.5
+  },
+  {
+    "word": "more",
+    "timestamp": 304.875
+  },
+  {
+    "word": "faster",
+    "timestamp": 305.25
+  },
+  {
+    "word": "and",
+    "timestamp": 305.625
+  },
+  {
+    "word": "productive",
+    "timestamp": 306
+  },
+  {
+    "word": "and",
+    "timestamp": 306.2857142857143
+  },
+  {
+    "word": "all",
+    "timestamp": 306.57142857142856
+  },
+  {
+    "word": "these",
+    "timestamp": 306.85714285714283
+  },
+  {
+    "word": "features",
+    "timestamp": 307.14285714285717
+  },
+  {
+    "word": "in",
+    "timestamp": 307.42857142857144
+  },
+  {
+    "word": "the",
+    "timestamp": 307.7142857142857
+  },
+  {
+    "word": "free",
+    "timestamp": 308
+  },
+  {
+    "word": "community",
+    "timestamp": 308.42857142857144
+  },
+  {
+    "word": "edition",
+    "timestamp": 308.85714285714283
+  },
+  {
+    "word": "there",
+    "timestamp": 309.2857142857143
+  },
+  {
+    "word": "is",
+    "timestamp": 309.7142857142857
+  },
+  {
+    "word": "also",
+    "timestamp": 310.14285714285717
+  },
+  {
+    "word": "pro",
+    "timestamp": 310.57142857142856
+  },
+  {
+    "word": "version",
+    "timestamp": 311
+  },
+  {
+    "word": "for",
+    "timestamp": 311.2857142857143
+  },
+  {
+    "word": "more",
+    "timestamp": 311.57142857142856
+  },
+  {
+    "word": "features",
+    "timestamp": 311.85714285714283
+  },
+  {
+    "word": "if",
+    "timestamp": 312.14285714285717
+  },
+  {
+    "word": "you",
+    "timestamp": 312.42857142857144
+  },
+  {
+    "word": "are",
+    "timestamp": 312.7142857142857
+  },
+  {
+    "word": "using",
+    "timestamp": 313
+  },
+  {
+    "word": "to",
+    "timestamp": 313.25
+  },
+  {
+    "word": "pro",
+    "timestamp": 313.5
+  },
+  {
+    "word": "version",
+    "timestamp": 313.75
+  },
+  {
+    "word": "you",
+    "timestamp": 314
+  },
+  {
+    "word": "don't",
+    "timestamp": 314.25
+  },
+  {
+    "word": "have",
+    "timestamp": 314.5
+  },
+  {
+    "word": "to",
+    "timestamp": 314.75
+  },
+  {
+    "word": "write",
+    "timestamp": 315
+  },
+  {
+    "word": "console",
+    "timestamp": 315.5
+  },
+  {
+    "word": "log",
+    "timestamp": 316
+  },
+  {
+    "word": "you",
+    "timestamp": 316.5
+  },
+  {
+    "word": "can",
+    "timestamp": 317
+  },
+  {
+    "word": "directly",
+    "timestamp": 317.5
+  },
+  {
+    "word": "select",
+    "timestamp": 318
+  },
+  {
+    "word": "what",
+    "timestamp": 318.22222222222223
+  },
+  {
+    "word": "you",
+    "timestamp": 318.44444444444446
+  },
+  {
+    "word": "want",
+    "timestamp": 318.6666666666667
+  },
+  {
+    "word": "to",
+    "timestamp": 318.8888888888889
+  },
+  {
+    "word": "see",
+    "timestamp": 319.1111111111111
+  },
+  {
+    "word": "like",
+    "timestamp": 319.3333333333333
+  },
+  {
+    "word": "that",
+    "timestamp": 319.55555555555554
+  },
+  {
+    "word": "or",
+    "timestamp": 319.77777777777777
+  },
+  {
+    "word": "you",
+    "timestamp": 320
+  },
+  {
+    "word": "can",
+    "timestamp": 320.375
+  },
+  {
+    "word": "use",
+    "timestamp": 320.75
+  },
+  {
+    "word": "live",
+    "timestamp": 321.125
+  },
+  {
+    "word": "comments",
+    "timestamp": 321.5
+  },
+  {
+    "word": "to",
+    "timestamp": 321.875
+  },
+  {
+    "word": "check",
+    "timestamp": 322.25
+  },
+  {
+    "word": "any",
+    "timestamp": 322.625
+  },
+  {
+    "word": "function",
+    "timestamp": 323
+  },
+  {
+    "word": "any",
+    "timestamp": 323.375
+  },
+  {
+    "word": "method",
+    "timestamp": 323.75
+  },
+  {
+    "word": "or",
+    "timestamp": 324.125
+  },
+  {
+    "word": "you",
+    "timestamp": 324.5
+  },
+  {
+    "word": "can",
+    "timestamp": 324.875
+  },
+  {
+    "word": "use",
+    "timestamp": 325.25
+  },
+  {
+    "word": "quick",
+    "timestamp": 325.625
+  },
+  {
+    "word": "package",
+    "timestamp": 326
+  },
+  {
+    "word": "installation",
+    "timestamp": 326.5
+  },
+  {
+    "word": "so",
+    "timestamp": 327
+  },
+  {
+    "word": "you",
+    "timestamp": 327.5
+  },
+  {
+    "word": "don't",
+    "timestamp": 328
+  },
+  {
+    "word": "have",
+    "timestamp": 328.5
+  },
+  {
+    "word": "to",
+    "timestamp": 329
+  },
+  {
+    "word": "write",
+    "timestamp": 329.2857142857143
+  },
+  {
+    "word": "npm",
+    "timestamp": 329.57142857142856
+  },
+  {
+    "word": "install",
+    "timestamp": 329.85714285714283
+  },
+  {
+    "word": "and",
+    "timestamp": 330.14285714285717
+  },
+  {
+    "word": "package",
+    "timestamp": 330.42857142857144
+  },
+  {
+    "word": "name",
+    "timestamp": 330.7142857142857
+  },
+  {
+    "word": "you",
+    "timestamp": 331
+  },
+  {
+    "word": "can",
+    "timestamp": 331.42857142857144
+  },
+  {
+    "word": "directly",
+    "timestamp": 331.85714285714283
+  },
+  {
+    "word": "install",
+    "timestamp": 332.2857142857143
+  },
+  {
+    "word": "from",
+    "timestamp": 332.7142857142857
+  },
+  {
+    "word": "here",
+    "timestamp": 333.14285714285717
+  },
+  {
+    "word": "and",
+    "timestamp": 333.57142857142856
+  },
+  {
+    "word": "other",
+    "timestamp": 334
+  },
+  {
+    "word": "have",
+    "timestamp": 334.5
+  },
+  {
+    "word": "some",
+    "timestamp": 335
+  },
+  {
+    "word": "features",
+    "timestamp": 335.5
+  },
+  {
+    "word": "you",
+    "timestamp": 336
+  },
+  {
+    "word": "should",
+    "timestamp": 336.5
+  },
+  {
+    "word": "definitely",
+    "timestamp": 337
+  },
+  {
+    "word": "check",
+    "timestamp": 337.5
+  },
+  {
+    "word": "that",
+    "timestamp": 338
+  },
+  {
+    "word": "out",
+    "timestamp": 338.5
+  },
+  {
+    "word": "the",
+    "timestamp": 339
+  },
+  {
+    "word": "second",
+    "timestamp": 339.3333333333333
+  },
+  {
+    "word": "extension",
+    "timestamp": 339.6666666666667
+  },
+  {
+    "word": "is",
+    "timestamp": 340
+  },
+  {
+    "word": "actually",
+    "timestamp": 340.3333333333333
+  },
+  {
+    "word": "it's",
+    "timestamp": 340.6666666666667
+  },
+  {
+    "word": "not",
+    "timestamp": 341
+  },
+  {
+    "word": "going",
+    "timestamp": 341.25
+  },
+  {
+    "word": "to",
+    "timestamp": 341.5
+  },
+  {
+    "word": "be",
+    "timestamp": 341.75
+  },
+  {
+    "word": "a",
+    "timestamp": 342
+  },
+  {
+    "word": "single",
+    "timestamp": 342.25
+  },
+  {
+    "word": "extension",
+    "timestamp": 342.5
+  },
+  {
+    "word": "i'm",
+    "timestamp": 342.75
+  },
+  {
+    "word": "going",
+    "timestamp": 343
+  },
+  {
+    "word": "to",
+    "timestamp": 343.25
+  },
+  {
+    "word": "show",
+    "timestamp": 343.5
+  },
+  {
+    "word": "you",
+    "timestamp": 343.75
+  },
+  {
+    "word": "my",
+    "timestamp": 344
+  },
+  {
+    "word": "favorite",
+    "timestamp": 344.25
+  },
+  {
+    "word": "we",
+    "timestamp": 344.5
+  },
+  {
+    "word": "have",
+    "timestamp": 344.75
+  },
+  {
+    "word": "got",
+    "timestamp": 345
+  },
+  {
+    "word": "teams",
+    "timestamp": 345.625
+  },
+  {
+    "word": "and",
+    "timestamp": 346.25
+  },
+  {
+    "word": "first",
+    "timestamp": 346.875
+  },
+  {
+    "word": "one",
+    "timestamp": 347.5
+  },
+  {
+    "word": "is",
+    "timestamp": 348.125
+  },
+  {
+    "word": "material",
+    "timestamp": 348.75
+  },
+  {
+    "word": "team",
+    "timestamp": 349.375
+  },
+  {
+    "word": "after",
+    "timestamp": 350
+  },
+  {
+    "word": "the",
+    "timestamp": 350.5
+  },
+  {
+    "word": "installation",
+    "timestamp": 351
+  },
+  {
+    "word": "you",
+    "timestamp": 351.5
+  },
+  {
+    "word": "can",
+    "timestamp": 352
+  },
+  {
+    "word": "click",
+    "timestamp": 352.5
+  },
+  {
+    "word": "here",
+    "timestamp": 353
+  },
+  {
+    "word": "and",
+    "timestamp": 353.22222222222223
+  },
+  {
+    "word": "choose",
+    "timestamp": 353.44444444444446
+  },
+  {
+    "word": "a",
+    "timestamp": 353.6666666666667
+  },
+  {
+    "word": "team",
+    "timestamp": 353.8888888888889
+  },
+  {
+    "word": "and",
+    "timestamp": 354.1111111111111
+  },
+  {
+    "word": "as",
+    "timestamp": 354.3333333333333
+  },
+  {
+    "word": "you",
+    "timestamp": 354.55555555555554
+  },
+  {
+    "word": "can",
+    "timestamp": 354.77777777777777
+  },
+  {
+    "word": "see",
+    "timestamp": 355
+  },
+  {
+    "word": "there",
+    "timestamp": 355.42857142857144
+  },
+  {
+    "word": "are",
+    "timestamp": 355.85714285714283
+  },
+  {
+    "word": "many",
+    "timestamp": 356.2857142857143
+  },
+  {
+    "word": "themes",
+    "timestamp": 356.7142857142857
+  },
+  {
+    "word": "here",
+    "timestamp": 357.14285714285717
+  },
+  {
+    "word": "actually",
+    "timestamp": 357.57142857142856
+  },
+  {
+    "word": "let's",
+    "timestamp": 358
+  },
+  {
+    "word": "open",
+    "timestamp": 358.25
+  },
+  {
+    "word": "a",
+    "timestamp": 358.5
+  },
+  {
+    "word": "javascript",
+    "timestamp": 358.75
+  },
+  {
+    "word": "file",
+    "timestamp": 359
+  },
+  {
+    "word": "here",
+    "timestamp": 359.25
+  },
+  {
+    "word": "and",
+    "timestamp": 359.5
+  },
+  {
+    "word": "we",
+    "timestamp": 359.75
+  },
+  {
+    "word": "can",
+    "timestamp": 360
+  },
+  {
+    "word": "see",
+    "timestamp": 360.44444444444446
+  },
+  {
+    "word": "better",
+    "timestamp": 360.8888888888889
+  },
+  {
+    "word": "to",
+    "timestamp": 361.3333333333333
+  },
+  {
+    "word": "do",
+    "timestamp": 361.77777777777777
+  },
+  {
+    "word": "that",
+    "timestamp": 362.22222222222223
+  },
+  {
+    "word": "again",
+    "timestamp": 362.6666666666667
+  },
+  {
+    "word": "have",
+    "timestamp": 363.1111111111111
+  },
+  {
+    "word": "fun",
+    "timestamp": 363.55555555555554
+  },
+  {
+    "word": "and",
+    "timestamp": 364
+  },
+  {
+    "word": "i",
+    "timestamp": 364.375
+  },
+  {
+    "word": "will",
+    "timestamp": 364.75
+  },
+  {
+    "word": "say",
+    "timestamp": 365.125
+  },
+  {
+    "word": "team",
+    "timestamp": 365.5
+  },
+  {
+    "word": "and",
+    "timestamp": 365.875
+  },
+  {
+    "word": "choose",
+    "timestamp": 366.25
+  },
+  {
+    "word": "color",
+    "timestamp": 366.625
+  },
+  {
+    "word": "team",
+    "timestamp": 367
+  },
+  {
+    "word": "after",
+    "timestamp": 367.3333333333333
+  },
+  {
+    "word": "you",
+    "timestamp": 367.6666666666667
+  },
+  {
+    "word": "can",
+    "timestamp": 368
+  },
+  {
+    "word": "choose",
+    "timestamp": 368.3333333333333
+  },
+  {
+    "word": "any",
+    "timestamp": 368.6666666666667
+  },
+  {
+    "word": "of",
+    "timestamp": 369
+  },
+  {
+    "word": "them",
+    "timestamp": 369.3333333333333
+  },
+  {
+    "word": "to",
+    "timestamp": 369.6666666666667
+  },
+  {
+    "word": "be",
+    "timestamp": 370
+  },
+  {
+    "word": "honest",
+    "timestamp": 370.25
+  },
+  {
+    "word": "i",
+    "timestamp": 370.5
+  },
+  {
+    "word": "don't",
+    "timestamp": 370.75
+  },
+  {
+    "word": "like",
+    "timestamp": 371
+  },
+  {
+    "word": "dark",
+    "timestamp": 371.25
+  },
+  {
+    "word": "themes",
+    "timestamp": 371.5
+  },
+  {
+    "word": "of",
+    "timestamp": 371.75
+  },
+  {
+    "word": "material",
+    "timestamp": 372
+  },
+  {
+    "word": "team",
+    "timestamp": 372.42857142857144
+  },
+  {
+    "word": "but",
+    "timestamp": 372.85714285714283
+  },
+  {
+    "word": "its",
+    "timestamp": 373.2857142857143
+  },
+  {
+    "word": "light",
+    "timestamp": 373.7142857142857
+  },
+  {
+    "word": "teams",
+    "timestamp": 374.14285714285717
+  },
+  {
+    "word": "are",
+    "timestamp": 374.57142857142856
+  },
+  {
+    "word": "awesome",
+    "timestamp": 375
+  },
+  {
+    "word": "i",
+    "timestamp": 375.375
+  },
+  {
+    "word": "usually",
+    "timestamp": 375.75
+  },
+  {
+    "word": "use",
+    "timestamp": 376.125
+  },
+  {
+    "word": "light",
+    "timestamp": 376.5
+  },
+  {
+    "word": "team",
+    "timestamp": 376.875
+  },
+  {
+    "word": "when",
+    "timestamp": 377.25
+  },
+  {
+    "word": "i",
+    "timestamp": 377.625
+  },
+  {
+    "word": "write",
+    "timestamp": 378
+  },
+  {
+    "word": "code",
+    "timestamp": 378.3333333333333
+  },
+  {
+    "word": "in",
+    "timestamp": 378.6666666666667
+  },
+  {
+    "word": "the",
+    "timestamp": 379
+  },
+  {
+    "word": "morning",
+    "timestamp": 379.3333333333333
+  },
+  {
+    "word": "but",
+    "timestamp": 379.6666666666667
+  },
+  {
+    "word": "after",
+    "timestamp": 380
+  },
+  {
+    "word": "3",
+    "timestamp": 380.3333333333333
+  },
+  {
+    "word": "pm",
+    "timestamp": 380.6666666666667
+  },
+  {
+    "word": "4",
+    "timestamp": 381
+  },
+  {
+    "word": "pm",
+    "timestamp": 381.27272727272725
+  },
+  {
+    "word": "i",
+    "timestamp": 381.54545454545456
+  },
+  {
+    "word": "change",
+    "timestamp": 381.8181818181818
+  },
+  {
+    "word": "it",
+    "timestamp": 382.09090909090907
+  },
+  {
+    "word": "to",
+    "timestamp": 382.3636363636364
+  },
+  {
+    "word": "the",
+    "timestamp": 382.6363636363636
+  },
+  {
+    "word": "dark",
+    "timestamp": 382.90909090909093
+  },
+  {
+    "word": "but",
+    "timestamp": 383.1818181818182
+  },
+  {
+    "word": "as",
+    "timestamp": 383.45454545454544
+  },
+  {
+    "word": "i",
+    "timestamp": 383.72727272727275
+  },
+  {
+    "word": "said",
+    "timestamp": 384
+  },
+  {
+    "word": "it's",
+    "timestamp": 384.375
+  },
+  {
+    "word": "dark",
+    "timestamp": 384.75
+  },
+  {
+    "word": "teams",
+    "timestamp": 385.125
+  },
+  {
+    "word": "are",
+    "timestamp": 385.5
+  },
+  {
+    "word": "ok",
+    "timestamp": 385.875
+  },
+  {
+    "word": "but",
+    "timestamp": 386.25
+  },
+  {
+    "word": "not",
+    "timestamp": 386.625
+  },
+  {
+    "word": "perfect",
+    "timestamp": 387
+  },
+  {
+    "word": "to",
+    "timestamp": 387.42857142857144
+  },
+  {
+    "word": "me",
+    "timestamp": 387.85714285714283
+  },
+  {
+    "word": "so",
+    "timestamp": 388.2857142857143
+  },
+  {
+    "word": "i'm",
+    "timestamp": 388.7142857142857
+  },
+  {
+    "word": "using",
+    "timestamp": 389.14285714285717
+  },
+  {
+    "word": "either",
+    "timestamp": 389.57142857142856
+  },
+  {
+    "word": "dracula",
+    "timestamp": 390
+  },
+  {
+    "word": "official",
+    "timestamp": 390.57142857142856
+  },
+  {
+    "word": "and",
+    "timestamp": 391.14285714285717
+  },
+  {
+    "word": "soft",
+    "timestamp": 391.7142857142857
+  },
+  {
+    "word": "team",
+    "timestamp": 392.2857142857143
+  },
+  {
+    "word": "here",
+    "timestamp": 392.85714285714283
+  },
+  {
+    "word": "it",
+    "timestamp": 393.42857142857144
+  },
+  {
+    "word": "looks",
+    "timestamp": 394
+  },
+  {
+    "word": "awesome",
+    "timestamp": 395
+  },
+  {
+    "word": "or",
+    "timestamp": 396
+  },
+  {
+    "word": "night",
+    "timestamp": 397
+  },
+  {
+    "word": "old",
+    "timestamp": 397.5
+  },
+  {
+    "word": "and",
+    "timestamp": 398
+  },
+  {
+    "word": "no",
+    "timestamp": 398.5
+  },
+  {
+    "word": "italic",
+    "timestamp": 399
+  },
+  {
+    "word": "team",
+    "timestamp": 399.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 400
+  },
+  {
+    "word": "really",
+    "timestamp": 400.75
+  },
+  {
+    "word": "nice",
+    "timestamp": 401.5
+  },
+  {
+    "word": "too",
+    "timestamp": 402.25
+  },
+  {
+    "word": "and",
+    "timestamp": 403
+  },
+  {
+    "word": "also",
+    "timestamp": 403.375
+  },
+  {
+    "word": "let",
+    "timestamp": 403.75
+  },
+  {
+    "word": "me",
+    "timestamp": 404.125
+  },
+  {
+    "word": "show",
+    "timestamp": 404.5
+  },
+  {
+    "word": "you",
+    "timestamp": 404.875
+  },
+  {
+    "word": "another",
+    "timestamp": 405.25
+  },
+  {
+    "word": "team",
+    "timestamp": 405.625
+  },
+  {
+    "word": "extension",
+    "timestamp": 406
+  },
+  {
+    "word": "which",
+    "timestamp": 406.5
+  },
+  {
+    "word": "is",
+    "timestamp": 407
+  },
+  {
+    "word": "peacock",
+    "timestamp": 407.5
+  },
+  {
+    "word": "it",
+    "timestamp": 408
+  },
+  {
+    "word": "changes",
+    "timestamp": 408.3333333333333
+  },
+  {
+    "word": "the",
+    "timestamp": 408.6666666666667
+  },
+  {
+    "word": "color",
+    "timestamp": 409
+  },
+  {
+    "word": "of",
+    "timestamp": 409.3333333333333
+  },
+  {
+    "word": "the",
+    "timestamp": 409.6666666666667
+  },
+  {
+    "word": "menu",
+    "timestamp": 410
+  },
+  {
+    "word": "bar",
+    "timestamp": 410.3333333333333
+  },
+  {
+    "word": "and",
+    "timestamp": 410.6666666666667
+  },
+  {
+    "word": "activity",
+    "timestamp": 411
+  },
+  {
+    "word": "bar",
+    "timestamp": 411.42857142857144
+  },
+  {
+    "word": "and",
+    "timestamp": 411.85714285714283
+  },
+  {
+    "word": "again",
+    "timestamp": 412.2857142857143
+  },
+  {
+    "word": "f1",
+    "timestamp": 412.7142857142857
+  },
+  {
+    "word": "or",
+    "timestamp": 413.14285714285717
+  },
+  {
+    "word": "command",
+    "timestamp": 413.57142857142856
+  },
+  {
+    "word": "shift",
+    "timestamp": 414
+  },
+  {
+    "word": "p",
+    "timestamp": 414.5
+  },
+  {
+    "word": "just",
+    "timestamp": 415
+  },
+  {
+    "word": "right",
+    "timestamp": 415.5
+  },
+  {
+    "word": "here",
+    "timestamp": 416
+  },
+  {
+    "word": "p",
+    "timestamp": 416.5
+  },
+  {
+    "word": "coke",
+    "timestamp": 417
+  },
+  {
+    "word": "and",
+    "timestamp": 417.5
+  },
+  {
+    "word": "change",
+    "timestamp": 418
+  },
+  {
+    "word": "to",
+    "timestamp": 418.25
+  },
+  {
+    "word": "a",
+    "timestamp": 418.5
+  },
+  {
+    "word": "favorite",
+    "timestamp": 418.75
+  },
+  {
+    "word": "color",
+    "timestamp": 419
+  },
+  {
+    "word": "then",
+    "timestamp": 419.25
+  },
+  {
+    "word": "you",
+    "timestamp": 419.5
+  },
+  {
+    "word": "can",
+    "timestamp": 419.75
+  },
+  {
+    "word": "choose",
+    "timestamp": 420
+  },
+  {
+    "word": "any",
+    "timestamp": 420.5
+  },
+  {
+    "word": "color",
+    "timestamp": 421
+  },
+  {
+    "word": "here",
+    "timestamp": 421.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 422
+  },
+  {
+    "word": "really",
+    "timestamp": 422.5
+  },
+  {
+    "word": "awesome",
+    "timestamp": 423
+  },
+  {
+    "word": "when",
+    "timestamp": 423.2857142857143
+  },
+  {
+    "word": "you",
+    "timestamp": 423.57142857142856
+  },
+  {
+    "word": "work",
+    "timestamp": 423.85714285714283
+  },
+  {
+    "word": "with",
+    "timestamp": 424.14285714285717
+  },
+  {
+    "word": "different",
+    "timestamp": 424.42857142857144
+  },
+  {
+    "word": "vs",
+    "timestamp": 424.7142857142857
+  },
+  {
+    "word": "code",
+    "timestamp": 425
+  },
+  {
+    "word": "instances",
+    "timestamp": 425.2857142857143
+  },
+  {
+    "word": "for",
+    "timestamp": 425.57142857142856
+  },
+  {
+    "word": "example",
+    "timestamp": 425.85714285714283
+  },
+  {
+    "word": "one",
+    "timestamp": 426.14285714285717
+  },
+  {
+    "word": "of",
+    "timestamp": 426.42857142857144
+  },
+  {
+    "word": "them",
+    "timestamp": 426.7142857142857
+  },
+  {
+    "word": "is",
+    "timestamp": 427
+  },
+  {
+    "word": "the",
+    "timestamp": 427.2857142857143
+  },
+  {
+    "word": "backend",
+    "timestamp": 427.57142857142856
+  },
+  {
+    "word": "project",
+    "timestamp": 427.85714285714283
+  },
+  {
+    "word": "and",
+    "timestamp": 428.14285714285717
+  },
+  {
+    "word": "the",
+    "timestamp": 428.42857142857144
+  },
+  {
+    "word": "second",
+    "timestamp": 428.7142857142857
+  },
+  {
+    "word": "one",
+    "timestamp": 429
+  },
+  {
+    "word": "is",
+    "timestamp": 429.375
+  },
+  {
+    "word": "the",
+    "timestamp": 429.75
+  },
+  {
+    "word": "front-end",
+    "timestamp": 430.125
+  },
+  {
+    "word": "project",
+    "timestamp": 430.5
+  },
+  {
+    "word": "so",
+    "timestamp": 430.875
+  },
+  {
+    "word": "you",
+    "timestamp": 431.25
+  },
+  {
+    "word": "can",
+    "timestamp": 431.625
+  },
+  {
+    "word": "assign",
+    "timestamp": 432
+  },
+  {
+    "word": "different",
+    "timestamp": 432.5
+  },
+  {
+    "word": "colors",
+    "timestamp": 433
+  },
+  {
+    "word": "for",
+    "timestamp": 433.5
+  },
+  {
+    "word": "them",
+    "timestamp": 434
+  },
+  {
+    "word": "now",
+    "timestamp": 434.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 435
+  },
+  {
+    "word": "easy",
+    "timestamp": 435.5
+  },
+  {
+    "word": "to",
+    "timestamp": 436
+  },
+  {
+    "word": "distinguish",
+    "timestamp": 436.5
+  },
+  {
+    "word": "between",
+    "timestamp": 437
+  },
+  {
+    "word": "these",
+    "timestamp": 437.5
+  },
+  {
+    "word": "two",
+    "timestamp": 438
+  },
+  {
+    "word": "projects",
+    "timestamp": 439
+  },
+  {
+    "word": "and",
+    "timestamp": 440
+  },
+  {
+    "word": "the",
+    "timestamp": 440.375
+  },
+  {
+    "word": "other",
+    "timestamp": 440.75
+  },
+  {
+    "word": "extension",
+    "timestamp": 441.125
+  },
+  {
+    "word": "is",
+    "timestamp": 441.5
+  },
+  {
+    "word": "code",
+    "timestamp": 441.875
+  },
+  {
+    "word": "snap",
+    "timestamp": 442.25
+  },
+  {
+    "word": "it",
+    "timestamp": 442.625
+  },
+  {
+    "word": "allows",
+    "timestamp": 443
+  },
+  {
+    "word": "you",
+    "timestamp": 443.375
+  },
+  {
+    "word": "to",
+    "timestamp": 443.75
+  },
+  {
+    "word": "take",
+    "timestamp": 444.125
+  },
+  {
+    "word": "a",
+    "timestamp": 444.5
+  },
+  {
+    "word": "screenshot",
+    "timestamp": 444.875
+  },
+  {
+    "word": "of",
+    "timestamp": 445.25
+  },
+  {
+    "word": "your",
+    "timestamp": 445.625
+  },
+  {
+    "word": "code",
+    "timestamp": 446
+  },
+  {
+    "word": "blocks",
+    "timestamp": 446.5
+  },
+  {
+    "word": "command",
+    "timestamp": 447
+  },
+  {
+    "word": "shift",
+    "timestamp": 447.8
+  },
+  {
+    "word": "p",
+    "timestamp": 448.6
+  },
+  {
+    "word": "code",
+    "timestamp": 449.4
+  },
+  {
+    "word": "snap",
+    "timestamp": 450.2
+  },
+  {
+    "word": "and",
+    "timestamp": 451
+  },
+  {
+    "word": "choose",
+    "timestamp": 451.4
+  },
+  {
+    "word": "your",
+    "timestamp": 451.8
+  },
+  {
+    "word": "lines",
+    "timestamp": 452.2
+  },
+  {
+    "word": "here",
+    "timestamp": 452.6
+  },
+  {
+    "word": "and",
+    "timestamp": 453
+  },
+  {
+    "word": "click",
+    "timestamp": 453.375
+  },
+  {
+    "word": "here",
+    "timestamp": 453.75
+  },
+  {
+    "word": "and",
+    "timestamp": 454.125
+  },
+  {
+    "word": "it's",
+    "timestamp": 454.5
+  },
+  {
+    "word": "going",
+    "timestamp": 454.875
+  },
+  {
+    "word": "to",
+    "timestamp": 455.25
+  },
+  {
+    "word": "save",
+    "timestamp": 455.625
+  },
+  {
+    "word": "your",
+    "timestamp": 456
+  },
+  {
+    "word": "screenshots",
+    "timestamp": 457.5
+  },
+  {
+    "word": "perfect",
+    "timestamp": 459
+  },
+  {
+    "word": "sometimes",
+    "timestamp": 459.42857142857144
+  },
+  {
+    "word": "i",
+    "timestamp": 459.85714285714283
+  },
+  {
+    "word": "see",
+    "timestamp": 460.2857142857143
+  },
+  {
+    "word": "people",
+    "timestamp": 460.7142857142857
+  },
+  {
+    "word": "in",
+    "timestamp": 461.14285714285717
+  },
+  {
+    "word": "the",
+    "timestamp": 461.57142857142856
+  },
+  {
+    "word": "lamadev",
+    "timestamp": 462
+  },
+  {
+    "word": "facebook",
+    "timestamp": 462.5
+  },
+  {
+    "word": "or",
+    "timestamp": 463
+  },
+  {
+    "word": "discord",
+    "timestamp": 463.5
+  },
+  {
+    "word": "groups",
+    "timestamp": 464
+  },
+  {
+    "word": "and",
+    "timestamp": 464.5
+  },
+  {
+    "word": "they",
+    "timestamp": 465
+  },
+  {
+    "word": "directly",
+    "timestamp": 465.42857142857144
+  },
+  {
+    "word": "copy",
+    "timestamp": 465.85714285714283
+  },
+  {
+    "word": "and",
+    "timestamp": 466.2857142857143
+  },
+  {
+    "word": "paste",
+    "timestamp": 466.7142857142857
+  },
+  {
+    "word": "their",
+    "timestamp": 467.14285714285717
+  },
+  {
+    "word": "codes",
+    "timestamp": 467.57142857142856
+  },
+  {
+    "word": "or",
+    "timestamp": 468
+  },
+  {
+    "word": "they",
+    "timestamp": 468.2857142857143
+  },
+  {
+    "word": "take",
+    "timestamp": 468.57142857142856
+  },
+  {
+    "word": "a",
+    "timestamp": 468.85714285714283
+  },
+  {
+    "word": "screen",
+    "timestamp": 469.14285714285717
+  },
+  {
+    "word": "picture",
+    "timestamp": 469.42857142857144
+  },
+  {
+    "word": "using",
+    "timestamp": 469.7142857142857
+  },
+  {
+    "word": "their",
+    "timestamp": 470
+  },
+  {
+    "word": "mobile",
+    "timestamp": 470.6666666666667
+  },
+  {
+    "word": "phones",
+    "timestamp": 471.3333333333333
+  },
+  {
+    "word": "guys",
+    "timestamp": 472
+  },
+  {
+    "word": "please",
+    "timestamp": 472.2857142857143
+  },
+  {
+    "word": "don't",
+    "timestamp": 472.57142857142856
+  },
+  {
+    "word": "do",
+    "timestamp": 472.85714285714283
+  },
+  {
+    "word": "that",
+    "timestamp": 473.14285714285717
+  },
+  {
+    "word": "it's",
+    "timestamp": 473.42857142857144
+  },
+  {
+    "word": "really",
+    "timestamp": 473.7142857142857
+  },
+  {
+    "word": "hard",
+    "timestamp": 474
+  },
+  {
+    "word": "to",
+    "timestamp": 474.25
+  },
+  {
+    "word": "help",
+    "timestamp": 474.5
+  },
+  {
+    "word": "you",
+    "timestamp": 474.75
+  },
+  {
+    "word": "with",
+    "timestamp": 475
+  },
+  {
+    "word": "those",
+    "timestamp": 475.25
+  },
+  {
+    "word": "codes",
+    "timestamp": 475.5
+  },
+  {
+    "word": "or",
+    "timestamp": 475.75
+  },
+  {
+    "word": "images",
+    "timestamp": 476
+  },
+  {
+    "word": "just",
+    "timestamp": 476.42857142857144
+  },
+  {
+    "word": "use",
+    "timestamp": 476.85714285714283
+  },
+  {
+    "word": "this",
+    "timestamp": 477.2857142857143
+  },
+  {
+    "word": "as",
+    "timestamp": 477.7142857142857
+  },
+  {
+    "word": "some",
+    "timestamp": 478.14285714285717
+  },
+  {
+    "word": "extension",
+    "timestamp": 478.57142857142856
+  },
+  {
+    "word": "and",
+    "timestamp": 479
+  },
+  {
+    "word": "ask",
+    "timestamp": 479.3333333333333
+  },
+  {
+    "word": "your",
+    "timestamp": 479.6666666666667
+  },
+  {
+    "word": "question",
+    "timestamp": 480
+  },
+  {
+    "word": "with",
+    "timestamp": 480.3333333333333
+  },
+  {
+    "word": "your",
+    "timestamp": 480.6666666666667
+  },
+  {
+    "word": "screenshots",
+    "timestamp": 481
+  },
+  {
+    "word": "the",
+    "timestamp": 483
+  },
+  {
+    "word": "next",
+    "timestamp": 483.5
+  },
+  {
+    "word": "extension",
+    "timestamp": 484
+  },
+  {
+    "word": "is",
+    "timestamp": 484.5
+  },
+  {
+    "word": "res",
+    "timestamp": 485
+  },
+  {
+    "word": "client",
+    "timestamp": 485.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 486
+  },
+  {
+    "word": "an",
+    "timestamp": 486.5
+  },
+  {
+    "word": "appsome",
+    "timestamp": 487
+  },
+  {
+    "word": "extension",
+    "timestamp": 487.2857142857143
+  },
+  {
+    "word": "that",
+    "timestamp": 487.57142857142856
+  },
+  {
+    "word": "you",
+    "timestamp": 487.85714285714283
+  },
+  {
+    "word": "can",
+    "timestamp": 488.14285714285717
+  },
+  {
+    "word": "use",
+    "timestamp": 488.42857142857144
+  },
+  {
+    "word": "for",
+    "timestamp": 488.7142857142857
+  },
+  {
+    "word": "api",
+    "timestamp": 489
+  },
+  {
+    "word": "requests",
+    "timestamp": 489.44444444444446
+  },
+  {
+    "word": "if",
+    "timestamp": 489.8888888888889
+  },
+  {
+    "word": "you",
+    "timestamp": 490.3333333333333
+  },
+  {
+    "word": "are",
+    "timestamp": 490.77777777777777
+  },
+  {
+    "word": "using",
+    "timestamp": 491.22222222222223
+  },
+  {
+    "word": "an",
+    "timestamp": 491.6666666666667
+  },
+  {
+    "word": "api",
+    "timestamp": 492.1111111111111
+  },
+  {
+    "word": "and",
+    "timestamp": 492.55555555555554
+  },
+  {
+    "word": "if",
+    "timestamp": 493
+  },
+  {
+    "word": "you",
+    "timestamp": 493.22222222222223
+  },
+  {
+    "word": "want",
+    "timestamp": 493.44444444444446
+  },
+  {
+    "word": "to",
+    "timestamp": 493.6666666666667
+  },
+  {
+    "word": "test",
+    "timestamp": 493.8888888888889
+  },
+  {
+    "word": "it",
+    "timestamp": 494.1111111111111
+  },
+  {
+    "word": "you",
+    "timestamp": 494.3333333333333
+  },
+  {
+    "word": "can",
+    "timestamp": 494.55555555555554
+  },
+  {
+    "word": "basically",
+    "timestamp": 494.77777777777777
+  },
+  {
+    "word": "create",
+    "timestamp": 495
+  },
+  {
+    "word": "a",
+    "timestamp": 495.375
+  },
+  {
+    "word": "new",
+    "timestamp": 495.75
+  },
+  {
+    "word": "file",
+    "timestamp": 496.125
+  },
+  {
+    "word": "and",
+    "timestamp": 496.5
+  },
+  {
+    "word": "let's",
+    "timestamp": 496.875
+  },
+  {
+    "word": "say",
+    "timestamp": 497.25
+  },
+  {
+    "word": "test",
+    "timestamp": 497.625
+  },
+  {
+    "word": "or",
+    "timestamp": 498
+  },
+  {
+    "word": "whatever",
+    "timestamp": 498.42857142857144
+  },
+  {
+    "word": "you",
+    "timestamp": 498.85714285714283
+  },
+  {
+    "word": "want",
+    "timestamp": 499.2857142857143
+  },
+  {
+    "word": "but",
+    "timestamp": 499.7142857142857
+  },
+  {
+    "word": "the",
+    "timestamp": 500.14285714285717
+  },
+  {
+    "word": "extension",
+    "timestamp": 500.57142857142856
+  },
+  {
+    "word": "of",
+    "timestamp": 501
+  },
+  {
+    "word": "this",
+    "timestamp": 501.5
+  },
+  {
+    "word": "file",
+    "timestamp": 502
+  },
+  {
+    "word": "should",
+    "timestamp": 502.5
+  },
+  {
+    "word": "be",
+    "timestamp": 503
+  },
+  {
+    "word": "http",
+    "timestamp": 503.5
+  },
+  {
+    "word": "after",
+    "timestamp": 504
+  },
+  {
+    "word": "that",
+    "timestamp": 504.5
+  },
+  {
+    "word": "you",
+    "timestamp": 505
+  },
+  {
+    "word": "can",
+    "timestamp": 505.2857142857143
+  },
+  {
+    "word": "write",
+    "timestamp": 505.57142857142856
+  },
+  {
+    "word": "here",
+    "timestamp": 505.85714285714283
+  },
+  {
+    "word": "the",
+    "timestamp": 506.14285714285717
+  },
+  {
+    "word": "request",
+    "timestamp": 506.42857142857144
+  },
+  {
+    "word": "method",
+    "timestamp": 506.7142857142857
+  },
+  {
+    "word": "and",
+    "timestamp": 507
+  },
+  {
+    "word": "api",
+    "timestamp": 507.5
+  },
+  {
+    "word": "endpoint",
+    "timestamp": 508
+  },
+  {
+    "word": "when",
+    "timestamp": 508.5
+  },
+  {
+    "word": "you",
+    "timestamp": 509
+  },
+  {
+    "word": "click",
+    "timestamp": 509.5
+  },
+  {
+    "word": "on",
+    "timestamp": 510
+  },
+  {
+    "word": "send",
+    "timestamp": 510.5
+  },
+  {
+    "word": "request",
+    "timestamp": 511
+  },
+  {
+    "word": "you",
+    "timestamp": 512
+  },
+  {
+    "word": "will",
+    "timestamp": 512.3333333333334
+  },
+  {
+    "word": "see",
+    "timestamp": 512.6666666666666
+  },
+  {
+    "word": "your",
+    "timestamp": 513
+  },
+  {
+    "word": "results",
+    "timestamp": 513.3333333333334
+  },
+  {
+    "word": "here",
+    "timestamp": 513.6666666666666
+  },
+  {
+    "word": "let's",
+    "timestamp": 514
+  },
+  {
+    "word": "get",
+    "timestamp": 514.4
+  },
+  {
+    "word": "user",
+    "timestamp": 514.8
+  },
+  {
+    "word": "by",
+    "timestamp": 515.2
+  },
+  {
+    "word": "id",
+    "timestamp": 515.6
+  },
+  {
+    "word": "like",
+    "timestamp": 516
+  },
+  {
+    "word": "that",
+    "timestamp": 518
+  },
+  {
+    "word": "and",
+    "timestamp": 520
+  },
+  {
+    "word": "for",
+    "timestamp": 520.25
+  },
+  {
+    "word": "the",
+    "timestamp": 520.5
+  },
+  {
+    "word": "post",
+    "timestamp": 520.75
+  },
+  {
+    "word": "request",
+    "timestamp": 521
+  },
+  {
+    "word": "you",
+    "timestamp": 521.25
+  },
+  {
+    "word": "can",
+    "timestamp": 521.5
+  },
+  {
+    "word": "write",
+    "timestamp": 521.75
+  },
+  {
+    "word": "here",
+    "timestamp": 522
+  },
+  {
+    "word": "your",
+    "timestamp": 522.6
+  },
+  {
+    "word": "configuration",
+    "timestamp": 523.2
+  },
+  {
+    "word": "like",
+    "timestamp": 523.8
+  },
+  {
+    "word": "content",
+    "timestamp": 524.4
+  },
+  {
+    "word": "type",
+    "timestamp": 525
+  },
+  {
+    "word": "json",
+    "timestamp": 525.5714285714286
+  },
+  {
+    "word": "it's",
+    "timestamp": 526.1428571428571
+  },
+  {
+    "word": "just",
+    "timestamp": 526.7142857142857
+  },
+  {
+    "word": "like",
+    "timestamp": 527.2857142857143
+  },
+  {
+    "word": "choosing",
+    "timestamp": 527.8571428571429
+  },
+  {
+    "word": "json",
+    "timestamp": 528.4285714285714
+  },
+  {
+    "word": "and",
+    "timestamp": 529
+  },
+  {
+    "word": "draw",
+    "timestamp": 529.375
+  },
+  {
+    "word": "option",
+    "timestamp": 529.75
+  },
+  {
+    "word": "on",
+    "timestamp": 530.125
+  },
+  {
+    "word": "postman",
+    "timestamp": 530.5
+  },
+  {
+    "word": "and",
+    "timestamp": 530.875
+  },
+  {
+    "word": "here",
+    "timestamp": 531.25
+  },
+  {
+    "word": "you",
+    "timestamp": 531.625
+  },
+  {
+    "word": "can",
+    "timestamp": 532
+  },
+  {
+    "word": "write",
+    "timestamp": 532.375
+  },
+  {
+    "word": "your",
+    "timestamp": 532.75
+  },
+  {
+    "word": "body",
+    "timestamp": 533.125
+  },
+  {
+    "word": "i",
+    "timestamp": 533.5
+  },
+  {
+    "word": "will",
+    "timestamp": 533.875
+  },
+  {
+    "word": "write",
+    "timestamp": 534.25
+  },
+  {
+    "word": "my",
+    "timestamp": 534.625
+  },
+  {
+    "word": "credentials",
+    "timestamp": 535
+  },
+  {
+    "word": "and",
+    "timestamp": 535.5
+  },
+  {
+    "word": "send",
+    "timestamp": 536
+  },
+  {
+    "word": "requests",
+    "timestamp": 536.5
+  },
+  {
+    "word": "also",
+    "timestamp": 537
+  },
+  {
+    "word": "you",
+    "timestamp": 537.5
+  },
+  {
+    "word": "can",
+    "timestamp": 538
+  },
+  {
+    "word": "write",
+    "timestamp": 538.5
+  },
+  {
+    "word": "here",
+    "timestamp": 539
+  },
+  {
+    "word": "any",
+    "timestamp": 539.5
+  },
+  {
+    "word": "other",
+    "timestamp": 540
+  },
+  {
+    "word": "configurations",
+    "timestamp": 540.5
+  },
+  {
+    "word": "like",
+    "timestamp": 541
+  },
+  {
+    "word": "authentication",
+    "timestamp": 541.4
+  },
+  {
+    "word": "token",
+    "timestamp": 541.8
+  },
+  {
+    "word": "something",
+    "timestamp": 542.2
+  },
+  {
+    "word": "like",
+    "timestamp": 542.6
+  },
+  {
+    "word": "that",
+    "timestamp": 543
+  },
+  {
+    "word": "if",
+    "timestamp": 543.3333333333334
+  },
+  {
+    "word": "you",
+    "timestamp": 543.6666666666666
+  },
+  {
+    "word": "want",
+    "timestamp": 544
+  },
+  {
+    "word": "to",
+    "timestamp": 544.3333333333334
+  },
+  {
+    "word": "use",
+    "timestamp": 544.6666666666666
+  },
+  {
+    "word": "a",
+    "timestamp": 545
+  },
+  {
+    "word": "shortcut",
+    "timestamp": 545.3333333333334
+  },
+  {
+    "word": "you",
+    "timestamp": 545.6666666666666
+  },
+  {
+    "word": "can",
+    "timestamp": 546
+  },
+  {
+    "word": "write",
+    "timestamp": 546.3333333333334
+  },
+  {
+    "word": "api",
+    "timestamp": 546.6666666666666
+  },
+  {
+    "word": "url",
+    "timestamp": 547
+  },
+  {
+    "word": "like",
+    "timestamp": 547.3333333333334
+  },
+  {
+    "word": "that",
+    "timestamp": 547.6666666666666
+  },
+  {
+    "word": "and",
+    "timestamp": 548
+  },
+  {
+    "word": "you",
+    "timestamp": 548.3333333333334
+  },
+  {
+    "word": "can",
+    "timestamp": 548.6666666666666
+  },
+  {
+    "word": "use",
+    "timestamp": 549
+  },
+  {
+    "word": "it",
+    "timestamp": 549.6666666666666
+  },
+  {
+    "word": "everywhere",
+    "timestamp": 550.3333333333334
+  },
+  {
+    "word": "it's",
+    "timestamp": 551
+  },
+  {
+    "word": "that",
+    "timestamp": 551.3
+  },
+  {
+    "word": "easy",
+    "timestamp": 551.6
+  },
+  {
+    "word": "by",
+    "timestamp": 551.9
+  },
+  {
+    "word": "the",
+    "timestamp": 552.2
+  },
+  {
+    "word": "way",
+    "timestamp": 552.5
+  },
+  {
+    "word": "i",
+    "timestamp": 552.8
+  },
+  {
+    "word": "was",
+    "timestamp": 553.1
+  },
+  {
+    "word": "going",
+    "timestamp": 553.4
+  },
+  {
+    "word": "to",
+    "timestamp": 553.7
+  },
+  {
+    "word": "recommend",
+    "timestamp": 554
+  },
+  {
+    "word": "one",
+    "timestamp": 554.5
+  },
+  {
+    "word": "more",
+    "timestamp": 555
+  },
+  {
+    "word": "api",
+    "timestamp": 555.5
+  },
+  {
+    "word": "extension",
+    "timestamp": 556
+  },
+  {
+    "word": "which",
+    "timestamp": 556.5
+  },
+  {
+    "word": "is",
+    "timestamp": 557
+  },
+  {
+    "word": "thunderclient",
+    "timestamp": 557.5
+  },
+  {
+    "word": "but",
+    "timestamp": 558
+  },
+  {
+    "word": "somehow",
+    "timestamp": 558.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 559
+  },
+  {
+    "word": "not",
+    "timestamp": 559.5
+  },
+  {
+    "word": "working",
+    "timestamp": 560
+  },
+  {
+    "word": "i",
+    "timestamp": 560.3333333333334
+  },
+  {
+    "word": "don't",
+    "timestamp": 560.6666666666666
+  },
+  {
+    "word": "know",
+    "timestamp": 561
+  },
+  {
+    "word": "why",
+    "timestamp": 561.3333333333334
+  },
+  {
+    "word": "but",
+    "timestamp": 561.6666666666666
+  },
+  {
+    "word": "it's",
+    "timestamp": 562
+  },
+  {
+    "word": "a",
+    "timestamp": 562.3333333333334
+  },
+  {
+    "word": "more",
+    "timestamp": 562.6666666666666
+  },
+  {
+    "word": "professional",
+    "timestamp": 563
+  },
+  {
+    "word": "api",
+    "timestamp": 563.5
+  },
+  {
+    "word": "client",
+    "timestamp": 564
+  },
+  {
+    "word": "extension",
+    "timestamp": 564.5
+  },
+  {
+    "word": "as",
+    "timestamp": 565
+  },
+  {
+    "word": "you",
+    "timestamp": 565.5
+  },
+  {
+    "word": "can",
+    "timestamp": 566
+  },
+  {
+    "word": "see",
+    "timestamp": 566.25
+  },
+  {
+    "word": "it",
+    "timestamp": 566.5
+  },
+  {
+    "word": "looks",
+    "timestamp": 566.75
+  },
+  {
+    "word": "like",
+    "timestamp": 567
+  },
+  {
+    "word": "postman",
+    "timestamp": 567.25
+  },
+  {
+    "word": "you",
+    "timestamp": 567.5
+  },
+  {
+    "word": "can",
+    "timestamp": 567.75
+  },
+  {
+    "word": "create",
+    "timestamp": 568
+  },
+  {
+    "word": "collections",
+    "timestamp": 568.5
+  },
+  {
+    "word": "choose",
+    "timestamp": 569
+  },
+  {
+    "word": "your",
+    "timestamp": 569.5
+  },
+  {
+    "word": "configurations",
+    "timestamp": 570
+  },
+  {
+    "word": "here",
+    "timestamp": 570.6
+  },
+  {
+    "word": "and",
+    "timestamp": 571.2
+  },
+  {
+    "word": "i",
+    "timestamp": 571.8
+  },
+  {
+    "word": "highly",
+    "timestamp": 572.4
+  },
+  {
+    "word": "recommend",
+    "timestamp": 573
+  },
+  {
+    "word": "it",
+    "timestamp": 573.3333333333334
+  },
+  {
+    "word": "you",
+    "timestamp": 573.6666666666666
+  },
+  {
+    "word": "should",
+    "timestamp": 574
+  },
+  {
+    "word": "definitely",
+    "timestamp": 574.3333333333334
+  },
+  {
+    "word": "check",
+    "timestamp": 574.6666666666666
+  },
+  {
+    "word": "it",
+    "timestamp": 575
+  },
+  {
+    "word": "that",
+    "timestamp": 575.375
+  },
+  {
+    "word": "because",
+    "timestamp": 575.75
+  },
+  {
+    "word": "if",
+    "timestamp": 576.125
+  },
+  {
+    "word": "you",
+    "timestamp": 576.5
+  },
+  {
+    "word": "are",
+    "timestamp": 576.875
+  },
+  {
+    "word": "not",
+    "timestamp": 577.25
+  },
+  {
+    "word": "using",
+    "timestamp": 577.625
+  },
+  {
+    "word": "that",
+    "timestamp": 578
+  },
+  {
+    "word": "complex",
+    "timestamp": 578.4285714285714
+  },
+  {
+    "word": "apis",
+    "timestamp": 578.8571428571429
+  },
+  {
+    "word": "postman",
+    "timestamp": 579.2857142857143
+  },
+  {
+    "word": "might",
+    "timestamp": 579.7142857142857
+  },
+  {
+    "word": "be",
+    "timestamp": 580.1428571428571
+  },
+  {
+    "word": "a",
+    "timestamp": 580.5714285714286
+  },
+  {
+    "word": "little",
+    "timestamp": 581
+  },
+  {
+    "word": "bit",
+    "timestamp": 581.375
+  },
+  {
+    "word": "heavy",
+    "timestamp": 581.75
+  },
+  {
+    "word": "and",
+    "timestamp": 582.125
+  },
+  {
+    "word": "i",
+    "timestamp": 582.5
+  },
+  {
+    "word": "don't",
+    "timestamp": 582.875
+  },
+  {
+    "word": "know",
+    "timestamp": 583.25
+  },
+  {
+    "word": "i",
+    "timestamp": 583.625
+  },
+  {
+    "word": "prefer",
+    "timestamp": 584
+  },
+  {
+    "word": "using",
+    "timestamp": 584.5
+  },
+  {
+    "word": "these",
+    "timestamp": 585
+  },
+  {
+    "word": "lightweight",
+    "timestamp": 585.5
+  },
+  {
+    "word": "extensions",
+    "timestamp": 586
+  },
+  {
+    "word": "and",
+    "timestamp": 587
+  },
+  {
+    "word": "another",
+    "timestamp": 587.5714285714286
+  },
+  {
+    "word": "extension",
+    "timestamp": 588.1428571428571
+  },
+  {
+    "word": "is",
+    "timestamp": 588.7142857142857
+  },
+  {
+    "word": "to",
+    "timestamp": 589.2857142857143
+  },
+  {
+    "word": "do",
+    "timestamp": 589.8571428571429
+  },
+  {
+    "word": "highlight",
+    "timestamp": 590.4285714285714
+  },
+  {
+    "word": "sometimes",
+    "timestamp": 591
+  },
+  {
+    "word": "we",
+    "timestamp": 591.3333333333334
+  },
+  {
+    "word": "take",
+    "timestamp": 591.6666666666666
+  },
+  {
+    "word": "quick",
+    "timestamp": 592
+  },
+  {
+    "word": "notes",
+    "timestamp": 592.3333333333334
+  },
+  {
+    "word": "between",
+    "timestamp": 592.6666666666666
+  },
+  {
+    "word": "our",
+    "timestamp": 593
+  },
+  {
+    "word": "codes",
+    "timestamp": 593.25
+  },
+  {
+    "word": "to",
+    "timestamp": 593.5
+  },
+  {
+    "word": "remember",
+    "timestamp": 593.75
+  },
+  {
+    "word": "what",
+    "timestamp": 594
+  },
+  {
+    "word": "we",
+    "timestamp": 594.25
+  },
+  {
+    "word": "have",
+    "timestamp": 594.5
+  },
+  {
+    "word": "done",
+    "timestamp": 594.75
+  },
+  {
+    "word": "before",
+    "timestamp": 595
+  },
+  {
+    "word": "or",
+    "timestamp": 595.375
+  },
+  {
+    "word": "if",
+    "timestamp": 595.75
+  },
+  {
+    "word": "you",
+    "timestamp": 596.125
+  },
+  {
+    "word": "are",
+    "timestamp": 596.5
+  },
+  {
+    "word": "working",
+    "timestamp": 596.875
+  },
+  {
+    "word": "with",
+    "timestamp": 597.25
+  },
+  {
+    "word": "your",
+    "timestamp": 597.625
+  },
+  {
+    "word": "colleague",
+    "timestamp": 598
+  },
+  {
+    "word": "or",
+    "timestamp": 598.5
+  },
+  {
+    "word": "your",
+    "timestamp": 599
+  },
+  {
+    "word": "friend",
+    "timestamp": 599.5
+  },
+  {
+    "word": "you",
+    "timestamp": 600
+  },
+  {
+    "word": "have",
+    "timestamp": 600.2857142857143
+  },
+  {
+    "word": "to",
+    "timestamp": 600.5714285714286
+  },
+  {
+    "word": "write",
+    "timestamp": 600.8571428571429
+  },
+  {
+    "word": "some",
+    "timestamp": 601.1428571428571
+  },
+  {
+    "word": "comments",
+    "timestamp": 601.4285714285714
+  },
+  {
+    "word": "to",
+    "timestamp": 601.7142857142857
+  },
+  {
+    "word": "explain",
+    "timestamp": 602
+  },
+  {
+    "word": "how",
+    "timestamp": 602.375
+  },
+  {
+    "word": "your",
+    "timestamp": 602.75
+  },
+  {
+    "word": "code",
+    "timestamp": 603.125
+  },
+  {
+    "word": "works",
+    "timestamp": 603.5
+  },
+  {
+    "word": "but",
+    "timestamp": 603.875
+  },
+  {
+    "word": "after",
+    "timestamp": 604.25
+  },
+  {
+    "word": "a",
+    "timestamp": 604.625
+  },
+  {
+    "word": "while",
+    "timestamp": 605
+  },
+  {
+    "word": "it's",
+    "timestamp": 605.4285714285714
+  },
+  {
+    "word": "really",
+    "timestamp": 605.8571428571429
+  },
+  {
+    "word": "hard",
+    "timestamp": 606.2857142857143
+  },
+  {
+    "word": "to",
+    "timestamp": 606.7142857142857
+  },
+  {
+    "word": "remember",
+    "timestamp": 607.1428571428571
+  },
+  {
+    "word": "where",
+    "timestamp": 607.5714285714286
+  },
+  {
+    "word": "are",
+    "timestamp": 608
+  },
+  {
+    "word": "your",
+    "timestamp": 608.375
+  },
+  {
+    "word": "to-do's",
+    "timestamp": 608.75
+  },
+  {
+    "word": "and",
+    "timestamp": 609.125
+  },
+  {
+    "word": "fix",
+    "timestamp": 609.5
+  },
+  {
+    "word": "me",
+    "timestamp": 609.875
+  },
+  {
+    "word": "notes",
+    "timestamp": 610.25
+  },
+  {
+    "word": "so",
+    "timestamp": 610.625
+  },
+  {
+    "word": "this",
+    "timestamp": 611
+  },
+  {
+    "word": "awesome",
+    "timestamp": 611.4
+  },
+  {
+    "word": "extension",
+    "timestamp": 611.8
+  },
+  {
+    "word": "just",
+    "timestamp": 612.2
+  },
+  {
+    "word": "highlights",
+    "timestamp": 612.6
+  },
+  {
+    "word": "your",
+    "timestamp": 613
+  },
+  {
+    "word": "important",
+    "timestamp": 613.5
+  },
+  {
+    "word": "notes",
+    "timestamp": 614
+  },
+  {
+    "word": "just",
+    "timestamp": 614.5
+  },
+  {
+    "word": "like",
+    "timestamp": 615
+  },
+  {
+    "word": "that",
+    "timestamp": 615.5
+  },
+  {
+    "word": "and",
+    "timestamp": 616
+  },
+  {
+    "word": "now",
+    "timestamp": 616.8571428571429
+  },
+  {
+    "word": "it's",
+    "timestamp": 617.7142857142857
+  },
+  {
+    "word": "much",
+    "timestamp": 618.5714285714286
+  },
+  {
+    "word": "easier",
+    "timestamp": 619.4285714285714
+  },
+  {
+    "word": "to",
+    "timestamp": 620.2857142857143
+  },
+  {
+    "word": "distinguish",
+    "timestamp": 621.1428571428571
+  },
+  {
+    "word": "and",
+    "timestamp": 622
+  },
+  {
+    "word": "the",
+    "timestamp": 622.375
+  },
+  {
+    "word": "next",
+    "timestamp": 622.75
+  },
+  {
+    "word": "extension",
+    "timestamp": 623.125
+  },
+  {
+    "word": "is",
+    "timestamp": 623.5
+  },
+  {
+    "word": "marquee",
+    "timestamp": 623.875
+  },
+  {
+    "word": "it's",
+    "timestamp": 624.25
+  },
+  {
+    "word": "a",
+    "timestamp": 624.625
+  },
+  {
+    "word": "really",
+    "timestamp": 625
+  },
+  {
+    "word": "cool",
+    "timestamp": 625.4285714285714
+  },
+  {
+    "word": "extension",
+    "timestamp": 625.8571428571429
+  },
+  {
+    "word": "if",
+    "timestamp": 626.2857142857143
+  },
+  {
+    "word": "you",
+    "timestamp": 626.7142857142857
+  },
+  {
+    "word": "get",
+    "timestamp": 627.1428571428571
+  },
+  {
+    "word": "both",
+    "timestamp": 627.5714285714286
+  },
+  {
+    "word": "seeing",
+    "timestamp": 628
+  },
+  {
+    "word": "the",
+    "timestamp": 628.25
+  },
+  {
+    "word": "classic",
+    "timestamp": 628.5
+  },
+  {
+    "word": "vs",
+    "timestamp": 628.75
+  },
+  {
+    "word": "code",
+    "timestamp": 629
+  },
+  {
+    "word": "home",
+    "timestamp": 629.25
+  },
+  {
+    "word": "page",
+    "timestamp": 629.5
+  },
+  {
+    "word": "you",
+    "timestamp": 629.75
+  },
+  {
+    "word": "can",
+    "timestamp": 630
+  },
+  {
+    "word": "use",
+    "timestamp": 630.375
+  },
+  {
+    "word": "this",
+    "timestamp": 630.75
+  },
+  {
+    "word": "extension",
+    "timestamp": 631.125
+  },
+  {
+    "word": "it",
+    "timestamp": 631.5
+  },
+  {
+    "word": "shows",
+    "timestamp": 631.875
+  },
+  {
+    "word": "up",
+    "timestamp": 632.25
+  },
+  {
+    "word": "where",
+    "timestamp": 632.625
+  },
+  {
+    "word": "you",
+    "timestamp": 633
+  },
+  {
+    "word": "open",
+    "timestamp": 633.3333333333334
+  },
+  {
+    "word": "the",
+    "timestamp": 633.6666666666666
+  },
+  {
+    "word": "vs",
+    "timestamp": 634
+  },
+  {
+    "word": "code",
+    "timestamp": 634.3333333333334
+  },
+  {
+    "word": "and",
+    "timestamp": 634.6666666666666
+  },
+  {
+    "word": "there",
+    "timestamp": 635
+  },
+  {
+    "word": "are",
+    "timestamp": 635.3333333333334
+  },
+  {
+    "word": "some",
+    "timestamp": 635.6666666666666
+  },
+  {
+    "word": "useful",
+    "timestamp": 636
+  },
+  {
+    "word": "widgets",
+    "timestamp": 636.2857142857143
+  },
+  {
+    "word": "here",
+    "timestamp": 636.5714285714286
+  },
+  {
+    "word": "you",
+    "timestamp": 636.8571428571429
+  },
+  {
+    "word": "can",
+    "timestamp": 637.1428571428571
+  },
+  {
+    "word": "see",
+    "timestamp": 637.4285714285714
+  },
+  {
+    "word": "your",
+    "timestamp": 637.7142857142857
+  },
+  {
+    "word": "projects",
+    "timestamp": 638
+  },
+  {
+    "word": "and",
+    "timestamp": 638.5
+  },
+  {
+    "word": "start",
+    "timestamp": 639
+  },
+  {
+    "word": "writing",
+    "timestamp": 639.5
+  },
+  {
+    "word": "code",
+    "timestamp": 640
+  },
+  {
+    "word": "by",
+    "timestamp": 640.5
+  },
+  {
+    "word": "clicking",
+    "timestamp": 641
+  },
+  {
+    "word": "them",
+    "timestamp": 641.5714285714286
+  },
+  {
+    "word": "there",
+    "timestamp": 642.1428571428571
+  },
+  {
+    "word": "is",
+    "timestamp": 642.7142857142857
+  },
+  {
+    "word": "a",
+    "timestamp": 643.2857142857143
+  },
+  {
+    "word": "weather",
+    "timestamp": 643.8571428571429
+  },
+  {
+    "word": "widget",
+    "timestamp": 644.4285714285714
+  },
+  {
+    "word": "the",
+    "timestamp": 645
+  },
+  {
+    "word": "latest",
+    "timestamp": 645.5
+  },
+  {
+    "word": "news",
+    "timestamp": 646
+  },
+  {
+    "word": "about",
+    "timestamp": 646.5
+  },
+  {
+    "word": "programming",
+    "timestamp": 647
+  },
+  {
+    "word": "trend",
+    "timestamp": 647.5
+  },
+  {
+    "word": "github",
+    "timestamp": 648
+  },
+  {
+    "word": "open",
+    "timestamp": 648.4285714285714
+  },
+  {
+    "word": "source",
+    "timestamp": 648.8571428571429
+  },
+  {
+    "word": "projects",
+    "timestamp": 649.2857142857143
+  },
+  {
+    "word": "and",
+    "timestamp": 649.7142857142857
+  },
+  {
+    "word": "here's",
+    "timestamp": 650.1428571428571
+  },
+  {
+    "word": "a",
+    "timestamp": 650.5714285714286
+  },
+  {
+    "word": "to-do",
+    "timestamp": 651
+  },
+  {
+    "word": "list",
+    "timestamp": 652
+  },
+  {
+    "word": "and",
+    "timestamp": 653
+  },
+  {
+    "word": "i",
+    "timestamp": 653.25
+  },
+  {
+    "word": "think",
+    "timestamp": 653.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 653.75
+  },
+  {
+    "word": "the",
+    "timestamp": 654
+  },
+  {
+    "word": "most",
+    "timestamp": 654.25
+  },
+  {
+    "word": "useful",
+    "timestamp": 654.5
+  },
+  {
+    "word": "feature",
+    "timestamp": 654.75
+  },
+  {
+    "word": "of",
+    "timestamp": 655
+  },
+  {
+    "word": "this",
+    "timestamp": 655.3333333333334
+  },
+  {
+    "word": "extension",
+    "timestamp": 655.6666666666666
+  },
+  {
+    "word": "before",
+    "timestamp": 656
+  },
+  {
+    "word": "starting",
+    "timestamp": 656.3333333333334
+  },
+  {
+    "word": "coding",
+    "timestamp": 656.6666666666666
+  },
+  {
+    "word": "you",
+    "timestamp": 657
+  },
+  {
+    "word": "can",
+    "timestamp": 657.3333333333334
+  },
+  {
+    "word": "check",
+    "timestamp": 657.6666666666666
+  },
+  {
+    "word": "what",
+    "timestamp": 658
+  },
+  {
+    "word": "you",
+    "timestamp": 658.3333333333334
+  },
+  {
+    "word": "need",
+    "timestamp": 658.6666666666666
+  },
+  {
+    "word": "to",
+    "timestamp": 659
+  },
+  {
+    "word": "do",
+    "timestamp": 659.3333333333334
+  },
+  {
+    "word": "today",
+    "timestamp": 659.6666666666666
+  },
+  {
+    "word": "or",
+    "timestamp": 660
+  },
+  {
+    "word": "after",
+    "timestamp": 660.2857142857143
+  },
+  {
+    "word": "coding",
+    "timestamp": 660.5714285714286
+  },
+  {
+    "word": "you",
+    "timestamp": 660.8571428571429
+  },
+  {
+    "word": "can",
+    "timestamp": 661.1428571428571
+  },
+  {
+    "word": "write",
+    "timestamp": 661.4285714285714
+  },
+  {
+    "word": "new",
+    "timestamp": 661.7142857142857
+  },
+  {
+    "word": "to-do's",
+    "timestamp": 662
+  },
+  {
+    "word": "for",
+    "timestamp": 663
+  },
+  {
+    "word": "tomorrow",
+    "timestamp": 664
+  },
+  {
+    "word": "you",
+    "timestamp": 665
+  },
+  {
+    "word": "can",
+    "timestamp": 665.25
+  },
+  {
+    "word": "take",
+    "timestamp": 665.5
+  },
+  {
+    "word": "notes",
+    "timestamp": 665.75
+  },
+  {
+    "word": "here",
+    "timestamp": 666
+  },
+  {
+    "word": "so",
+    "timestamp": 666.25
+  },
+  {
+    "word": "it's",
+    "timestamp": 666.5
+  },
+  {
+    "word": "not",
+    "timestamp": 666.75
+  },
+  {
+    "word": "perfect",
+    "timestamp": 667
+  },
+  {
+    "word": "but",
+    "timestamp": 667.375
+  },
+  {
+    "word": "as",
+    "timestamp": 667.75
+  },
+  {
+    "word": "i",
+    "timestamp": 668.125
+  },
+  {
+    "word": "said",
+    "timestamp": 668.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 668.875
+  },
+  {
+    "word": "a",
+    "timestamp": 669.25
+  },
+  {
+    "word": "good",
+    "timestamp": 669.625
+  },
+  {
+    "word": "alternative",
+    "timestamp": 670
+  },
+  {
+    "word": "for",
+    "timestamp": 670.8
+  },
+  {
+    "word": "the",
+    "timestamp": 671.6
+  },
+  {
+    "word": "home",
+    "timestamp": 672.4
+  },
+  {
+    "word": "page",
+    "timestamp": 673.2
+  },
+  {
+    "word": "another",
+    "timestamp": 674
+  },
+  {
+    "word": "one",
+    "timestamp": 674.375
+  },
+  {
+    "word": "is",
+    "timestamp": 674.75
+  },
+  {
+    "word": "import",
+    "timestamp": 675.125
+  },
+  {
+    "word": "cost",
+    "timestamp": 675.5
+  },
+  {
+    "word": "it's",
+    "timestamp": 675.875
+  },
+  {
+    "word": "a",
+    "timestamp": 676.25
+  },
+  {
+    "word": "really",
+    "timestamp": 676.625
+  },
+  {
+    "word": "popular",
+    "timestamp": 677
+  },
+  {
+    "word": "one",
+    "timestamp": 677.5
+  },
+  {
+    "word": "when",
+    "timestamp": 678
+  },
+  {
+    "word": "you",
+    "timestamp": 678.375
+  },
+  {
+    "word": "install",
+    "timestamp": 678.75
+  },
+  {
+    "word": "any",
+    "timestamp": 679.125
+  },
+  {
+    "word": "library",
+    "timestamp": 679.5
+  },
+  {
+    "word": "you",
+    "timestamp": 679.875
+  },
+  {
+    "word": "can",
+    "timestamp": 680.25
+  },
+  {
+    "word": "see",
+    "timestamp": 680.625
+  },
+  {
+    "word": "here",
+    "timestamp": 681
+  },
+  {
+    "word": "how",
+    "timestamp": 681.375
+  },
+  {
+    "word": "many",
+    "timestamp": 681.75
+  },
+  {
+    "word": "kilobytes",
+    "timestamp": 682.125
+  },
+  {
+    "word": "is",
+    "timestamp": 682.5
+  },
+  {
+    "word": "that",
+    "timestamp": 682.875
+  },
+  {
+    "word": "it",
+    "timestamp": 683.25
+  },
+  {
+    "word": "looks",
+    "timestamp": 683.625
+  },
+  {
+    "word": "really",
+    "timestamp": 684
+  },
+  {
+    "word": "cool",
+    "timestamp": 684.2857142857143
+  },
+  {
+    "word": "and",
+    "timestamp": 684.5714285714286
+  },
+  {
+    "word": "sometimes",
+    "timestamp": 684.8571428571429
+  },
+  {
+    "word": "it",
+    "timestamp": 685.1428571428571
+  },
+  {
+    "word": "can",
+    "timestamp": 685.4285714285714
+  },
+  {
+    "word": "be",
+    "timestamp": 685.7142857142857
+  },
+  {
+    "word": "really",
+    "timestamp": 686
+  },
+  {
+    "word": "useful",
+    "timestamp": 686.4285714285714
+  },
+  {
+    "word": "for",
+    "timestamp": 686.8571428571429
+  },
+  {
+    "word": "example",
+    "timestamp": 687.2857142857143
+  },
+  {
+    "word": "when",
+    "timestamp": 687.7142857142857
+  },
+  {
+    "word": "you",
+    "timestamp": 688.1428571428571
+  },
+  {
+    "word": "check",
+    "timestamp": 688.5714285714286
+  },
+  {
+    "word": "something",
+    "timestamp": 689
+  },
+  {
+    "word": "on",
+    "timestamp": 689.4
+  },
+  {
+    "word": "stack",
+    "timestamp": 689.8
+  },
+  {
+    "word": "overflow",
+    "timestamp": 690.2
+  },
+  {
+    "word": "sometimes",
+    "timestamp": 690.6
+  },
+  {
+    "word": "community",
+    "timestamp": 691
+  },
+  {
+    "word": "users",
+    "timestamp": 691.5
+  },
+  {
+    "word": "recommend",
+    "timestamp": 692
+  },
+  {
+    "word": "a",
+    "timestamp": 692.5
+  },
+  {
+    "word": "library",
+    "timestamp": 693
+  },
+  {
+    "word": "to",
+    "timestamp": 693.5
+  },
+  {
+    "word": "solve",
+    "timestamp": 694
+  },
+  {
+    "word": "your",
+    "timestamp": 694.4285714285714
+  },
+  {
+    "word": "problem",
+    "timestamp": 694.8571428571429
+  },
+  {
+    "word": "but",
+    "timestamp": 695.2857142857143
+  },
+  {
+    "word": "when",
+    "timestamp": 695.7142857142857
+  },
+  {
+    "word": "you",
+    "timestamp": 696.1428571428571
+  },
+  {
+    "word": "import",
+    "timestamp": 696.5714285714286
+  },
+  {
+    "word": "it",
+    "timestamp": 697
+  },
+  {
+    "word": "you",
+    "timestamp": 697.375
+  },
+  {
+    "word": "see",
+    "timestamp": 697.75
+  },
+  {
+    "word": "here",
+    "timestamp": 698.125
+  },
+  {
+    "word": "a",
+    "timestamp": 698.5
+  },
+  {
+    "word": "hundred",
+    "timestamp": 698.875
+  },
+  {
+    "word": "kilobytes",
+    "timestamp": 699.25
+  },
+  {
+    "word": "or",
+    "timestamp": 699.625
+  },
+  {
+    "word": "something",
+    "timestamp": 700
+  },
+  {
+    "word": "like",
+    "timestamp": 700.2857142857143
+  },
+  {
+    "word": "that",
+    "timestamp": 700.5714285714286
+  },
+  {
+    "word": "so",
+    "timestamp": 700.8571428571429
+  },
+  {
+    "word": "basically",
+    "timestamp": 701.1428571428571
+  },
+  {
+    "word": "you",
+    "timestamp": 701.4285714285714
+  },
+  {
+    "word": "can",
+    "timestamp": 701.7142857142857
+  },
+  {
+    "word": "delete",
+    "timestamp": 702
+  },
+  {
+    "word": "it",
+    "timestamp": 702.5714285714286
+  },
+  {
+    "word": "and",
+    "timestamp": 703.1428571428571
+  },
+  {
+    "word": "search",
+    "timestamp": 703.7142857142857
+  },
+  {
+    "word": "for",
+    "timestamp": 704.2857142857143
+  },
+  {
+    "word": "basic",
+    "timestamp": 704.8571428571429
+  },
+  {
+    "word": "solutions",
+    "timestamp": 705.4285714285714
+  },
+  {
+    "word": "the",
+    "timestamp": 706
+  },
+  {
+    "word": "next",
+    "timestamp": 706.5
+  },
+  {
+    "word": "extension",
+    "timestamp": 707
+  },
+  {
+    "word": "is",
+    "timestamp": 707.5
+  },
+  {
+    "word": "called",
+    "timestamp": 708
+  },
+  {
+    "word": "time",
+    "timestamp": 708.5
+  },
+  {
+    "word": "basically",
+    "timestamp": 709
+  },
+  {
+    "word": "you",
+    "timestamp": 709.25
+  },
+  {
+    "word": "can",
+    "timestamp": 709.5
+  },
+  {
+    "word": "see",
+    "timestamp": 709.75
+  },
+  {
+    "word": "how",
+    "timestamp": 710
+  },
+  {
+    "word": "much",
+    "timestamp": 710.25
+  },
+  {
+    "word": "time",
+    "timestamp": 710.5
+  },
+  {
+    "word": "you",
+    "timestamp": 710.75
+  },
+  {
+    "word": "are",
+    "timestamp": 711
+  },
+  {
+    "word": "spending",
+    "timestamp": 711.375
+  },
+  {
+    "word": "on",
+    "timestamp": 711.75
+  },
+  {
+    "word": "coding",
+    "timestamp": 712.125
+  },
+  {
+    "word": "if",
+    "timestamp": 712.5
+  },
+  {
+    "word": "you",
+    "timestamp": 712.875
+  },
+  {
+    "word": "open",
+    "timestamp": 713.25
+  },
+  {
+    "word": "the",
+    "timestamp": 713.625
+  },
+  {
+    "word": "dashboard",
+    "timestamp": 714
+  },
+  {
+    "word": "you",
+    "timestamp": 714.375
+  },
+  {
+    "word": "can",
+    "timestamp": 714.75
+  },
+  {
+    "word": "see",
+    "timestamp": 715.125
+  },
+  {
+    "word": "here",
+    "timestamp": 715.5
+  },
+  {
+    "word": "code",
+    "timestamp": 715.875
+  },
+  {
+    "word": "time",
+    "timestamp": 716.25
+  },
+  {
+    "word": "cut",
+    "timestamp": 716.625
+  },
+  {
+    "word": "time",
+    "timestamp": 717
+  },
+  {
+    "word": "is",
+    "timestamp": 717.375
+  },
+  {
+    "word": "the",
+    "timestamp": 717.75
+  },
+  {
+    "word": "duration",
+    "timestamp": 718.125
+  },
+  {
+    "word": "of",
+    "timestamp": 718.5
+  },
+  {
+    "word": "the",
+    "timestamp": 718.875
+  },
+  {
+    "word": "usage",
+    "timestamp": 719.25
+  },
+  {
+    "word": "and",
+    "timestamp": 719.625
+  },
+  {
+    "word": "active",
+    "timestamp": 720
+  },
+  {
+    "word": "coding",
+    "timestamp": 720.2857142857143
+  },
+  {
+    "word": "time",
+    "timestamp": 720.5714285714286
+  },
+  {
+    "word": "is",
+    "timestamp": 720.8571428571429
+  },
+  {
+    "word": "the",
+    "timestamp": 721.1428571428571
+  },
+  {
+    "word": "duration",
+    "timestamp": 721.4285714285714
+  },
+  {
+    "word": "of",
+    "timestamp": 721.7142857142857
+  },
+  {
+    "word": "the",
+    "timestamp": 722
+  },
+  {
+    "word": "writing",
+    "timestamp": 722.25
+  },
+  {
+    "word": "codes",
+    "timestamp": 722.5
+  },
+  {
+    "word": "and",
+    "timestamp": 722.75
+  },
+  {
+    "word": "you",
+    "timestamp": 723
+  },
+  {
+    "word": "can",
+    "timestamp": 723.25
+  },
+  {
+    "word": "see",
+    "timestamp": 723.5
+  },
+  {
+    "word": "your",
+    "timestamp": 723.75
+  },
+  {
+    "word": "daily",
+    "timestamp": 724
+  },
+  {
+    "word": "and",
+    "timestamp": 724.4285714285714
+  },
+  {
+    "word": "weekly",
+    "timestamp": 724.8571428571429
+  },
+  {
+    "word": "details",
+    "timestamp": 725.2857142857143
+  },
+  {
+    "word": "it's",
+    "timestamp": 725.7142857142857
+  },
+  {
+    "word": "a",
+    "timestamp": 726.1428571428571
+  },
+  {
+    "word": "good",
+    "timestamp": 726.5714285714286
+  },
+  {
+    "word": "extension",
+    "timestamp": 727
+  },
+  {
+    "word": "because",
+    "timestamp": 727.4
+  },
+  {
+    "word": "sometimes",
+    "timestamp": 727.8
+  },
+  {
+    "word": "we",
+    "timestamp": 728.2
+  },
+  {
+    "word": "really",
+    "timestamp": 728.6
+  },
+  {
+    "word": "work",
+    "timestamp": 729
+  },
+  {
+    "word": "hard",
+    "timestamp": 729.8
+  },
+  {
+    "word": "without",
+    "timestamp": 730.6
+  },
+  {
+    "word": "sleeping",
+    "timestamp": 731.4
+  },
+  {
+    "word": "exercising",
+    "timestamp": 732.2
+  },
+  {
+    "word": "spending",
+    "timestamp": 733
+  },
+  {
+    "word": "enough",
+    "timestamp": 733.4285714285714
+  },
+  {
+    "word": "time",
+    "timestamp": 733.8571428571429
+  },
+  {
+    "word": "with",
+    "timestamp": 734.2857142857143
+  },
+  {
+    "word": "our",
+    "timestamp": 734.7142857142857
+  },
+  {
+    "word": "friends",
+    "timestamp": 735.1428571428571
+  },
+  {
+    "word": "or",
+    "timestamp": 735.5714285714286
+  },
+  {
+    "word": "family",
+    "timestamp": 736
+  },
+  {
+    "word": "so",
+    "timestamp": 736.3333333333334
+  },
+  {
+    "word": "it's",
+    "timestamp": 736.6666666666666
+  },
+  {
+    "word": "not",
+    "timestamp": 737
+  },
+  {
+    "word": "healthy",
+    "timestamp": 737.3333333333334
+  },
+  {
+    "word": "at",
+    "timestamp": 737.6666666666666
+  },
+  {
+    "word": "all",
+    "timestamp": 738
+  },
+  {
+    "word": "if",
+    "timestamp": 738.3333333333334
+  },
+  {
+    "word": "you",
+    "timestamp": 738.6666666666666
+  },
+  {
+    "word": "don't",
+    "timestamp": 739
+  },
+  {
+    "word": "want",
+    "timestamp": 739.25
+  },
+  {
+    "word": "to",
+    "timestamp": 739.5
+  },
+  {
+    "word": "be",
+    "timestamp": 739.75
+  },
+  {
+    "word": "burned",
+    "timestamp": 740
+  },
+  {
+    "word": "out",
+    "timestamp": 740.25
+  },
+  {
+    "word": "you",
+    "timestamp": 740.5
+  },
+  {
+    "word": "should",
+    "timestamp": 740.75
+  },
+  {
+    "word": "definitely",
+    "timestamp": 741
+  },
+  {
+    "word": "fix",
+    "timestamp": 741.6
+  },
+  {
+    "word": "your",
+    "timestamp": 742.2
+  },
+  {
+    "word": "time",
+    "timestamp": 742.8
+  },
+  {
+    "word": "management",
+    "timestamp": 743.4
+  },
+  {
+    "word": "there",
+    "timestamp": 744
+  },
+  {
+    "word": "are",
+    "timestamp": 744.2857142857143
+  },
+  {
+    "word": "many",
+    "timestamp": 744.5714285714286
+  },
+  {
+    "word": "extensions",
+    "timestamp": 744.8571428571429
+  },
+  {
+    "word": "but",
+    "timestamp": 745.1428571428571
+  },
+  {
+    "word": "i",
+    "timestamp": 745.4285714285714
+  },
+  {
+    "word": "don't",
+    "timestamp": 745.7142857142857
+  },
+  {
+    "word": "want",
+    "timestamp": 746
+  },
+  {
+    "word": "to",
+    "timestamp": 746.4285714285714
+  },
+  {
+    "word": "make",
+    "timestamp": 746.8571428571429
+  },
+  {
+    "word": "this",
+    "timestamp": 747.2857142857143
+  },
+  {
+    "word": "video",
+    "timestamp": 747.7142857142857
+  },
+  {
+    "word": "too",
+    "timestamp": 748.1428571428571
+  },
+  {
+    "word": "long",
+    "timestamp": 748.5714285714286
+  },
+  {
+    "word": "so",
+    "timestamp": 749
+  },
+  {
+    "word": "i",
+    "timestamp": 749.25
+  },
+  {
+    "word": "will",
+    "timestamp": 749.5
+  },
+  {
+    "word": "show",
+    "timestamp": 749.75
+  },
+  {
+    "word": "you",
+    "timestamp": 750
+  },
+  {
+    "word": "the",
+    "timestamp": 750.25
+  },
+  {
+    "word": "must",
+    "timestamp": 750.5
+  },
+  {
+    "word": "have",
+    "timestamp": 750.75
+  },
+  {
+    "word": "extensions",
+    "timestamp": 751
+  },
+  {
+    "word": "and",
+    "timestamp": 751.4285714285714
+  },
+  {
+    "word": "finish",
+    "timestamp": 751.8571428571429
+  },
+  {
+    "word": "this",
+    "timestamp": 752.2857142857143
+  },
+  {
+    "word": "video",
+    "timestamp": 752.7142857142857
+  },
+  {
+    "word": "i",
+    "timestamp": 753.1428571428571
+  },
+  {
+    "word": "show",
+    "timestamp": 753.5714285714286
+  },
+  {
+    "word": "them",
+    "timestamp": 754
+  },
+  {
+    "word": "at",
+    "timestamp": 754.3333333333334
+  },
+  {
+    "word": "the",
+    "timestamp": 754.6666666666666
+  },
+  {
+    "word": "end",
+    "timestamp": 755
+  },
+  {
+    "word": "of",
+    "timestamp": 755.3333333333334
+  },
+  {
+    "word": "the",
+    "timestamp": 755.6666666666666
+  },
+  {
+    "word": "video",
+    "timestamp": 756
+  },
+  {
+    "word": "because",
+    "timestamp": 756.3333333333334
+  },
+  {
+    "word": "i",
+    "timestamp": 756.6666666666666
+  },
+  {
+    "word": "know",
+    "timestamp": 757
+  },
+  {
+    "word": "most",
+    "timestamp": 757.25
+  },
+  {
+    "word": "of",
+    "timestamp": 757.5
+  },
+  {
+    "word": "you",
+    "timestamp": 757.75
+  },
+  {
+    "word": "already",
+    "timestamp": 758
+  },
+  {
+    "word": "have",
+    "timestamp": 758.25
+  },
+  {
+    "word": "them",
+    "timestamp": 758.5
+  },
+  {
+    "word": "but",
+    "timestamp": 758.75
+  },
+  {
+    "word": "for",
+    "timestamp": 759
+  },
+  {
+    "word": "the",
+    "timestamp": 759.25
+  },
+  {
+    "word": "beginners",
+    "timestamp": 759.5
+  },
+  {
+    "word": "i",
+    "timestamp": 759.75
+  },
+  {
+    "word": "think",
+    "timestamp": 760
+  },
+  {
+    "word": "it",
+    "timestamp": 760.25
+  },
+  {
+    "word": "will",
+    "timestamp": 760.5
+  },
+  {
+    "word": "be",
+    "timestamp": 760.75
+  },
+  {
+    "word": "useful",
+    "timestamp": 761
+  },
+  {
+    "word": "so",
+    "timestamp": 761.4285714285714
+  },
+  {
+    "word": "here",
+    "timestamp": 761.8571428571429
+  },
+  {
+    "word": "are",
+    "timestamp": 762.2857142857143
+  },
+  {
+    "word": "the",
+    "timestamp": 762.7142857142857
+  },
+  {
+    "word": "extensions",
+    "timestamp": 763.1428571428571
+  },
+  {
+    "word": "you",
+    "timestamp": 763.5714285714286
+  },
+  {
+    "word": "have",
+    "timestamp": 764
+  },
+  {
+    "word": "to",
+    "timestamp": 764.3333333333334
+  },
+  {
+    "word": "use",
+    "timestamp": 764.6666666666666
+  },
+  {
+    "word": "as",
+    "timestamp": 765
+  },
+  {
+    "word": "a",
+    "timestamp": 765.3333333333334
+  },
+  {
+    "word": "web",
+    "timestamp": 765.6666666666666
+  },
+  {
+    "word": "developer",
+    "timestamp": 766
+  },
+  {
+    "word": "the",
+    "timestamp": 766.3333333333334
+  },
+  {
+    "word": "first",
+    "timestamp": 766.6666666666666
+  },
+  {
+    "word": "one",
+    "timestamp": 767
+  },
+  {
+    "word": "is",
+    "timestamp": 767.375
+  },
+  {
+    "word": "live",
+    "timestamp": 767.75
+  },
+  {
+    "word": "server",
+    "timestamp": 768.125
+  },
+  {
+    "word": "when",
+    "timestamp": 768.5
+  },
+  {
+    "word": "you",
+    "timestamp": 768.875
+  },
+  {
+    "word": "create",
+    "timestamp": 769.25
+  },
+  {
+    "word": "a",
+    "timestamp": 769.625
+  },
+  {
+    "word": "website",
+    "timestamp": 770
+  },
+  {
+    "word": "to",
+    "timestamp": 770.2857142857143
+  },
+  {
+    "word": "see",
+    "timestamp": 770.5714285714286
+  },
+  {
+    "word": "your",
+    "timestamp": 770.8571428571429
+  },
+  {
+    "word": "results",
+    "timestamp": 771.1428571428571
+  },
+  {
+    "word": "on",
+    "timestamp": 771.4285714285714
+  },
+  {
+    "word": "the",
+    "timestamp": 771.7142857142857
+  },
+  {
+    "word": "browser",
+    "timestamp": 772
+  },
+  {
+    "word": "you",
+    "timestamp": 772.5
+  },
+  {
+    "word": "can",
+    "timestamp": 773
+  },
+  {
+    "word": "use",
+    "timestamp": 773.5
+  },
+  {
+    "word": "this",
+    "timestamp": 774
+  },
+  {
+    "word": "extension",
+    "timestamp": 774.5
+  },
+  {
+    "word": "so",
+    "timestamp": 775
+  },
+  {
+    "word": "you",
+    "timestamp": 775.25
+  },
+  {
+    "word": "don't",
+    "timestamp": 775.5
+  },
+  {
+    "word": "have",
+    "timestamp": 775.75
+  },
+  {
+    "word": "to",
+    "timestamp": 776
+  },
+  {
+    "word": "worry",
+    "timestamp": 776.25
+  },
+  {
+    "word": "about",
+    "timestamp": 776.5
+  },
+  {
+    "word": "any",
+    "timestamp": 776.75
+  },
+  {
+    "word": "changes",
+    "timestamp": 777
+  },
+  {
+    "word": "on",
+    "timestamp": 777.4285714285714
+  },
+  {
+    "word": "your",
+    "timestamp": 777.8571428571429
+  },
+  {
+    "word": "code",
+    "timestamp": 778.2857142857143
+  },
+  {
+    "word": "when",
+    "timestamp": 778.7142857142857
+  },
+  {
+    "word": "you",
+    "timestamp": 779.1428571428571
+  },
+  {
+    "word": "change",
+    "timestamp": 779.5714285714286
+  },
+  {
+    "word": "anything",
+    "timestamp": 780
+  },
+  {
+    "word": "here",
+    "timestamp": 780.25
+  },
+  {
+    "word": "it's",
+    "timestamp": 780.5
+  },
+  {
+    "word": "gonna",
+    "timestamp": 780.75
+  },
+  {
+    "word": "show",
+    "timestamp": 781
+  },
+  {
+    "word": "up",
+    "timestamp": 781.25
+  },
+  {
+    "word": "on",
+    "timestamp": 781.5
+  },
+  {
+    "word": "the",
+    "timestamp": 781.75
+  },
+  {
+    "word": "browser",
+    "timestamp": 782
+  },
+  {
+    "word": "immediately",
+    "timestamp": 783
+  },
+  {
+    "word": "second",
+    "timestamp": 784
+  },
+  {
+    "word": "one",
+    "timestamp": 784.5
+  },
+  {
+    "word": "is",
+    "timestamp": 785
+  },
+  {
+    "word": "auto",
+    "timestamp": 785.5
+  },
+  {
+    "word": "rename",
+    "timestamp": 786
+  },
+  {
+    "word": "tag",
+    "timestamp": 786.5
+  },
+  {
+    "word": "when",
+    "timestamp": 787
+  },
+  {
+    "word": "using",
+    "timestamp": 787.5
+  },
+  {
+    "word": "html",
+    "timestamp": 788
+  },
+  {
+    "word": "it's",
+    "timestamp": 788.2857142857143
+  },
+  {
+    "word": "really",
+    "timestamp": 788.5714285714286
+  },
+  {
+    "word": "annoying",
+    "timestamp": 788.8571428571429
+  },
+  {
+    "word": "not",
+    "timestamp": 789.1428571428571
+  },
+  {
+    "word": "to",
+    "timestamp": 789.4285714285714
+  },
+  {
+    "word": "being",
+    "timestamp": 789.7142857142857
+  },
+  {
+    "word": "able",
+    "timestamp": 790
+  },
+  {
+    "word": "to",
+    "timestamp": 790.6
+  },
+  {
+    "word": "rename",
+    "timestamp": 791.2
+  },
+  {
+    "word": "both",
+    "timestamp": 791.8
+  },
+  {
+    "word": "tags",
+    "timestamp": 792.4
+  },
+  {
+    "word": "but",
+    "timestamp": 793
+  },
+  {
+    "word": "after",
+    "timestamp": 793.4285714285714
+  },
+  {
+    "word": "this",
+    "timestamp": 793.8571428571429
+  },
+  {
+    "word": "extension",
+    "timestamp": 794.2857142857143
+  },
+  {
+    "word": "when",
+    "timestamp": 794.7142857142857
+  },
+  {
+    "word": "you",
+    "timestamp": 795.1428571428571
+  },
+  {
+    "word": "change",
+    "timestamp": 795.5714285714286
+  },
+  {
+    "word": "any",
+    "timestamp": 796
+  },
+  {
+    "word": "tag",
+    "timestamp": 796.375
+  },
+  {
+    "word": "it's",
+    "timestamp": 796.75
+  },
+  {
+    "word": "gonna",
+    "timestamp": 797.125
+  },
+  {
+    "word": "affect",
+    "timestamp": 797.5
+  },
+  {
+    "word": "the",
+    "timestamp": 797.875
+  },
+  {
+    "word": "other",
+    "timestamp": 798.25
+  },
+  {
+    "word": "one",
+    "timestamp": 798.625
+  },
+  {
+    "word": "the",
+    "timestamp": 799
+  },
+  {
+    "word": "third",
+    "timestamp": 799.6
+  },
+  {
+    "word": "one",
+    "timestamp": 800.2
+  },
+  {
+    "word": "is",
+    "timestamp": 800.8
+  },
+  {
+    "word": "prettier",
+    "timestamp": 801.4
+  },
+  {
+    "word": "prettier",
+    "timestamp": 802
+  },
+  {
+    "word": "is",
+    "timestamp": 802.4285714285714
+  },
+  {
+    "word": "an",
+    "timestamp": 802.8571428571429
+  },
+  {
+    "word": "awesome",
+    "timestamp": 803.2857142857143
+  },
+  {
+    "word": "cod",
+    "timestamp": 803.7142857142857
+  },
+  {
+    "word": "formatter",
+    "timestamp": 804.1428571428571
+  },
+  {
+    "word": "it",
+    "timestamp": 804.5714285714286
+  },
+  {
+    "word": "enforces",
+    "timestamp": 805
+  },
+  {
+    "word": "a",
+    "timestamp": 805.5
+  },
+  {
+    "word": "consistent",
+    "timestamp": 806
+  },
+  {
+    "word": "style",
+    "timestamp": 806.5
+  },
+  {
+    "word": "by",
+    "timestamp": 807
+  },
+  {
+    "word": "parsing",
+    "timestamp": 807.5
+  },
+  {
+    "word": "your",
+    "timestamp": 808
+  },
+  {
+    "word": "code",
+    "timestamp": 808.6
+  },
+  {
+    "word": "after",
+    "timestamp": 809.2
+  },
+  {
+    "word": "writing",
+    "timestamp": 809.8
+  },
+  {
+    "word": "cuts",
+    "timestamp": 810.4
+  },
+  {
+    "word": "when",
+    "timestamp": 811
+  },
+  {
+    "word": "you",
+    "timestamp": 811.4444444444445
+  },
+  {
+    "word": "press",
+    "timestamp": 811.8888888888889
+  },
+  {
+    "word": "alt",
+    "timestamp": 812.3333333333334
+  },
+  {
+    "word": "or",
+    "timestamp": 812.7777777777778
+  },
+  {
+    "word": "option",
+    "timestamp": 813.2222222222222
+  },
+  {
+    "word": "shift",
+    "timestamp": 813.6666666666666
+  },
+  {
+    "word": "and",
+    "timestamp": 814.1111111111111
+  },
+  {
+    "word": "f",
+    "timestamp": 814.5555555555555
+  },
+  {
+    "word": "it's",
+    "timestamp": 815
+  },
+  {
+    "word": "gonna",
+    "timestamp": 815.6
+  },
+  {
+    "word": "correct",
+    "timestamp": 816.2
+  },
+  {
+    "word": "your",
+    "timestamp": 816.8
+  },
+  {
+    "word": "lines",
+    "timestamp": 817.4
+  },
+  {
+    "word": "and",
+    "timestamp": 818
+  },
+  {
+    "word": "the",
+    "timestamp": 818.3333333333334
+  },
+  {
+    "word": "last",
+    "timestamp": 818.6666666666666
+  },
+  {
+    "word": "one",
+    "timestamp": 819
+  },
+  {
+    "word": "is",
+    "timestamp": 819.3333333333334
+  },
+  {
+    "word": "as7",
+    "timestamp": 819.6666666666666
+  },
+  {
+    "word": "snippets",
+    "timestamp": 820
+  },
+  {
+    "word": "if",
+    "timestamp": 820.3333333333334
+  },
+  {
+    "word": "you",
+    "timestamp": 820.6666666666666
+  },
+  {
+    "word": "are",
+    "timestamp": 821
+  },
+  {
+    "word": "using",
+    "timestamp": 821.5
+  },
+  {
+    "word": "javascript",
+    "timestamp": 822
+  },
+  {
+    "word": "react",
+    "timestamp": 822.5
+  },
+  {
+    "word": "you",
+    "timestamp": 823
+  },
+  {
+    "word": "should",
+    "timestamp": 823.5
+  },
+  {
+    "word": "definitely",
+    "timestamp": 824
+  },
+  {
+    "word": "use",
+    "timestamp": 824.5
+  },
+  {
+    "word": "this",
+    "timestamp": 825
+  },
+  {
+    "word": "extension",
+    "timestamp": 825.5
+  },
+  {
+    "word": "it",
+    "timestamp": 826
+  },
+  {
+    "word": "has",
+    "timestamp": 826.5
+  },
+  {
+    "word": "tons",
+    "timestamp": 827
+  },
+  {
+    "word": "of",
+    "timestamp": 827.6666666666666
+  },
+  {
+    "word": "shortcuts",
+    "timestamp": 828.3333333333334
+  },
+  {
+    "word": "you",
+    "timestamp": 829
+  },
+  {
+    "word": "can",
+    "timestamp": 829.6
+  },
+  {
+    "word": "create",
+    "timestamp": 830.2
+  },
+  {
+    "word": "functions",
+    "timestamp": 830.8
+  },
+  {
+    "word": "easily",
+    "timestamp": 831.4
+  },
+  {
+    "word": "console",
+    "timestamp": 832
+  },
+  {
+    "word": "log",
+    "timestamp": 832.6
+  },
+  {
+    "word": "and",
+    "timestamp": 833.2
+  },
+  {
+    "word": "other",
+    "timestamp": 833.8
+  },
+  {
+    "word": "shortcuts",
+    "timestamp": 834.4
+  },
+  {
+    "word": "you",
+    "timestamp": 835
+  },
+  {
+    "word": "can",
+    "timestamp": 835.4
+  },
+  {
+    "word": "check",
+    "timestamp": 835.8
+  },
+  {
+    "word": "them",
+    "timestamp": 836.2
+  },
+  {
+    "word": "here",
+    "timestamp": 836.6
+  },
+  {
+    "word": "so",
+    "timestamp": 837
+  },
+  {
+    "word": "that's",
+    "timestamp": 837.375
+  },
+  {
+    "word": "all",
+    "timestamp": 837.75
+  },
+  {
+    "word": "i",
+    "timestamp": 838.125
+  },
+  {
+    "word": "hope",
+    "timestamp": 838.5
+  },
+  {
+    "word": "you",
+    "timestamp": 838.875
+  },
+  {
+    "word": "liked",
+    "timestamp": 839.25
+  },
+  {
+    "word": "it",
+    "timestamp": 839.625
+  },
+  {
+    "word": "if",
+    "timestamp": 840
+  },
+  {
+    "word": "you",
+    "timestamp": 840.3
+  },
+  {
+    "word": "want",
+    "timestamp": 840.6
+  },
+  {
+    "word": "to",
+    "timestamp": 840.9
+  },
+  {
+    "word": "see",
+    "timestamp": 841.2
+  },
+  {
+    "word": "part",
+    "timestamp": 841.5
+  },
+  {
+    "word": "2",
+    "timestamp": 841.8
+  },
+  {
+    "word": "you",
+    "timestamp": 842.1
+  },
+  {
+    "word": "can",
+    "timestamp": 842.4
+  },
+  {
+    "word": "leave",
+    "timestamp": 842.7
+  },
+  {
+    "word": "a",
+    "timestamp": 843
+  },
+  {
+    "word": "comment",
+    "timestamp": 843.375
+  },
+  {
+    "word": "and",
+    "timestamp": 843.75
+  },
+  {
+    "word": "as",
+    "timestamp": 844.125
+  },
+  {
+    "word": "always",
+    "timestamp": 844.5
+  },
+  {
+    "word": "if",
+    "timestamp": 844.875
+  },
+  {
+    "word": "you",
+    "timestamp": 845.25
+  },
+  {
+    "word": "learned",
+    "timestamp": 845.625
+  },
+  {
+    "word": "something",
+    "timestamp": 846
+  },
+  {
+    "word": "new",
+    "timestamp": 846.1666666666666
+  },
+  {
+    "word": "today",
+    "timestamp": 846.3333333333334
+  },
+  {
+    "word": "please",
+    "timestamp": 846.5
+  },
+  {
+    "word": "like",
+    "timestamp": 846.6666666666666
+  },
+  {
+    "word": "the",
+    "timestamp": 846.8333333333334
+  },
+  {
+    "word": "video",
+    "timestamp": 847
+  },
+  {
+    "word": "and",
+    "timestamp": 847.4285714285714
+  },
+  {
+    "word": "subscribe",
+    "timestamp": 847.8571428571429
+  },
+  {
+    "word": "to",
+    "timestamp": 848.2857142857143
+  },
+  {
+    "word": "the",
+    "timestamp": 848.7142857142857
+  },
+  {
+    "word": "channel",
+    "timestamp": 849.1428571428571
+  },
+  {
+    "word": "and",
+    "timestamp": 849.5714285714286
+  },
+  {
+    "word": "don't",
+    "timestamp": 850
+  },
+  {
+    "word": "forget",
+    "timestamp": 850.3333333333334
+  },
+  {
+    "word": "to",
+    "timestamp": 850.6666666666666
+  },
+  {
+    "word": "follow",
+    "timestamp": 851
+  },
+  {
+    "word": "lamadev's",
+    "timestamp": 851.3333333333334
+  },
+  {
+    "word": "social",
+    "timestamp": 851.6666666666666
+  },
+  {
+    "word": "media",
+    "timestamp": 852
+  },
+  {
+    "word": "accounts",
+    "timestamp": 853
+  },
+  {
+    "word": "i",
+    "timestamp": 854
+  },
+  {
+    "word": "hope",
+    "timestamp": 854.2222222222222
+  },
+  {
+    "word": "i",
+    "timestamp": 854.4444444444445
+  },
+  {
+    "word": "will",
+    "timestamp": 854.6666666666666
+  },
+  {
+    "word": "see",
+    "timestamp": 854.8888888888889
+  },
+  {
+    "word": "you",
+    "timestamp": 855.1111111111111
+  },
+  {
+    "word": "in",
+    "timestamp": 855.3333333333334
+  },
+  {
+    "word": "the",
+    "timestamp": 855.5555555555555
+  },
+  {
+    "word": "next",
+    "timestamp": 855.7777777777778
+  },
+  {
+    "word": "tutorial",
+    "timestamp": 856
+  },
+  {
+    "word": "goodbye",
+    "timestamp": 857
+  },
+  {
+    "word": "[Music]",
+    "timestamp": 858
+  },
+  {
+    "word": "[Music]",
+    "timestamp": 869
+  }
+]

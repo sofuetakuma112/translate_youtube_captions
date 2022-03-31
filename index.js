@@ -1,39 +1,41 @@
+import { getCaptionByVideoId } from "./getYoutubeCaptionByScraping.js";
+import { escapeDot, stringTimeToNumber } from "./util.js";
 import fs from "fs";
-import axios from "axios";
-import { escapeDot, unescapeDot } from "./util.js";
 
-const buffer = fs.readFileSync("chat/transcript.txt");
-const text_original = buffer.toString();
+const url = process.argv[2];
 
-const words = text_original.split(" ");
-const wordsWithPeriods = [...new Set(words)].filter(
-  (word) => word.indexOf(".") !== -1
+const caption = await getCaptionByVideoId(url);
+
+// { timestamp, caption } => { from, to, caption }
+const captionWithFromto = caption.reduce((array, _, i) => {
+  if (caption.length - 1 === i) return array; // captionの末尾は動画の長さ情報のみを持つのでスキップする
+  const currentCaption = caption[i];
+  const nextCaption = caption[i + 1];
+  array.push({
+    from: stringTimeToNumber(currentCaption.timestamp),
+    to: stringTimeToNumber(nextCaption.timestamp),
+    caption: currentCaption.caption,
+  });
+  return array;
+}, []);
+
+// 英単語ごとにタイムスタンプを割り振る
+const wordWithTimestamps = [];
+captionWithFromto.forEach(({ caption, from, to }) => {
+  const words = caption.split(" ");
+  const countOfWords = words.length;
+  const NumberOfSecondsHaveSpoken = to - from;
+  const NumberOfSecondsBetweenWords = NumberOfSecondsHaveSpoken / countOfWords;
+  wordWithTimestamps.push(
+    ...words.map((word, index) => ({
+      word: escapeDot(word),
+      timestamp: from + index * NumberOfSecondsBetweenWords,
+    }))
+  );
+});
+
+fs.writeFileSync(
+  `captions/timestamp_words.json`,
+  JSON.stringify(wordWithTimestamps, null, "  ")
 );
-
-const text_original_escaped = text_original
-  .split(" ") // 単語ごとに区切る
-  .map((word) => escapeDot(word))
-  .join(" ");
-
-// ここで句読点モデルに渡す？
-const text_with_punc_escaped = await axios
-  .post("http://localhost:5000/api/restorePunc", {
-    text: text_original_escaped,
-  })
-  .then((res) => res.data.res);
-
-fs.writeFileSync("chat/text_with_punc_escaped.txt", text_with_punc_escaped);
-
-console.log(
-  text_with_punc_escaped // . => [dot]に前処理したテキストをbert modelで句読点つけたもの
-    .split(".")
-    .map((text) => unescapeDot(text)) // [dot] => . に変換する
-    .filter((text) => text)
-    .map((text) => text + ".")
-    .map((text) => text.trim())
-    .join("\n\n")
-  // .split("?")
-  // .map((text) => text + "?")
-  // .map((text) => text.trim())
-  // .join("\n\n")
-);
+console.log(wordWithTimestamps);

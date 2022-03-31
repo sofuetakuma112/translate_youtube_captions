@@ -3,3 +3,4 @@ server_js/node_modules
 chat/
 
 translate-youtube-caption*.json
+.env
