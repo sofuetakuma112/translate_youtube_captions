@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 import moment from "moment";
 import "dotenv/config";
 import { sleep } from "./utils/util.js";
-import { formatWebVttTimestamp } from "./utils/time.js";
+import { formatWebVttTimestamp, formatDuration } from "./utils/time.js";
 import { getTextContentFromElemHandler } from "./utils/puppeteer.js";
 
 export const getCaptionByVideoId = async (url, directoryPath) => {
@@ -18,6 +18,10 @@ export const getCaptionByVideoId = async (url, directoryPath) => {
     page.waitForNavigation({ waitUntil: ["load", "networkidle2"] }),
   ]);
 
+  await page.waitForSelector(
+    "#menu-container .dropdown-trigger.style-scope.ytd-menu-renderer button",
+    { timeout: 100000 }
+  );
   const menuIcon = await page.$(
     "#menu-container .dropdown-trigger.style-scope.ytd-menu-renderer button"
   );
@@ -30,7 +34,6 @@ export const getCaptionByVideoId = async (url, directoryPath) => {
   await openTranscription.click();
   await sleep(2000);
 
-  // TODO: 字幕が１つのみの場合、セレクトボックスがないので対応する
   const selectLangElem = await page.$(
     "#footer tp-yt-paper-button.dropdown-trigger.style-scope.yt-dropdown-menu"
   );
@@ -68,7 +71,7 @@ export const getCaptionByVideoId = async (url, directoryPath) => {
     const elemOfAutoEnCaption = langAnchorElemsWithLangText.find(
       ({ lang }) => lang === "英語 (自動生成)"
     );
-  
+
     // TODO: ユーザーが生成した字幕のテキスト処理に対応する
     if (elemOfAutoEnCaption) {
       // セレクトボックスから英語 (自動生成)をクリックする
@@ -77,30 +80,38 @@ export const getCaptionByVideoId = async (url, directoryPath) => {
     } else throw Error("英語 (自動生成)以外の字幕は未対応");
   }
 
-  // TODO: 動画の長さ次第でローディングにかかる時間が変わるのでリトライ処理を書く
-  await sleep(5000);
-
   // 字幕データ全体の読み込み
-  const captionAndTimestampElems = await page.$$(
-    "#body ytd-transcript-body-renderer > div"
-  );
-  const removeNewLineAndTrimText = (text) => text.replaceAll("\n", "").trim();
-  const captionAndTimestamp = await Promise.all(
-    captionAndTimestampElems.map(async (captionAndTimestampElem) => {
-      const timestampElem = await captionAndTimestampElem.$(
-        ".cue-group-start-offset.style-scope.ytd-transcript-body-renderer"
-      );
-      const captionElem = await captionAndTimestampElem.$(
-        ".cue.style-scope.ytd-transcript-body-renderer"
-      );
-      const timestamp = await getTextContentFromElemHandler(timestampElem);
-      const caption = await getTextContentFromElemHandler(captionElem);
-      return {
-        timestamp: removeNewLineAndTrimText(timestamp),
-        caption: removeNewLineAndTrimText(caption),
-      };
-    })
-  );
+  const getAllCaptions = async () => {
+    const captionAndTimestampElems = await page.$$(
+      "ytd-transcript-segment-list-renderer.style-scope.ytd-transcript-search-panel-renderer ytd-transcript-segment-renderer > div"
+    );
+    const removeNewLineAndTrimText = (text) => text.replaceAll("\n", "").trim();
+    const captionAndTimestamp = await Promise.all(
+      captionAndTimestampElems.map(async (captionAndTimestampElem) => {
+        const timestampElem = await captionAndTimestampElem.$(
+          ".segment-timestamp.style-scope.ytd-transcript-segment-renderer"
+        );
+        const captionElem = await captionAndTimestampElem.$(
+          "yt-formatted-string"
+        );
+        const timestamp = await getTextContentFromElemHandler(timestampElem);
+        const caption = await getTextContentFromElemHandler(captionElem);
+        return {
+          timestamp: formatWebVttTimestamp(removeNewLineAndTrimText(timestamp), 2, false),
+          caption: removeNewLineAndTrimText(caption),
+        };
+      })
+    );
+    if (captionAndTimestamp.length <= 1) {
+      console.log("字幕データの取得に失敗したのでリトライする");
+      await sleep(5000);
+      return getAllCaptions();
+    } else {
+      return captionAndTimestamp;
+    }
+  };
+
+  const captionAndTimestamp = await getAllCaptions();
 
   // 動画の長さを取得する
   const videoId = new URL(url).searchParams.get("v");
@@ -110,10 +121,10 @@ export const getCaptionByVideoId = async (url, directoryPath) => {
 
   // from toの作成のために動画のdurationを最後に追加する
   const d = moment.duration(data.items[0].contentDetails.duration);
+  const timestamp = formatDuration(d);
+
   captionAndTimestamp.push({
-    timestamp: formatWebVttTimestamp(
-      `${Math.floor(d.asMinutes())}:${("0" + d.seconds()).slice(-2)}`
-    ),
+    timestamp,
     caption: "",
   });
 

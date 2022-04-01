@@ -1,3 +1,5 @@
+import moment from "moment";
+
 // 0:00:00.140の形式に対応
 export const timeToNumber = (time) => {
   const hour = time.split(":")[0];
@@ -19,35 +21,45 @@ export const timeToNumber = (time) => {
 };
 
 // 不完全なWEBVTTタイムスタンプを完全なものに整形する(0埋め)
-// 00:00 => 00:00:00:00.000
-// 00 => 00:00:00:00.000
-// 1982:40 => dd:HH:MM:SS.fffの形式への変換はできない
-export const formatWebVttTimestamp = (timestamp_webvtt) => {
-  let fullTimestamp_webvtt = timestamp_webvtt;
-  const count = (fullTimestamp_webvtt.match(/:/g) || []).length;
-  [...Array(3 - count)].forEach(
+// formatWebVttTimestamp("2:01") => 00:02:01
+// formatWebVttTimestamp("53:04") => 00:53:04
+// formatWebVttTimestamp("6:43:23") => 06:43:23
+// formatWebVttTimestamp("28:28:26") => 28:28:26
+export const formatWebVttTimestamp = (
+  timestamp_webvtt,
+  countOfColon,
+  withDecimal
+) => {
+  const count = (timestamp_webvtt.match(/:/g) || []).length;
+  let fullTimestamp_webvtt = timestamp_webvtt
+    .split(":")
+    .map((time) => padZero(time, 2))
+    .join(":");
+  [...Array(countOfColon - count)].forEach(
     (_, i) => (fullTimestamp_webvtt = `00:${fullTimestamp_webvtt}`)
   );
-  if (fullTimestamp_webvtt.indexOf(".") === -1) {
+  if (withDecimal && fullTimestamp_webvtt.indexOf(".") === -1) {
     fullTimestamp_webvtt = `${fullTimestamp_webvtt}.000`;
   }
   return fullTimestamp_webvtt;
 };
 
-// MM:SS => SSに変換する
-// 1982:40の形式のみ対応する
+const padZero = (number, len) => ("0" + number).slice(-1 * len);
+
+// P0DT0H7M30S => 00:07:30
+// P1DT7H7M30S => 31:07:30
+export const formatDuration = (duration) => {
+  const d = moment.duration(duration);
+  return `${padZero(Math.floor(d.hours() + d.days() * 24), 2)}:${padZero(
+    Math.floor(d.minutes()),
+    2
+  )}:${padZero(d.seconds(), 2)}`;
+};
+
+// HH:MM:SS => SSに変換する
 export const stringTimeToNumber = (stringTime) => {
-  let [minutes, seconds] = stringTime.split(":");
-  let hours = Math.floor(minutes / 60);
-  minutes = minutes - hours * 60; // minutesからhoursに移した分減らす
-  let day = Math.floor(hours / 24);
-  hours = hours - day * 24; // hoursからdayに移した分減らす
-  return (
-    Number(day) * 24 * 60 * 60 +
-    Number(hours) * 60 * 60 +
-    Number(minutes) * 60 +
-    Number(seconds)
-  );
+  let [hours, minutes, seconds] = stringTime.split(":");
+  return Number(hours) * 60 * 60 + Number(minutes) * 60 + Number(seconds);
 };
 
 export const toHms = (t) => {
