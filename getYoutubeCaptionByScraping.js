@@ -22,6 +22,7 @@ export const getCaptionByVideoId = async (url, directoryPath) => {
     "#menu-container .dropdown-trigger.style-scope.ytd-menu-renderer button",
     { timeout: 100000 }
   );
+  await sleep(1000);
   const menuIcon = await page.$(
     "#menu-container .dropdown-trigger.style-scope.ytd-menu-renderer button"
   );
