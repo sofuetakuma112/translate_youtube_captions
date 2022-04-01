@@ -2,23 +2,9 @@ export const removeTag = (text) => {
   return text.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, "");
 };
 
-export const escapeDot = (word) => {
-  if (word.indexOf(".") !== -1) {
-    const escaped = word.replace(".", "[dot]");
-    if (escaped.indexOf(".") !== -1) {
-      return escapeDot(escaped);
-    } else return escaped;
-  } else return word;
-};
+export const escapeDot = (word) => word.replaceAll(".", "[dot]");
 
-export const unescapeDot = (word) => {
-  if (word.indexOf("[dot]") !== -1) {
-    const unescaped = word.replace("[dot]", ".");
-    if (unescaped.indexOf("[dot]") !== -1) {
-      return unescapeDot(unescaped);
-    } else return unescaped;
-  } else return word;
-};
+export const unescapeDot = (word) => word.replaceAll("[dot]", ".");
 
 // text => Text
 export const capitalizeFirstLetter = (text) => {
@@ -33,4 +19,22 @@ export const removeLineChar = (time) => {
     console.log(time);
     throw Error(error);
   }
+};
+
+// vttファイルをsrtファイルに変換する
+export const vtt2srt = (vtt) => {
+  const splitByLine = vtt.split("\n").filter((line) => line);
+  let currentIndex = 0;
+  let transcript_srt = "";
+  const removedWebVttText = splitByLine.splice(1, splitByLine.length);
+  [...Array(Math.floor(removedWebVttText.length / 2))].forEach((_, index) => {
+    transcript_srt += `${index + 1}
+  ${removedWebVttText[currentIndex].replaceAll(".", ",")}
+  ${removedWebVttText[currentIndex + 1]}\n\n`
+      .split("\n")
+      .map((line) => line.trim())
+      .join("\n");
+    currentIndex += 2;
+  });
+  return transcript_srt;
 };

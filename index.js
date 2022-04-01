@@ -5,13 +5,23 @@ import { sliceByNumber } from "./utils/util.js";
 import { escapeDot, capitalizeFirstLetter, unescapeDot } from "./utils/text.js";
 import { stringTimeToNumber, toHms } from "./utils/time.js";
 import { translate } from "./translate.js";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const url = process.argv[2];
+const target = process.argv[3];
+
+const videoId = new URL(url).searchParams.get("v");
+const directoryPath = `${__dirname}/captions/${videoId}`;
 
 (async () => {
+  await fs.promises.mkdir(directoryPath, { recursive: true });
   // YoutubeURLから字幕データを{ timestamp, caption }[]で取得する
   console.log("YoutubeURLから字幕データを{ timestamp, caption }[]で取得する");
-  const caption = await getCaptionByVideoId(url);
+  const caption = await getCaptionByVideoId(url, directoryPath);
 
   // { timestamp, caption }[] => { from, to, caption }[]
   console.log("{ timestamp, caption }[] => { from, to, caption }[]");
@@ -44,7 +54,10 @@ const url = process.argv[2];
     );
   });
 
-  fs.writeFileSync(`captions/dict.json`, JSON.stringify(dict, null, "  "));
+  fs.writeFileSync(
+    `${directoryPath}/dict.json`,
+    JSON.stringify(dict, null, "  ")
+  );
 
   // 文末のピリオド以外のピリオドをエスケープする
   console.log("文末のピリオド以外のピリオドをエスケープする");
@@ -67,7 +80,7 @@ const url = process.argv[2];
     .then((res) => res.data.res);
 
   fs.writeFileSync(
-    "captions/textPuncEscapedAndPredicted",
+    `${directoryPath}/textPuncEscapedAndPredicted.txt`,
     textPuncEscapedAndPredicted
   );
 
@@ -93,10 +106,16 @@ const url = process.argv[2];
 
   // 単語をsentenceごとにグルーピングする
   console.log("単語をsentenceごとにグルーピングする");
-  let wordTimestampBySentenceList = [];
-  let wordTimestampBySentence = [];
+  let wordTimestampBySentenceList = []; // sentenceを格納するリスト
+  let wordTimestampBySentence = []; // wordを一つのsentenceとして格納するリスト
   wordEscapedAndPredictedWithTimestamp.forEach(({ word, timestamp }) => {
-    if (word.indexOf(".") === word.length - 1) {
+    const indexOfLastLetter = word.length - 1; // 末尾文字のindex番号
+    if (
+      [".", "?"]
+        .map((puncMark) => word.indexOf(puncMark) === indexOfLastLetter)
+        .some((bool) => bool)
+    ) {
+      // wordの末尾にsentenceの区切りとなる文字がある
       wordTimestampBySentence.push({
         word,
         timestamp,
@@ -126,6 +145,11 @@ const url = process.argv[2];
     }
   );
 
+  fs.writeFileSync(
+    `${directoryPath}/captions_en_by_sentence.json`,
+    JSON.stringify(sentenceFromTos, null, "  ")
+  );
+
   // LENGTH_PER_SLICEの{ from, to, sentence }ごとに区切る
   const LENGTH_PER_SLICE = 30;
   const slicedSenteceFromTosList = sliceByNumber(
@@ -141,16 +165,30 @@ const url = process.argv[2];
     const sliced_structuredVtt_ja = await translate(slicedSenteceFromTos);
     structuredVtt_ja = [...structuredVtt_ja, ...sliced_structuredVtt_ja];
     fs.writeFileSync(
-      "chat/structuredVtt_ja.json",
+      `${directoryPath}/captions_ja_by_sentence.json`,
       JSON.stringify(structuredVtt_ja, null, "  ")
     );
     count += 1;
   }
 
-  let text = "WEBVTT\n\n";
-  structuredVtt_ja.forEach(
-    ({ sentence_ja, from, to }) =>
-      (text += `${from} --> ${to}\n${sentence_ja}\n\n`)
-  );
-  fs.writeFileSync("captions/transcript_ja.vtt", text);
+  // 指定されたフォーマットで字幕ファイルを出力
+  console.log("指定されたフォーマットで字幕ファイルを出力");
+  if (target === "vtt") {
+    let text = "WEBVTT\n\n";
+    structuredVtt_ja.forEach(
+      ({ sentence_ja, from, to }) =>
+        (text += `${from} --> ${to}\n${sentence_ja}\n\n`)
+    );
+    fs.writeFileSync(`${directoryPath}/captions_ja.vtt`, text);
+  } else if (target === "srt") {
+    const text = structuredVtt_ja.reduce(
+      (text, { sentence_ja, from, to }, index) =>
+        (text += `${index + 1}\n${from.replace(".", ",")} --> ${to.replace(
+          ".",
+          ","
+        )}\n${sentence_ja}\n\n`),
+      ""
+    );
+    fs.writeFileSync(`${directoryPath}/captions_ja.srt`, text);
+  }
 })();

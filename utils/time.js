@@ -18,16 +18,21 @@ export const timeToNumber = (time) => {
   };
 };
 
-// 不完全なWEBVTTタイムスタンプを完全なものに整形する
+// 不完全なWEBVTTタイムスタンプを完全なものに整形する(0埋め)
+// 00:00 => 00:00:00:00.000
+// 00 => 00:00:00:00.000
+// 1982:40 => dd:HH:MM:SS.fffの形式への変換はできない
 export const formatWebVttTimestamp = (timestamp_webvtt) => {
-  let fullTimestamp_webvtt = timestamp_webvtt
-  const count = ( fullTimestamp_webvtt.match( /:/g ) || [] ).length;
-  [...Array(3 - count)].forEach((_, i) => fullTimestamp_webvtt = `00:${fullTimestamp_webvtt}`);
-  if (fullTimestamp_webvtt.indexOf('.') === -1) {
-    fullTimestamp_webvtt = `${fullTimestamp_webvtt}.000`
+  let fullTimestamp_webvtt = timestamp_webvtt;
+  const count = (fullTimestamp_webvtt.match(/:/g) || []).length;
+  [...Array(3 - count)].forEach(
+    (_, i) => (fullTimestamp_webvtt = `00:${fullTimestamp_webvtt}`)
+  );
+  if (fullTimestamp_webvtt.indexOf(".") === -1) {
+    fullTimestamp_webvtt = `${fullTimestamp_webvtt}.000`;
   }
   return fullTimestamp_webvtt;
-}
+};
 
 // MM:SS => SSに変換する
 // 1982:40の形式のみ対応する
@@ -53,16 +58,18 @@ export const toHms = (t) => {
       return v;
     }
   };
-  let h = t / 3600 >= 1 ? parseInt(t / 3600) : 0; // h:mm:ss.msmsmsのhを秒数から構築
-  let m = (t - h * 3600) / 60 >= 1 ? parseInt((t - h * 3600) / 60) : 0; // h:mm:ss.msmsmsのmmを秒数から構築
-  let s = t - h * 3600 - m * 60; // h:mm:ss.msmsmsのss.msmsmsを秒数から構築(ssのみのケースもある)
+  let h = t / 3600 >= 1 ? parseInt(t / 3600) : 0; // HH:MM:SS.fffのhを秒数から構築
+  let m = (t - h * 3600) / 60 >= 1 ? parseInt((t - h * 3600) / 60) : 0; // HH:MM:SS.fffのmmを秒数から構築
+  let s = t - h * 3600 - m * 60; // HH:MM:SS.fffのSS.fffを秒数から構築(SSのみのケースもある)
   const timestamp_stirng =
     padZero(h) + ":" + padZero(m) + ":" + String(padZero(s)).slice(0, 6);
   const [hms, millisecond] = timestamp_stirng.split(".");
-  if (!millisecond) { // tが整数の場合、millisecondがundefinedになる
+  if (!millisecond) {
+    // tが整数の場合、millisecondがundefinedになる
     return hms + ".000";
-  } else if (millisecond.length !== 3) { // millisecondを3桁に合わせる
-    return hms + '.' + millisecond.padEnd(3, "0");
+  } else if (millisecond.length !== 3) {
+    // millisecondを3桁に合わせる
+    return hms + "." + millisecond.padEnd(3, "0");
   }
   return timestamp_stirng;
 };
