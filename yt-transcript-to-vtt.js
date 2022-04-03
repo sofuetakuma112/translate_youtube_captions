@@ -140,18 +140,21 @@ export const videoTranscriptionToJson = async (transcript_json, videoId) => {
   ).then((res) => res.json());
   const d = moment.duration(data.items[0].contentDetails.duration);
   const videoDuration_ms = d.asMilliseconds();
-  return captions.map((caption, i) => {
-    if (captions.length - 1 === i) {
+  return captions
+    .map((caption, i) => {
+      if (captions.length - 1 === i) {
+        return {
+          ...caption,
+          to: ms2likeISOFormat(videoDuration_ms),
+        };
+      }
       return {
         ...caption,
-        to: ms2likeISOFormat(videoDuration_ms),
+        to: captions[i + 1].from,
       };
-    }
-    return {
-      ...caption,
-      to: captions[i + 1].from,
-    };
-  });
+    })
+    // [Music]を除外する
+    .filter(({ text }) => text !== "[Music]");
 };
 const listTranscriptionLanguageContinuations = (transcript_json) => {
   const transcript_renderer = transcript_json.actions.find(
