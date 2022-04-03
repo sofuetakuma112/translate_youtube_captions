@@ -56,10 +56,31 @@ export const formatDuration = (duration) => {
   )}:${padZero(d.seconds(), 2)}`;
 };
 
+export const ms2likeISOFormat = (ms) => {
+  const slicedISOString = new Date(ms).toISOString().slice(8, -1);
+  const day = slicedISOString.slice(0, 2);
+  const padZero = (number, len) => ("0" + number).slice(-1 * len);
+  return `${padZero(Number(day) - 1, 2)}:${slicedISOString.slice(
+    3,
+    slicedISOString.length
+  )}`;
+};
+
 // HH:MM:SS => SSに変換する
+// export const stringTimeToNumber = (stringTime) => {
+//   let [hours, minutes, seconds] = stringTime.split(":");
+//   return Number(hours) * 60 * 60 + Number(minutes) * 60 + Number(seconds);
+// };
+
+// DD:HH:MM:SS => SSに変換する
 export const stringTimeToNumber = (stringTime) => {
-  let [hours, minutes, seconds] = stringTime.split(":");
-  return Number(hours) * 60 * 60 + Number(minutes) * 60 + Number(seconds);
+  let [days, hours, minutes, seconds] = stringTime.split(":");
+  return (
+    Number(days) * 24 * 60 * 60 +
+    Number(hours) * 60 * 60 +
+    Number(minutes) * 60 +
+    Number(seconds)
+  );
 };
 
 export const toHms = (t) => {

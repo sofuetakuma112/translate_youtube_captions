@@ -32,7 +32,14 @@ export const getCaptionByVideoId = async (url, directoryPath) => {
   const openTranscription = await page.$(
     "tp-yt-iron-dropdown.style-scope.ytd-popup-container .style-scope.ytd-menu-service-item-renderer"
   );
-  await openTranscription.click();
+  try {
+    await openTranscription.click();
+  } catch(error) {
+    if (error.message === "Cannot read properties of null (reading 'click')") {
+      throw Error('字幕が存在しない動画');
+    }
+    throw Error(error);
+  }
   await sleep(2000);
 
   const selectLangElem = await page.$(
@@ -98,7 +105,7 @@ export const getCaptionByVideoId = async (url, directoryPath) => {
         const timestamp = await getTextContentFromElemHandler(timestampElem);
         const caption = await getTextContentFromElemHandler(captionElem);
         return {
-          timestamp: formatWebVttTimestamp(removeNewLineAndTrimText(timestamp), 2, false),
+          timestamp: formatWebVttTimestamp(removeNewLineAndTrimText(timestamp), 2, false), // TODO: DD:HH:MM:SSの形式で出力するようにする
           caption: removeNewLineAndTrimText(caption),
         };
       })

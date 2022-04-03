@@ -3,69 +3,91 @@ import axios from "axios";
 import { getCaptionByVideoId } from "./getYoutubeCaptionByScraping.js";
 import { sliceByNumber } from "./utils/util.js";
 import { escapeDot, capitalizeFirstLetter, unescapeDot } from "./utils/text.js";
-import { stringTimeToNumber, toHms } from "./utils/time.js";
+import { stringTimeToNumber, toHms, formatDuration } from "./utils/time.js";
 import { translate } from "./translate.js";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
+import {
+  fetchTranscription,
+  videoTranscriptionToJson,
+  generateTranscriptParams,
+  generateLangParams,
+} from "./yt-transcript-to-vtt.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const url = process.argv[2];
+const videoId = process.argv[2];
 const target = process.argv[3];
 
-const videoId = new URL(url).searchParams.get("v");
+// const videoId = new URL(url).searchParams.get("v");
 const directoryPath = `${__dirname}/captions/${videoId}`;
 
 (async () => {
   await fs.promises.mkdir(directoryPath, { recursive: true });
-  // YoutubeURLから字幕データを{ timestamp, caption }[]で取得する
+  // YoutubeURLから字幕データを{ from, to, text }[]で取得する
   console.log("YoutubeURLから字幕データを{ timestamp, caption }[]で取得する");
-  const caption = await getCaptionByVideoId(url, directoryPath);
+  // const caption = await getCaptionByVideoId(url, directoryPath);
+  const captions = await fetchTranscription(
+    generateTranscriptParams(videoId, generateLangParams("en", "asr"))
+  ).then((res) => videoTranscriptionToJson(res, videoId));
+
+  fs.writeFileSync(
+    `${directoryPath}/captions_en.json`,
+    JSON.stringify(captions, null, 2)
+  );
 
   // { timestamp, caption }[] => { from, to, caption }[]
-  console.log("{ timestamp, caption }[] => { from, to, caption }[]");
-  const captionWithFromto = caption.reduce((array, _, i) => {
-    if (caption.length - 1 === i) return array; // captionの末尾は動画の長さ情報のみを持つのでスキップする
-    const currentCaption = caption[i];
-    const nextCaption = caption[i + 1];
-    array.push({
-      from: stringTimeToNumber(currentCaption.timestamp),
-      to: stringTimeToNumber(nextCaption.timestamp),
-      caption: currentCaption.caption,
-    });
-    return array;
-  }, []);
+  // console.log("{ timestamp, caption }[] => { from, to, caption }[]");
+  // const captionWithFromto = captions.reduce((array, _, i) => {
+  //   if (captions.length - 1 === i) return array; // captionの末尾は動画の長さ情報のみを持つのでスキップする
+  //   const currentCaption = captions[i];
+  //   const nextCaption = captions[i + 1];
+  //   array.push({
+  //     from: stringTimeToNumber(currentCaption.timestamp),
+  //     to: stringTimeToNumber(nextCaption.timestamp),
+  //     caption: currentCaption.caption,
+  //   });
+  //   return array;
+  // }, []);
+
+  // from, toをNumberに変換する
+  const captionsWithNumberTimestamp = captions.map((caption) => ({
+    ...caption,
+    from: stringTimeToNumber(caption.from),
+    to: stringTimeToNumber(caption.to),
+  }));
 
   // 英単語ごとにタイムスタンプを割り振る: { word, timestamp }[]
   console.log("英単語ごとにタイムスタンプを割り振る");
   const dict = [];
-  captionWithFromto.forEach(({ caption, from, to }) => {
-    const words = caption.split(" ");
+  captionsWithNumberTimestamp.forEach(({ text, from, to }) => {
+    const words = text.split(" ");
     const countOfWords = words.length;
-    const NumberOfSecondsHaveSpoken = to - from;
-    const NumberOfSecondsBetweenWords =
-      NumberOfSecondsHaveSpoken / countOfWords;
-    dict.push(
-      ...words.map((word, index) => ({
-        word: escapeDot(word),
-        timestamp: from + index * NumberOfSecondsBetweenWords,
-      }))
-    );
+    if (countOfWords === 1) {
+      dict.push({
+        word: escapeDot(words[0]),
+        timestamp: from,
+      });
+    } else {
+      const NumberOfSecondsHaveSpoken = to - from;
+      const secondsOfBetweenWords =
+        NumberOfSecondsHaveSpoken / (countOfWords - 1);
+      dict.push(
+        ...words.map((word, index) => ({
+          word: escapeDot(word),
+          timestamp: from + index * secondsOfBetweenWords,
+        }))
+      );
+    }
   });
 
-  fs.writeFileSync(
-    `${directoryPath}/dict.json`,
-    JSON.stringify(dict, null, "  ")
-  );
+  fs.writeFileSync(`${directoryPath}/dict.json`, JSON.stringify(dict, null, 2));
 
   // 文末のピリオド以外のピリオドをエスケープする
   console.log("文末のピリオド以外のピリオドをエスケープする");
-  const textPuncEscaped = caption
-    .reduce(
-      (allTranscript, { caption }) => (allTranscript += `${caption} `),
-      ""
-    )
+  const textPuncEscaped = captions
+    .reduce((allTranscript, { text }) => (allTranscript += `${text} `), "")
     .split(" ") // 単語ごとに区切る
     .filter((mayWord) => mayWord)
     .map((word) => escapeDot(word))
@@ -100,6 +122,7 @@ const directoryPath = `${__dirname}/captions/${videoId}`;
           timestamp,
         };
       } else {
+        console.log(word, dictWord, timestamp);
         throw Error();
       }
     });
@@ -164,6 +187,17 @@ const directoryPath = `${__dirname}/captions/${videoId}`;
     console.log(`current index: ${count}`);
     const sliced_structuredVtt_ja = await translate(slicedSenteceFromTos);
     structuredVtt_ja = [...structuredVtt_ja, ...sliced_structuredVtt_ja];
+    // fromを一つ前のtoにしてみる(字幕が常に表示され続けるということ)
+    structuredVtt_ja = structuredVtt_ja.map((caption, i) => {
+      if (i === 0) {
+        return caption;
+      } else {
+        return {
+          ...caption,
+          from: structuredVtt_ja[i - 1].to,
+        };
+      }
+    });
     fs.writeFileSync(
       `${directoryPath}/captions_ja_by_sentence.json`,
       JSON.stringify(structuredVtt_ja, null, "  ")
