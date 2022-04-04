@@ -12,13 +12,13 @@ import {
   videoTranscriptionToJson,
   generateTranscriptParams,
   generateLangParams,
-} from "./yt-transcript-to-vtt.js";
+} from "./getYtTranscript.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const videoId = process.argv[2];
-const target = process.argv[3];
+// const target = process.argv[3];
 
 // const videoId = new URL(url).searchParams.get("v");
 const directoryPath = `${__dirname}/captions/${videoId}`;
@@ -206,23 +206,23 @@ const directoryPath = `${__dirname}/captions/${videoId}`;
   }
 
   // 指定されたフォーマットで字幕ファイルを出力
-  console.log("指定されたフォーマットで字幕ファイルを出力");
-  if (target === "vtt") {
-    let text = "WEBVTT\n\n";
-    structuredVtt_ja.forEach(
-      ({ sentence_ja, from, to }) =>
-        (text += `${from} --> ${to}\n${sentence_ja}\n\n`)
-    );
-    fs.writeFileSync(`${directoryPath}/captions_ja.vtt`, text);
-  } else if (target === "srt") {
-    const text = structuredVtt_ja.reduce(
-      (text, { sentence_ja, from, to }, index) =>
-        (text += `${index + 1}\n${from.replace(".", ",")} --> ${to.replace(
-          ".",
-          ","
-        )}\n${sentence_ja}\n\n`),
-      ""
-    );
-    fs.writeFileSync(`${directoryPath}/captions_ja.srt`, text);
-  }
+  console.log("SRTフォーマットで字幕ファイルを出力");
+  const text = structuredVtt_ja.reduce(
+    (text, { sentence_ja, from, to }, index) =>
+      (text += `${index + 1}\n${from.replace(".", ",")} --> ${to.replace(
+        ".",
+        ","
+      )}\n${sentence_ja}\n\n`),
+    ""
+  );
+  fs.writeFileSync(`${directoryPath}/captions_ja.srt`, text);
+  // if (target === "vtt") {
+  //   let text = "WEBVTT\n\n";
+  //   structuredVtt_ja.forEach(
+  //     ({ sentence_ja, from, to }) =>
+  //       (text += `${from} --> ${to}\n${sentence_ja}\n\n`)
+  //   );
+  //   fs.writeFileSync(`${directoryPath}/captions_ja.vtt`, text);
+  // } else if (target === "srt") {
+  // }
 })();

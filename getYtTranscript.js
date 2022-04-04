@@ -3,12 +3,12 @@ import moment from "moment";
 import { ms2likeISOFormat } from "./utils/time.js";
 
 // non-atob base64 encoder from https://gist.github.com/jonleighton/958841
-const toBase64 = (arrayBuffer) => {
+const toBase64 = (arrayBuffer) => { // arrayBufferはUint8Array(型付(0 ~ 255)の整数の配列)
   var base64 = "";
   var encodings =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
-  var bytes = new Uint8Array(arrayBuffer);
+  var bytes = new Uint8Array(arrayBuffer); // バイナリを8bit毎にわける(バイト列？？)、Uint8Array は型付き配列で、 8 ビット符号なし整数値の配列を表す
   var byteLength = bytes.byteLength;
   var byteRemainder = byteLength % 3;
   var mainLength = byteLength - byteRemainder;
@@ -16,28 +16,28 @@ const toBase64 = (arrayBuffer) => {
   var a, b, c, d;
   var chunk;
 
-  // Main loop deals with bytes in chunks of 3
+  // メインループはバイト(= 8bit)を3つのチャンクで処理する
   for (var i = 0; i < mainLength; i = i + 3) {
-    // Combine the three bytes into a single integer
+    // 3バイトを1つの整数にまとめる
     chunk = (bytes[i] << 16) | (bytes[i + 1] << 8) | bytes[i + 2];
 
-    // Use bitmasks to extract 6-bit segments from the triplet
+    // ビットマスクを用いてトリプレットから6ビットセグメントを抽出する
     a = (chunk & 16515072) >> 18; // 16515072 = (2^6 - 1) << 18
     b = (chunk & 258048) >> 12; // 258048   = (2^6 - 1) << 12
     c = (chunk & 4032) >> 6; // 4032     = (2^6 - 1) << 6
     d = chunk & 63; // 63       = 2^6 - 1
 
-    // Convert the raw binary segments to the appropriate ASCII encoding
+    // 生のバイナリセグメントを適切なASCIIエンコーディングに変換する。
     base64 += encodings[a] + encodings[b] + encodings[c] + encodings[d];
   }
 
-  // Deal with the remaining bytes and padding
+  // 残りのバイトとパディングを処理する
   if (byteRemainder == 1) {
     chunk = bytes[mainLength];
 
     a = (chunk & 252) >> 2; // 252 = (2^6 - 1) << 2
 
-    // Set the 4 least significant bits to zero
+    // 最下位4ビットを0にする
     b = (chunk & 3) << 4; // 3   = 2^2 - 1
 
     base64 += encodings[a] + encodings[b] + "==";
@@ -47,7 +47,7 @@ const toBase64 = (arrayBuffer) => {
     a = (chunk & 64512) >> 10; // 64512 = (2^6 - 1) << 10
     b = (chunk & 1008) >> 4; // 1008  = (2^6 - 1) << 4
 
-    // Set the 2 least significant bits to zero
+    // 最下位2ビットを0にする
     c = (chunk & 15) << 2; // 15    = 2^4 - 1
 
     base64 += encodings[a] + encodings[b] + encodings[c] + "=";
@@ -61,13 +61,13 @@ export const generateLangParams = (lang, sub_type = "", sub_variant = "") => {
   return encodeURIComponent(
     toBase64(
       new Uint8Array([
-        0x0a,
+        0x0a, // LF（改行）
         sub_type.length,
         ...encoder.encode(sub_type),
-        0x12,
+        0x12, // DC2（装置制御２）
         lang.length,
         ...encoder.encode(lang),
-        0x1a,
+        0x1a, // SUB（置換）
         sub_variant.length,
         ...encoder.encode(sub_variant),
       ])
@@ -106,7 +106,7 @@ export const fetchTranscription = (params) => {
             clientVersion: "2.20210101",
           },
         },
-        params: params,
+        params: params, // videoId, lang, sub_type等を 文字列 => UTF-8 バイト => base64 => URLエンコード文字列のフローで変換したもの
       }),
     }
   ).then((res) => res.json());
