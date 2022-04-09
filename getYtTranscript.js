@@ -1,9 +1,11 @@
 import fetch from "node-fetch";
 import moment from "moment";
 import { ms2likeISOFormat } from "./utils/time.js";
+import 'dotenv/config';
 
 // non-atob base64 encoder from https://gist.github.com/jonleighton/958841
-const toBase64 = (arrayBuffer) => { // arrayBufferはUint8Array(型付(0 ~ 255)の整数の配列)
+const toBase64 = (arrayBuffer) => {
+  // arrayBufferはUint8Array(型付(0 ~ 255)の整数の配列)
   var base64 = "";
   var encodings =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
@@ -140,21 +142,23 @@ export const videoTranscriptionToJson = async (transcript_json, videoId) => {
   ).then((res) => res.json());
   const d = moment.duration(data.items[0].contentDetails.duration);
   const videoDuration_ms = d.asMilliseconds();
-  return captions
-    .map((caption, i) => {
-      if (captions.length - 1 === i) {
+  return (
+    captions
+      .map((caption, i) => {
+        if (captions.length - 1 === i) {
+          return {
+            ...caption,
+            to: ms2likeISOFormat(videoDuration_ms),
+          };
+        }
         return {
           ...caption,
-          to: ms2likeISOFormat(videoDuration_ms),
+          to: captions[i + 1].from,
         };
-      }
-      return {
-        ...caption,
-        to: captions[i + 1].from,
-      };
-    })
-    // [Music]を除外する
-    .filter(({ text }) => text !== "[Music]");
+      })
+      // [Music]を除外する
+      .filter(({ text }) => text !== "[Music]")
+  );
 };
 const listTranscriptionLanguageContinuations = (transcript_json) => {
   const transcript_renderer = transcript_json.actions.find(

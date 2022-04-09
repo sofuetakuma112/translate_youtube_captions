@@ -5,3 +5,5 @@ chat/
 translate-youtube-caption*.json
 .env
 captions/
+
+**/.vscode/*
